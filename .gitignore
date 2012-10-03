@@ -1,16 +1,47 @@
-# built application files
+#Tells git which files to ignore (ie not keep in version control)
+
+#Entire directories to ignore
+bin/
+gen/
+tmp/
+.jatlas-settings/
+
+#Local configuration file
+local.properties
+
+#Backup, swap, MacOS dir file, etc.
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+#ignore binaries
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dex
 *.apk
 *.ap_
 
-# files for the dex VM
-*.dex
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# Java class files
-*.class
+# Eclipse-specific
+*.pydevproject
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.loadpath
+*.cache
 
-# generated files
-bin/
-gen/
+# CDT-specific
+.cproject
 
-# Local configuration file (sdk path, etc)
-local.properties
+# PDT-specific
+.buildpath
