@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+** 
+** 	 This file is part of Android's Fortune.
+**
+**   Android's Fortune is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   Android's Fortune is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+**
+**	 Some elements based on veecheck-sample.
+*/
+-->
+<resources>
+	<!--
+		App name.
+	-->
+	<string name="app_name">Androids Fortune</string>
+	<!--
+		App name when used as a prefix.
+	-->
+	<string name="app_name_prefix">Android\'s Fortune:</string>
+
+<!-- About box information -->
+	<!--
+	 Description about the app
+	-->
+	<string name="about_comments">Das bekannte Fortune für Android: zeigt ein zufälliges, hoffentlich interessantes Sprichwort.</string>  
+	<!--
+	 Copyright message
+	-->
+	<string name="about_copyright">Copyright © 2008-2010 pjv, Rishabh Manocha</string><!-- Add your name here, separated with comma's, if you helped out --> 
+	<!--
+	 Label for the website link
+	-->
+	<string name="about_website_label">Android\'s Fortune bei Launchpad</string> 
+	<!--
+	 Website link
+	-->
+	<string name="about_website_url">https://launchpad.net/androidsfortune</string>
+	<!--
+	 Feedback link
+	-->
+	<string name="about_feedback">http://androidsfortune.uservoice.com/</string>
+	<!--
+	 Message to display if OI About is not installed.
+	-->
+	<string name="about_backup">Um Infos zu dieser Anwendung zu sehen muß OI About installiert sein. Siehe http://www.openintents.org/ oder (Google) the Market.</string>
+	<!--
+	 Link to OI About
+	-->
+	<string name="link_about_dialog">market://search?q=pname:org.openintents.about</string>
+	<!--
+	 Message to display if the Market is not installed
+	-->
+	<string name="market_backup">Es scheint, dass sie die Android Market App nicht installiert haben. Ignoriert.</string>
+	<!--
+	 Description of the app in the Market
+	-->
+	<string name="market_description_short">Das bekannte Fortune, jetzt für Android: zeigt zufällige, hoffentlich interessante, Sprichwörter, Redensarten, Aphorismen, Witze, Texte, ...</string>
+
+<!-- Menu items -->
+	<!--
+	 Menu item used to show the preferences
+	--> 
+	<string name="menu_preferences">Einstellungen</string>
+	<!--
+	 Menu item used to show the about box
+	--> 
+	<string name="menu_about">Über Android\'s Fortune</string>
+	<!--
+	 Menu item to refresh the cookie text.
+	-->
+	<string name="menu_refresh">Cookie aktualisieren</string>
+	<!--
+	 Menu item that points to directions on how to get more cookies (on a webpage).
+	-->
+	<string name="menu_get_more_cookies">Mehr Cookies anfordern</string>
+	<!--
+	 Menu item that allows to send the text as an email, sms, ...
+	-->
+	<string name="menu_send">Als SMS senden</string>
+	<!--
+	 Menu item that allows to search the web using the text.
+	-->
+	<string name="menu_web_search">Im Web suchen</string>
+	<!--
+	 Menu item that points to a way (webpage) for the user to provide feedback about the app.
+	-->
+	<string name="menu_feedback">Rückmeldung liefern</string>
+	<!--
+	 Menu item that allows to copy the cookie as text to the clipboard.
+	-->
+	<string name="menu_copy">Copy To Clipboard</string>
+	<!--
+	 Menu item that allows to tell friends about this app by sending them a template text.
+	-->
+	<string name="menu_share_app">Share App</string>
+
+<!-- Chooser items -->
+	<!--
+		Title for the choice of actions offered after using the send menu item.
+	-->
+	<string name="chooser_send_action">Senden via:</string>
+	<!--
+		Title for the choice of actions offered after using the web search menu item.
+	-->
+	<string name="chooser_web_search_action">Suche im Wev via:</string>
+
+<!-- Preferences -->
+	<!--
+		Title of the preferences window.
+	-->
+	<string name="preferences_activity_name">Einstellungen für Android\'s Fortune</string>
+	<!--
+		Resources preferences subtitle.
+	-->
+	<string name="resources">Quellen</string>
+	<!--
+		Short label for checkbox to enable spread random distribution, taking cookie file size into account.
+	-->
+	<string name="title_cp_equal">Den Unterschied zwischen Cookies vergleichen</string>
+	<!--
+		Description for checkbox to enable spread random distribution, taking cookie file size into account.
+	-->
+	<string name="summary_cp_equal">Die Chance, dass ein Cookie aus einer bestimmten Datei angezeigt wird, ist unabhängig von der Größe der Cookie-Dateien gleich.</string>
+	<!--
+		Short label for button leading to dialog to select the right folder with cookies.
+	-->
+	<string name="title_ep_folder">Ordner mit Cookiedateien</string>
+	<!--
+		Description for button leading to dialog to select the right folder with cookies.
+	-->
+	<string name="summary_ep_folder">Bitte wählen Sie den Ordner, in dem sich Ihre Cookie-Dateien befinden aus.</string>
+	<!--
+		Title for dialog to select the right folder with cookies.
+	-->
+	<string name="dialog_title_ep_folder">Wählen Sie den Ordner, der die Cookie-Dateien enthält</string>
+	<!--
+		Default cookie folder. DO NOT translate!
+	-->
+	<!-- <string name="default_ep_folder">/sdcard/fortune</string> -->
+	<!--
+		Short label for button leading to dialog to select individual cookie files.
+	-->
+	<string name="title_ps_files">Cookie-Dateien</string>
+	<!--
+		Description for button leading to dialog to select individual cookie files.
+	-->
+	<string name="summary_ps_files">Wähle die zu benutzenden Cookie-Dateien aus dem oberen Ordner (lasse die .num Dateien aus)</string>
+	<!--
+		Warning replacing regular description for button to warn that some cookie files have not been prepared properly for displaying in Android's Fortune.
+	-->
+	<string name="summary_ps_files_warning">ACHTUNG: Einige der ausgewählten Dateien sind nicht mit einer .num-Datei verbunden! Klicke hier um die Auswahl zu ändern.</string>
+	<!--
+		In application display (where main cookie text is displayed) preferences subtitle.
+	-->
+	<string name="in_app_display">Anzeige</string>
+	<!--
+		Short label for button leading to dialog to change the font style of the main cookie text.
+	-->
+	<string name="title_lp_font">Schriftart</string>
+	<!--
+		Description for button leading to dialog to change the font style of the main cookie text.
+	-->
+	<string name="summary_lp_font">Monospace kann hilfreich bei ASCII-artigen Cokies sein.</string>
+	<!--
+		Title for dialog to change the font style of the main cookie text.
+	-->
+	<string name="dialog_title_lp_font">Schriftart ändern</string>
+	<!--
+		Short label for button leading to dialog to change the font size of the main cookie text.
+	-->
+	<string name="title_ep_fontsize">Schriftgrad</string>
+	<!--
+		Description for button leading to dialog to change the font size of the main cookie text.
+	-->
+	<string name="summary_ep_fontsize">Schriftgröße in Punkten</string>
+	<!--
+		Title for dialog to change the font size of the main cookie text.
+	-->
+	<string name="dialog_title_ep_fontsize">Schriftgrad ändern</string>
+	<!--
+		Short label for checkbox to enable the wrapping of the main cookie text.
+	-->
+	<string name="title_cp_wrap">Text umbrechen</string>
+	<!--
+		Description for checkbox to enable the wrapping of the main cookie text.
+	-->
+	<string name="summary_cp_wrap">Passt den Text des Cookies an den Bildschirm an. Deaktiviere dies, um den Cookie Text formatiert mit Zeilenumbrüchen und in ASCII-Zeichensatz anzuzeigen.</string>
+	<!--
+		Widget display (on the home screen) preferences subtitle.
+	-->
+	<string name="widget_display">Widget</string>
+	<!--
+		Short label for button leading to dialog to change the font style of the widget cookie text.
+	-->
+	<string name="title_lp_widget_font">Schriftart</string>
+	<!--
+		Description for button leading to dialog to change the font style of the widget cookie text.
+	-->
+	<string name="summary_lp_widget_font"/>
+	<!--
+		Title for dialog to change the font style of the widget cookie text.
+	-->
+	<string name="dialog_title_lp_widget_font">Schriftart des Widgets verändern</string>
+	<!--
+		Short label for button leading to dialog to change the widget refresh time period.
+	-->
+	<string name="title_ep_widget_period">Widget Updateperiode</string>
+	<!--
+		Description for button leading to dialog to change the widget refresh time period.
+	-->
+	<string name="summary_ep_widget_period">Zeitspanne in Minuten, in der sich das Widget auffrischt.</string>
+	<!--
+		Title for dialog to change the widget refresh time period.
+	-->
+	<string name="dialog_title_ep_widget_period">Widget Updateperiode verändern</string>
+	<!--
+		Notifications (in the status bar) preferences subtitle.
+	-->
+	<string name="notifications">Benachrichtigungen</string>
+	<!--
+		Short label for checkbox to enable displaying a notification at device bootup.
+	-->
+	<string name="title_cp_notif_boot">Benachrichtignung beim Start</string>
+	<!--
+		Description for checkbox to enable displaying a notification at device bootup.
+	-->
+	<string name="summary_cp_notif_boot">Schlage beim Systemstart ein Cookie vor.</string>
+	<!--
+		Short label for checkbox to enable displaying notification every so many minutes.
+	-->
+	<string name="title_cp_notif_time">Regelmäßige Benachrichtigungen</string>
+	<!--
+		Description for checkbox to enable displaying notification every so many minutes.
+	-->
+	<string name="summary_cp_notif_time">Regelmäßige Vorschläge aktivieren.</string>
+	<!--
+		Short label for button leading to dialog to change the periodic notification appearance time period.
+	-->
+	<string name="title_ep_time">Zeitabstand</string>
+	<!--
+		Description for button leading to dialog to change the periodic notification appearance time period.
+	-->
+	<string name="summary_ep_time">Zeitspanne in Minuten zwischen den Benachrichtigungen.</string>
+	<!--
+		Title for dialog to change the periodic notification appearance time period.
+	-->
+	<string name="dialog_title_ep_time">Zeitabstand ändern</string>
+
+<!-- Other in-app messages -->
+	<!--
+		Title for dialog to warn and ask to prepare files.
+	-->
+	<string name="dialog_title_num">.num-Dateien erstellen?</string>
+	<!--
+		Message for dialog to warn and ask to prepare files.
+	-->
+	<string name="dialog_message_num_warning">Einige der ausgewählten Dateien sind nicht mit einer .num-Datei verbunden. Soll ich versuchen, die .num-Dateien zu erstellen?</string>
+	<!--
+		Warning message instead of cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed). DO NOT translate link.
+	-->
+	<string name="no_cookie_files">Es wurden keine Cookie Dateien konfigueriert. Bitte öffne die Einstellungen und wähle ein paar Cookies Dateien aus.\n\nInfo:http://code.google.com/p/androidsfortune/wiki/Help \n\n(Das ist kein zukünftiges Cookie!)</string>
+	<!--
+		Link to information on installing custom cookies. DO NOT translate!
+	-->
+	<string name="more_cookies_uri">http://code.google.com/p/androidsfortune/wiki/Help</string>
+	<!--
+		Title for notifications in the status bar.
+	-->
+	<string name="status_bar_notification_title">Fortune-Cookie</string>
+	<!--
+		Message for dialog while installing a provided cookie file example.
+	-->
+	<string name="dialog_install">Bitte warten, während die Beispiel-Cookie-Datei installiert wird...</string>
+	<!--
+	 	Message for dialog that confirms that the cookie text has been copied to the clipboard.
+	-->
+	<string name="toast_copied_to_clipboard">The cookie text has been copied to the clipboard. You can now paste it elsewhere.</string>
+	<!--
+	 	Template text to send a recommendation mail to friends to appraise this app. Formed when user selects 'Share app' menu item.
+	-->
+	<string name="template_share_app">Try this fortune cookie Android app I found.\n\nSearch in the Android Market for \'Android\'s Fortune\' or open http://market.android.com/search?q=pname:net.lp.androidsfortune in your phone\'s browser.</string>
+	<!--
+	 	Subject for emails etc. that use the template text.
+	-->
+	<string name="template_share_app_subject">Try this fortune cookie Android app I found: Android\'s Fortune</string>
+
+<!-- Widget -->
+	<!--
+		Name of the widget (on the home screen).
+	-->
+	<string name="widget_name">Glückskeks</string>
+	<!--
+		Warning message instead of widget cookie text, when cookie is loading.
+	-->
+	<string name="widget_loading">Lade einen Keks...</string>
+	<!--
+		Error message instead of widget cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed).
+	-->
+	<string name="widget_error">Es wurden keine Cookie Dateien konfigueriert oder Android\'s Fortune wurde wegen zu wenig freiem Speicher geschlossen oder installiere neu. Tippe um Android\'s Fortune zu öffnen!</string>
+	<!--
+		Title of the dialog after clicking the widget for choosing what to do.
+	-->
+	<string name="widget_dialog_activity_name">Wähle Operation:</string>
+	<!--
+		Button label for widget cookie refresh action.
+	-->
+	<string name="label_b_refresh">Aktualisieren</string>
+	<!--
+		Button label for showing the cookie in the main app action.
+	-->
+	<string name="label_b_show_cookie">Keks zeigen</string>
+	<!--
+		Button label for cancel action.
+	-->
+	<string name="label_b_cancel">Abbrechen</string>
+
+<!--jfortune errors-->
+ <!--IllegalArgumentExceptions-->
+ 	<!--
+		Error message for when a filename was not specified.
+	-->
+	<string name="error_no_file_name">Dateiname wurde nicht angegeben.</string>
+ 	<!--
+		Error message for when an argument was passed twice
+	-->
+	<string name="error_arg_twice">Ein Argument wurde doppelt übergeben.</string>
+ 	<!--
+		Error message for when the num file already exists (suddenly).
+	-->
+	<string name="error_num_file_exists">Eine .num-Datei, die erstellt werden sollte existiert plötzlich schon.</string>
+ 	<!--
+		Error message for when an invalid cookie file is selected.
+	-->
+	<string name="error_no_valid_cookie_file">Die ausgewählte Datei ist keine gültige Cookiedatei.</string>
+
+ <!--IOExceptions-->
+  	<!--
+		Error message for when the cookie file does not exist or is not properly prepared.
+	-->
+	<string name="error_file_not_exists_or_no_num">Entweder die Cookiedatei existiert nicht oder ist mit keiner .num-Datei verbunden.</string>
+ 	<!--
+		Error message for when write permissions are necessary.
+	-->
+	<string name="error_no_write_perms">Du hast keinen Schreibzugriff</string>
+
+<!--AndroidsFortune errors-->
+ 	<!--
+		Error message for when reading the cookie file has failed.
+	-->
+	<string name="toast_read_cookie_failed">Fehler beim Lesen des Cookies:</string>
+ 	<!--
+		Error message for displaying a suggestion what might be wrong with not being able to read the cookie file.
+	-->
+	<string name="toast_read_cookie_failed_suggestion">\nSind Sie sicher, dass Sie die SD-Karte eingebunden haben?</string>
+ 	<!--
+		Error message for when the cookie file can not be read due to an exceptional internal error.
+	-->
+	<string name="toast_read_cookie_failed_internal">Ein interner Fehler trat beim Lesen des Cookies auf(bitte melde diesen Fehler):</string>
+ 	<!--
+		Error message for when the generation of the .num file has failed.
+	-->
+	<string name="toast_generation_num_failed">Fehler beim Erstellen der .num-Datei:</string>
+ 	<!--
+		Error message for when the specified folder is not a directory.
+	-->
+	<string name="toast_not_a_dir">Der ausgewählte Ordner (oben in den Einstellungen) ist kein Verzeichnis:</string>
+ 	<!--
+		Error message for when a selected cookie file that was valid can now no longer be found.
+	-->
+	<string name="toast_selected_file_lost">Eine vorher ausgewählte Datei kann nicht mehr gefunden werden:</string>
+ 	<!--
+		Error message for when an invalid value was entered. The value is reset.
+	-->
+	<string name="toast_value_invalid">Der eingegebene Wert ist nicht korrekt. Verwende:</string>
+ 	<!--
+		Error message to warn about a too short widget update period.
+	-->
+	<string name="toast_widget_period_short">Eine Zeitspanne, die geringer ist als 60 Minuten könnte die Performance negativ beeinträchtigen und die Batterielebensdauer verkürzen.</string>
+
+<!--Versioncheck-->
+ 	<!--
+		Title for the versioncheck preferences.
+	-->
+	<string name="versioncheck_preferences_activity_name">Einstellungen für Android\'s Fortune Update Überprüfung</string>
+ 	<!--
+		Short label for the button leading to the versioncheck preferences.
+	-->
+	<string name="title_ps_versioncheck">auf Updates prüfen</string>
+ 	<!--
+		Description for the button leading to the versioncheck preferences.
+	-->
+	<string name="summary_ps_versioncheck">automatisches Prüfen auf Updates</string>
+ 	<!--
+		Ticker message to show in the status bar when the version update notification is shown.
+	-->
+	<string name="vc_notify_ticker">Programmupdate</string>
+ 	<!--
+		Title for the version update notification.
+	-->
+	<string name="vc_notify_title">Anwendung aktualisiert.</string>
+ 	<!--
+		Message for the version update notification.
+	-->
+	<string name="vc_notify_message">Eine neue Version runterladen</string>
+ 	<!--
+		Versioncheck preferences subtitle.
+	-->
+	<string name="vc_category">Update Überprüfung</string>
+ 	<!--
+		Short label for checkbox to enable versionchecking.
+	-->
+	<string name="vc_enabled_title">Aktiviert</string>
+ 	<!--
+		Description for checkbox to enable versionchecking.
+	-->
+	<string name="vc_enabled_summary">prüfen von Anwendungsupdates oder nicht.</string>
+ 	<!--
+		Title for dialog to ask to update the app.
+	-->
+	<string name="vc_confirm_title">Bestätige Android\'s Fortune Update</string>
+ 	<!--
+		Message for dialog to ask to update the app.
+	-->
+	<string name="vc_confirm_text">Möchten sie diese Anwendung auf die neuste Version aktualisieren?</string>
+ 	<!--
+		Message for checkbox to opt out of notifications.
+	-->
+	<string name="vc_confirm_stop">Benachrichtige mich nicht noch einmal über dieses Update.</string>
+ 	<!--
+		Link to versioncheck file. DO NOT translate!
+	-->
+	<string name="version_file_url">http://bazaar.launchpad.net/%7Epjv/androidsfortune/trunk/download/head:/androidsfortune.xml-20081003215357-77py3411h119elj2-40/AndroidsFortune.xml?file_id=androidsfortune.xml-20081003215357-77py3411h119elj2-40</string>
+ 	<!--
+		Short label for button leading to dialog to change the version checking url.
+	-->
+	<string name="vc_check_uri_title">URI prüfen</string>
+ 	<!--
+		Description for button leading to dialog to change the version checking url.
+	-->
+	<string name="vc_check_uri_summary">Die URI, unter der nach Programmupdates gesucht wird.</string>
+
+ 	<!--
+		Last but not least, a dummy translation string to catch Launchpad translators list in the translation files. Pure for technical reasons. DO NOT translate! But add your name if you translated and is not yet added (it should be added automatically when you translate on Launchpad). In the translation files the names in the list need to be edited manually after import to add ";"-separation for automatic parsing by OI About.
+	-->
+	<string name="about_translators">Launchpad Contributions:
+  Creative Arts  Technologies https://launchpad.net/~info-catmedia
+  Erik Hahn https://launchpad.net/~ehahn
+  Gregon https://launchpad.net/~eugen-sarychev
+  Jan-Christoph Borchardt https://launchpad.net/~jancborchardt
+  Lukas B</string>
+</resources>

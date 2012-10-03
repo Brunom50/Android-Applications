@@ -1,0 +1,589 @@
+# Danish translation for androidsfortune
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the androidsfortune package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: androidsfortune\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-08-09 19:25+0200\n"
+"PO-Revision-Date: 2010-07-11 16:36+0000\n"
+"Last-Translator: pjv <Unknown>\n"
+"Language-Team: Danish <da@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-08-08 06:40+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#. App name.
+#: ../res/values/strings.xml:28(string)
+msgid "Android\\'s Fortune"
+msgstr "Android\\'s Lykke"
+
+#. App name when used as a prefix.
+#: ../res/values/strings.xml:32(string)
+msgid "Android\\'s Fortune:"
+msgstr "Android\\'s Lykke:"
+
+#. Description about the app
+#: ../res/values/strings.xml:38(string)
+msgid ""
+"The well-known Fortune for Android: print a random, hopefully interesting, "
+"adage."
+msgstr ""
+"Den velkendte Lykke for Android: Print et tilfældig og forhåbligt "
+"lykkebringende råd."
+
+#. Copyright message
+#: ../res/values/strings.xml:42(string)
+msgid "Copyright © 2008-2010 pjv, Rishabh Manocha"
+msgstr "Copyright © 2008-2010 pjv, Rishabh Manocha"
+
+#. Label for the website link
+#: ../res/values/strings.xml:46(string)
+msgid "Android\\'s Fortune at Launchpad"
+msgstr "Android\\'s Lykke i Launchpad"
+
+#. Website link
+#: ../res/values/strings.xml:50(string)
+msgid "https://launchpad.net/androidsfortune"
+msgstr "https://launchpad.net/androidsfortune"
+
+#. Feedback link
+#: ../res/values/strings.xml:54(string)
+msgid "http://androidsfortune.uservoice.com/"
+msgstr "http://androidsfortune.uservoice.com/"
+
+#. Message to display if OI About is not installed.
+#: ../res/values/strings.xml:58(string)
+msgid ""
+"To view information about this app you need to install OI About. See http://"
+"www.openintents.org/ or the Market."
+msgstr ""
+"For at se information om dette program skal du installere OI About. Læs "
+"nærmere på http://www.openintents.org/"
+
+#. Link to OI About
+#: ../res/values/strings.xml:62(string)
+msgid "market://search?q=pname:org.openintents.about"
+msgstr "market://search?q=pname:org.openintents.about"
+
+#. Message to display if the Market is not installed
+#: ../res/values/strings.xml:66(string)
+msgid "You do not seem to have the Android Market app installed. Ignoring."
+msgstr "Du har ikke installeret Android Market app. Ignorerer."
+
+#. Description of the app in the Market
+#: ../res/values/strings.xml:70(string)
+msgid ""
+"The well-known Fortune, now for Android: print random, hopefully "
+"interesting, adages, quotes, sayings, aphorisms, jokes, texts, ..."
+msgstr ""
+"Den kendte Lykke, nu til Android: Skriv tilfældige, forhåbentlig "
+"interessante, visdomsord, citater, ordsprog, principper, vittigheder, "
+"tekster, ..."
+
+#. Menu item used to show the preferences
+#: ../res/values/strings.xml:76(string)
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#. Menu item used to show the about box
+#: ../res/values/strings.xml:80(string)
+msgid "About Android\\'s Fortune"
+msgstr "Om Android\\'s Lykkekager"
+
+#. Menu item to refresh the cookie text.
+#: ../res/values/strings.xml:84(string)
+msgid "Refresh Cookie"
+msgstr "Opdater kagerne"
+
+#. Menu item that points to directions on how to get more cookies (on a webpage).
+#: ../res/values/strings.xml:88(string)
+msgid "Get More Cookies"
+msgstr "Hent flere kager"
+
+#. Menu item that allows to send the text as an email, sms, ...
+#: ../res/values/strings.xml:92(string)
+msgid "Send As Text"
+msgstr "Send som tekst"
+
+#. Menu item that allows to search the web using the text.
+#: ../res/values/strings.xml:96(string)
+msgid "Search On Web"
+msgstr "Søg på nettet"
+
+#. Menu item that points to a way (webpage) for the user to provide feedback about the app.
+#: ../res/values/strings.xml:100(string)
+msgid "Give Feedback"
+msgstr "Giv tilbagemelding"
+
+#. Menu item that allows to copy the cookie as text to the clipboard.
+#: ../res/values/strings.xml:104(string)
+msgid "Copy To Clipboard"
+msgstr ""
+
+#. Menu item that allows to tell friends about this app by sending them a template text.
+#: ../res/values/strings.xml:108(string)
+msgid "Share App"
+msgstr ""
+
+#. Title for the choice of actions offered after using the send menu item.
+#: ../res/values/strings.xml:114(string)
+msgid "Send via:"
+msgstr "Send via:"
+
+#. Title for the choice of actions offered after using the web search menu item.
+#: ../res/values/strings.xml:118(string)
+msgid "Search the web via:"
+msgstr "Søg på nettet via:"
+
+#. Title of the preferences window.
+#: ../res/values/strings.xml:124(string)
+msgid "Android\\'s Fortune Preferences"
+msgstr "Android\\'s Lykkekage Indstillinger"
+
+#. Resources preferences subtitle.
+#: ../res/values/strings.xml:128(string)
+msgid "Resources"
+msgstr "Ressourcer"
+
+#. Short label for checkbox to enable spread random distribution, taking cookie file size into account.
+#: ../res/values/strings.xml:132(string)
+msgid "Equal chances between cookie files"
+msgstr "Lige store muligheder for kage filerne"
+
+#. Description for checkbox to enable spread random distribution, taking cookie file size into account.
+#: ../res/values/strings.xml:136(string)
+msgid ""
+"Whether the chance that a cookie is displayed from a particular cookie file "
+"is equal between cookie files, irrespective of the cookie files sizes."
+msgstr ""
+"Der er lige store muligheder for at lykkekager fra forskellige filer vises, "
+"uanset kagefilernes størrelse."
+
+#. Short label for button leading to dialog to select the right folder with cookies.
+#: ../res/values/strings.xml:140(string)
+msgid "Folder containing cookie files"
+msgstr "Mapper der indeholder lykkekage filer"
+
+#. Description for button leading to dialog to select the right folder with cookies.
+#: ../res/values/strings.xml:144(string)
+msgid "Enter the folder where you have stored your cookie files."
+msgstr "Angiv et katalog hvor du har gemt dine kagefiler."
+
+#. Title for dialog to select the right folder with cookies.
+#: ../res/values/strings.xml:148(string)
+msgid "Enter the folder containing the cookie files"
+msgstr "Angiv et katalog der indeholder kagefiler"
+
+#. Short label for button leading to dialog to select individual cookie files.
+#: ../res/values/strings.xml:156(string)
+msgid "Cookie files"
+msgstr "Lykkekage filer"
+
+#. Description for button leading to dialog to select individual cookie files.
+#: ../res/values/strings.xml:160(string)
+msgid ""
+"Select the cookie files to be used from the folder above (do not include ."
+"num files)."
+msgstr ""
+"Vælg de kagefiler du vil bruge fra kataloget (inkluder ikke .num filer)."
+
+#. Warning replacing regular description for button to warn that some cookie files have not been prepared properly for displaying in Android's Fortune.
+#: ../res/values/strings.xml:164(string)
+msgid ""
+"WARNING: Some of the selected files do not have an associated .num file! "
+"Click here and change the selection."
+msgstr ""
+"ADVARSEL: Nogle af de valgte filer er ikke associeret med en .num fil ! Klik "
+"her og juster valget."
+
+#. In application display (where main cookie text is displayed) preferences subtitle.
+#: ../res/values/strings.xml:168(string)
+msgid "Display"
+msgstr "Vis"
+
+#. Short label for button leading to dialog to change the font style of the main cookie text.
+#: ../res/values/strings.xml:172(string) ../res/values/strings.xml:208(string)
+msgid "Font style"
+msgstr "Skrifttype"
+
+#. Description for button leading to dialog to change the font style of the main cookie text.
+#: ../res/values/strings.xml:176(string)
+msgid "Monospace can be useful for ascii-art cookies."
+msgstr ""
+"Samme størrelse på alle bogstaver kan være godt hvis kagerne indeholder "
+"ascii-art billeder."
+
+#. Title for dialog to change the font style of the main cookie text.
+#: ../res/values/strings.xml:180(string)
+msgid "Change the font style"
+msgstr "Ændre skrifttype"
+
+#. Short label for button leading to dialog to change the font size of the main cookie text.
+#: ../res/values/strings.xml:184(string)
+msgid "Font size"
+msgstr "Skriftstørrelse"
+
+#. Description for button leading to dialog to change the font size of the main cookie text.
+#: ../res/values/strings.xml:188(string)
+msgid "Font size in points."
+msgstr "Tekststørrelse i punkter"
+
+#. Title for dialog to change the font size of the main cookie text.
+#: ../res/values/strings.xml:192(string)
+msgid "Change the font size"
+msgstr "Ændre skriftsstørrelse"
+
+#. Short label for checkbox to enable the wrapping of the main cookie text.
+#: ../res/values/strings.xml:196(string)
+msgid "Wrap text"
+msgstr "Ombryd tekst"
+
+#. Description for checkbox to enable the wrapping of the main cookie text.
+#: ../res/values/strings.xml:200(string)
+msgid ""
+"Fits the cookie text on the screen. Disable to correctly view cookie texts "
+"formatted with linebreaks and ascii-art."
+msgstr ""
+"Tilpas kageteksten så den kan vises på skærmen. Slå fra hvis kagetekst er "
+"formateret med \"tvungen ny linie\" og ascii-art billeder."
+
+#. Widget display (on the home screen) preferences subtitle.
+#: ../res/values/strings.xml:204(string)
+msgid "Widget"
+msgstr "Kontrol"
+
+#. Title for dialog to change the font style of the widget cookie text.
+#: ../res/values/strings.xml:216(string)
+msgid "Change the widget font style"
+msgstr "Ændr kontrollens skrifttypestil"
+
+#. Short label for button leading to dialog to change the widget refresh time period.
+#: ../res/values/strings.xml:220(string)
+msgid "Widget update period"
+msgstr "Kontrollens opdateringsinterval"
+
+#. Description for button leading to dialog to change the widget refresh time period.
+#: ../res/values/strings.xml:224(string)
+msgid "Time period in minutes in between widget refreshes."
+msgstr "Interval i minutter mellem kontrolopdateringer."
+
+#. Title for dialog to change the widget refresh time period.
+#: ../res/values/strings.xml:228(string)
+msgid "Change widget update period"
+msgstr "Ret widget opdateringsinterval"
+
+#. Notifications (in the status bar) preferences subtitle.
+#: ../res/values/strings.xml:232(string)
+msgid "Notifications"
+msgstr "Meddelelse"
+
+#. Short label for checkbox to enable displaying a notification at device bootup.
+#: ../res/values/strings.xml:236(string)
+msgid "Notification at startup"
+msgstr "Meddelelse ved opstart"
+
+#. Description for checkbox to enable displaying a notification at device bootup.
+#: ../res/values/strings.xml:240(string)
+msgid "Suggest a cookie at system startup."
+msgstr "Foreslå en lykkekage når systemet starter"
+
+#. Short label for checkbox to enable displaying notification every so many minutes.
+#: ../res/values/strings.xml:244(string)
+msgid "Periodic notifications"
+msgstr "Periodiske meddelelser"
+
+#. Description for checkbox to enable displaying notification every so many minutes.
+#: ../res/values/strings.xml:248(string)
+msgid "Suggest cookies at time intervals."
+msgstr "Foreslå lykkekager med bestemte tidsintervaller."
+
+#. Short label for button leading to dialog to change the periodic notification appearance time period.
+#: ../res/values/strings.xml:252(string)
+msgid "Time period"
+msgstr "Tidsperiode"
+
+#. Description for button leading to dialog to change the periodic notification appearance time period.
+#: ../res/values/strings.xml:256(string)
+msgid "Time period in minutes in between notifications."
+msgstr "Tidsperiode i minutter mellem meddelelserne."
+
+#. Title for dialog to change the periodic notification appearance time period.
+#: ../res/values/strings.xml:260(string)
+msgid "Change time period"
+msgstr "Ændre tidsperiode"
+
+#. Title for dialog to warn and ask to prepare files.
+#: ../res/values/strings.xml:266(string)
+msgid "Create .num files?"
+msgstr "Opret .num filer?"
+
+#. Message for dialog to warn and ask to prepare files.
+#: ../res/values/strings.xml:270(string)
+msgid ""
+"Some of the selected files do not have an associated .num file. Should I try "
+"and generate the .num files?"
+msgstr ""
+"Nogle af de valgte filer er ikke associeret med en .num fil. Skal jeg "
+"forsøge at oprette en .num fil ?"
+
+#. Warning message instead of cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed). DO NOT translate link.
+#: ../res/values/strings.xml:274(string)
+msgid ""
+"No cookie files are configured. Please open the preferences and select some "
+"cookie files.\\n\\nSee: http://code.google.com/p/androidsfortune/wiki/Help "
+"\\n\\n(This is not a fortune cookie!)"
+msgstr ""
+"Du har ikke konfigureret nogle kagefiler. Du skal angive nogle i "
+"indstillinger.n\\nSee: http://code.google.com/p/androidsfortune/wiki/Help \\n"
+"\\n(This is not a fortune cookie!)"
+
+#. Link to information on installing custom cookies. DO NOT translate!
+#: ../res/values/strings.xml:278(string)
+msgid "http://code.google.com/p/androidsfortune/wiki/Help"
+msgstr "http://code.google.com/p/androidsfortune/wiki/Help"
+
+#. Title for notifications in the status bar.
+#: ../res/values/strings.xml:282(string)
+msgid "Fortune Cookie"
+msgstr "Lykke kage"
+
+#. Message for dialog while installing a provided cookie file example.
+#: ../res/values/strings.xml:286(string)
+msgid "Please wait while installing the sample cookie file..."
+msgstr "Vent venligst mens prøve kagefilen installeres..."
+
+#. Message for dialog that confirms that the cookie text has been copied to the clipboard.
+#: ../res/values/strings.xml:290(string)
+msgid ""
+"The cookie text has been copied to the clipboard. You can now paste it "
+"elsewhere."
+msgstr ""
+
+#. Template text to send a recommendation mail to friends to appraise this app. Formed when user selects 'Share app' menu item.
+#: ../res/values/strings.xml:294(string)
+msgid ""
+"Try this fortune cookie Android app I found.\\n\\nSearch in the Android "
+"Market for \\'Android\\'s Fortune\\' or open http://market.android.com/"
+"search?q=pname:net.lp.androidsfortune in your phone\\'s browser."
+msgstr ""
+
+#. Subject for emails etc. that use the template text.
+#: ../res/values/strings.xml:298(string)
+msgid "Try this fortune cookie Android app I found: Android\\'s Fortune"
+msgstr ""
+
+#. Name of the widget (on the home screen).
+#: ../res/values/strings.xml:304(string)
+msgid "Fortune cookie"
+msgstr "Lykkesmåkage"
+
+#. Warning message instead of widget cookie text, when cookie is loading.
+#: ../res/values/strings.xml:308(string)
+msgid "Loading a cookie..."
+msgstr "Henter en småkage..."
+
+#. Error message instead of widget cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed).
+#: ../res/values/strings.xml:312(string)
+msgid ""
+"No cookie files configured, or Android\\'s Fortune closed due to too little "
+"free memory or reinstall. Tap to open Android\\'s Fortune!"
+msgstr ""
+
+#. Title of the dialog after clicking the widget for choosing what to do.
+#: ../res/values/strings.xml:316(string)
+msgid "Choose operation:"
+msgstr "Vælg handling:"
+
+#. Button label for widget cookie refresh action.
+#: ../res/values/strings.xml:320(string)
+msgid "Refresh"
+msgstr "Opdater"
+
+#. Button label for showing the cookie in the main app action.
+#: ../res/values/strings.xml:324(string)
+msgid "Show cookie"
+msgstr ""
+
+#. Button label for cancel action.
+#: ../res/values/strings.xml:328(string)
+msgid "Cancel"
+msgstr "Annullér"
+
+#. Error message for when a filename was not specified.
+#: ../res/values/strings.xml:335(string)
+msgid "A file name was not specified."
+msgstr "Et filnavn blev ikke angivet."
+
+#. Error message for when an argument was passed twice
+#: ../res/values/strings.xml:339(string)
+msgid "An argument was passed twice."
+msgstr "Samme argument er sendt to gange."
+
+#. Error message for when the num file already exists (suddenly).
+#: ../res/values/strings.xml:343(string)
+msgid "The .num file that would be created suddenly already exists."
+msgstr ".num filen som skulle oprettes eksisterer pludseligt."
+
+#. Error message for when an invalid cookie file is selected.
+#: ../res/values/strings.xml:347(string)
+msgid "The selected file is not a valid cookie file."
+msgstr "Den valgte fil var ikke en gyldig kagefil."
+
+#. Error message for when the cookie file does not exist or is not properly prepared.
+#: ../res/values/strings.xml:353(string)
+msgid ""
+"Either the cookie file does not exist or it does not have a .num file "
+"associated to it:"
+msgstr ""
+"Enten eksisterer kagefilen ikke eller den er ikke associeret med en .num fil:"
+
+#. Error message for when write permissions are necessary.
+#: ../res/values/strings.xml:357(string)
+msgid "You do not have write permissions."
+msgstr "Du har ikke ret til at skrive til filen."
+
+#. Error message for when reading the cookie file has failed.
+#: ../res/values/strings.xml:363(string)
+msgid "Reading the cookie failed:"
+msgstr "Læsning af kagefilen mislykkedes:"
+
+#. Error message for displaying a suggestion what might be wrong with not being able to read the cookie file.
+#: ../res/values/strings.xml:367(string)
+msgid "\\nAre you sure you have the SD card mounted?"
+msgstr ""
+
+#. Error message for when the cookie file can not be read due to an exceptional internal error.
+#: ../res/values/strings.xml:371(string)
+msgid ""
+"An internal error occured while reading the cookie (please report the bug):"
+msgstr ""
+"En intern fejl opstod under læsning af kagefilen (rapporter venligst fejlen):"
+
+#. Error message for when the generation of the .num file has failed.
+#: ../res/values/strings.xml:375(string)
+msgid "Generation of .num file failed:"
+msgstr "Oprettelse af .num fil mislykkedes:"
+
+#. Error message for when the specified folder is not a directory.
+#: ../res/values/strings.xml:379(string)
+msgid ""
+"The specified folder (above in the preferences) is not a valid directory:"
+msgstr ""
+"Den specificerede mappe (ovenfor i indstillinger) er ikke et gyldigt katalog:"
+
+#. Error message for when a selected cookie file that was valid can now no longer be found.
+#: ../res/values/strings.xml:383(string)
+msgid "A file that was previously selected is no longer found:"
+msgstr "En tidligere valgt fil findes ikke længere:"
+
+#. Error message for when an invalid value was entered. The value is reset.
+#: ../res/values/strings.xml:387(string)
+msgid "The entered value is invalid. Set to:"
+msgstr "Den indtastede værdi er ugyldig. Sat til:"
+
+#. Error message to warn about a too short widget update period.
+#: ../res/values/strings.xml:391(string)
+msgid ""
+"A period shorter than 60 minutes might negatively affect performance and "
+"battery life."
+msgstr ""
+"Et interval under 60 minutter kan påvirke batterilevetiden i negativ retning."
+
+#. Title for the versioncheck preferences.
+#: ../res/values/strings.xml:397(string)
+msgid "Android\\'s Fortune Update Checking Preferences"
+msgstr "Android\\'s Lykkekageopdatering tjekker indstillinger"
+
+#. Short label for the button leading to the versioncheck preferences.
+#: ../res/values/strings.xml:401(string)
+msgid "Updates checking"
+msgstr "Opdateringskontrol"
+
+#. Description for the button leading to the versioncheck preferences.
+#: ../res/values/strings.xml:405(string)
+msgid "Automated self-checking for updates."
+msgstr "Tjekker automatisk omd der er opdateringer."
+
+#. Ticker message to show in the status bar when the version update notification is shown.
+#: ../res/values/strings.xml:409(string)
+msgid "Application Update"
+msgstr "Programopdatering"
+
+#. Title for the version update notification.
+#: ../res/values/strings.xml:413(string)
+msgid "Application Updated"
+msgstr "Program opdateret"
+
+#. Message for the version update notification.
+#: ../res/values/strings.xml:417(string)
+msgid "Download a new version."
+msgstr "Download en ny version."
+
+#. Versioncheck preferences subtitle.
+#: ../res/values/strings.xml:421(string)
+msgid "Updates Checking"
+msgstr "Tjekker opdatering"
+
+#. Short label for checkbox to enable versionchecking.
+#: ../res/values/strings.xml:425(string)
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#. Description for checkbox to enable versionchecking.
+#: ../res/values/strings.xml:429(string)
+msgid "Whether checking for app updates is enabled or not."
+msgstr "Om tjek for opdatering er slået til eller ej."
+
+#. Title for dialog to ask to update the app.
+#: ../res/values/strings.xml:433(string)
+msgid "Confirm Android\\'s Fortune Update"
+msgstr "Bekræft at Androids lykkekager opdateres"
+
+#. Message for dialog to ask to update the app.
+#: ../res/values/strings.xml:437(string)
+msgid "Would you like to update this application to the newest version?"
+msgstr "Vil du gerne opdatere til seneste version?"
+
+#. Message for checkbox to opt out of notifications.
+#: ../res/values/strings.xml:441(string)
+msgid "Don\\'t notify me of this update again"
+msgstr "Informér mig ikke igen om denne opdatering"
+
+#. Link to versioncheck file. DO NOT translate!
+#: ../res/values/strings.xml:445(string)
+msgid ""
+"http://bazaar.launchpad.net/%7Epjv/androidsfortune/trunk/download/head:/"
+"androidsfortune.xml-20081003215357-77py3411h119elj2-40/AndroidsFortune.xml?"
+"file_id=androidsfortune.xml-20081003215357-77py3411h119elj2-40"
+msgstr ""
+"http://bazaar.launchpad.net/%7Epjv/androidsfortune/trunk/download/head:/"
+"androidsfortune.xml-20081003215357-77py3411h119elj2-40/AndroidsFortune.xml?"
+"file_id=androidsfortune.xml-20081003215357-77py3411h119elj2-40"
+
+#. Short label for button leading to dialog to change the version checking url.
+#: ../res/values/strings.xml:449(string)
+msgid "Check URI"
+msgstr "Tjek URL"
+
+#. Description for button leading to dialog to change the version checking url.
+#: ../res/values/strings.xml:453(string)
+msgid "The URI which will be checked for app updates."
+msgstr "URL en som tjekkes for programopdateringer."
+
+#. Last but not least, a dummy translation string to catch Launchpad translators list in the translation files. Pure for technical reasons. DO NOT translate! But add your name if you translated and is not yet added (it should be added automatically when you translate on Launchpad). In the translation files the names in the list need to be edited manually after import to add ";"-separation for automatic parsing by OI About.
+#: ../res/values/strings.xml:458(string) ../res/values/strings.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Joe Hansen https://launchpad.net/~joedalton2\n"
+"  nanker https://launchpad.net/~nanker\n"
+"  peso https://launchpad.net/~peer-sommerlund\n"
+"  pjv https://launchpad.net/~pjv"
+
+#~ msgid "/sdcard/fortune"
+#~ msgstr "/sdcard/fortune"

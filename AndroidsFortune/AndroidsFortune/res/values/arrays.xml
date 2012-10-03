@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+**
+** 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+** 
+** 	 This file is part of Android's Fortune.
+**
+**   Android's Fortune is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   Android's Fortune is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+**
+**	 Some elements based on veecheck-sample. Some elements based on arrays.xml Android example.
+*/
+-->
+<resources>
+    <string-array name="entries_lp_font">
+        <item>sans</item>
+        <item>serif</item>
+        <item>monospace</item>  
+    </string-array>
+    <string-array name="entryvalues_lp_font">
+        <item>sans</item>
+        <item>serif</item>
+        <item>monospace</item>  
+    </string-array>
+    
+    <string-array name="about_authors"><!-- Add your name here if you helped out -->
+        <item>pjv https://launchpad.net/~pjv</item>
+        <item>Rishabh Manocha (for org.jfortune)</item>
+    </string-array>
+    
+    <string-array name="about_documenters"><!-- Add your name here if you helped out -->
+        <item>pjv https://launchpad.net/~pjv</item>
+    </string-array>
+    
+    <string-array name="about_translators"><!-- Add your name here if you helped out, but only in the arrays.xml for the localization that you helped to translate into! -->
+        <item>pjv https://launchpad.net/~pjv</item>
+    </string-array>
+    
+    <string-array name="about_artists"><!-- Add your name here if you helped out -->
+        <item>pjv https://launchpad.net/~pjv</item>
+        <item>Danny Allen (for icon, openclipart.org)</item>
+    </string-array>
+</resources>

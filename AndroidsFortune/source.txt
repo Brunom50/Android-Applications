@@ -1,0 +1,3 @@
+https://launchpad.net/androidsfortune
+https://code.launchpad.net/~pjv/androidsfortune/trunk
+http://code.google.com/p/openintents/downloads/detail?name=AboutApp-source-1.1.zip

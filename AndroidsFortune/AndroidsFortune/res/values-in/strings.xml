@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+** 
+** 	 This file is part of Android's Fortune.
+**
+**   Android's Fortune is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   Android's Fortune is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+**
+**	 Some elements based on veecheck-sample.
+*/
+-->
+<resources>
+	<!--
+		App name.
+	-->
+	<string name="app_name">Android\'s Fortune</string>
+	<!--
+		App name when used as a prefix.
+	-->
+	<string name="app_name_prefix">Android\'s Fortune:</string>
+
+<!-- About box information -->
+	<!--
+	 Description about the app
+	-->
+	<string name="about_comments">Keberuntungan yang terkenal untuk Android: mencetak acak, mudah-mudahan menarik, pepatah.</string>  
+	<!--
+	 Copyright message
+	-->
+	<string name="about_copyright">Hak cipta © 2008-2010 pjv, Rishabh Manocha</string><!-- Add your name here, separated with comma's, if you helped out --> 
+	<!--
+	 Label for the website link
+	-->
+	<string name="about_website_label">Android\'s Fortune pada Launchpad</string> 
+	<!--
+	 Website link
+	-->
+	<string name="about_website_url">https://launchpad.net/androidsfortune</string>
+	<!--
+	 Feedback link
+	-->
+	<string name="about_feedback">http://androidsfortune.uservoice.com/</string>
+	<!--
+	 Message to display if OI About is not installed.
+	-->
+	<string name="about_backup">Untuk melihat informasi tentang aplikasi ini, Anda perlu menginstal OI About. Lihat http://www.openintents.org/ atau the Market (Pasar).</string>
+	<!--
+	 Link to OI About
+	-->
+	<string name="link_about_dialog">market://search?q=pname:org.openintents.about</string>
+	<!--
+	 Message to display if the Market is not installed
+	-->
+	<string name="market_backup">Anda tampaknya tidak memiliki atau belum menginstal aplikasi Android Market. Mengabaikan.</string>
+	<!--
+	 Description of the app in the Market
+	-->
+	<string name="market_description_short">Fortune yang terkenal, sekarang untuk Android: cetak acak, mudah-mudahan menarik, pepatah, mengutip, perkataan, aforisme, lelucon, teks, ...</string>
+
+<!-- Menu items -->
+	<!--
+	 Menu item used to show the preferences
+	--> 
+	<string name="menu_preferences">Pilihan</string>
+	<!--
+	 Menu item used to show the about box
+	--> 
+	<string name="menu_about">Tentang Android\'s Fortune</string>
+	<!--
+	 Menu item to refresh the cookie text.
+	-->
+	<string name="menu_refresh">Refresh Cookie</string>
+	<!--
+	 Menu item that points to directions on how to get more cookies (on a webpage).
+	-->
+	<string name="menu_get_more_cookies">Mendapatkan lebih banyak cookies</string>
+	<!--
+	 Menu item that allows to send the text as an email, sms, ...
+	-->
+	<string name="menu_send">Kirim sebagai Text</string>
+	<!--
+	 Menu item that allows to search the web using the text.
+	-->
+	<string name="menu_web_search">Cari dalam Web</string>
+	<!--
+	 Menu item that points to a way (webpage) for the user to provide feedback about the app.
+	-->
+	<string name="menu_feedback">Beri Masukan</string>
+	<!--
+	 Menu item that allows to copy the cookie as text to the clipboard.
+	-->
+	<string name="menu_copy">Copy To Clipboard</string>
+	<!--
+	 Menu item that allows to tell friends about this app by sending them a template text.
+	-->
+	<string name="menu_share_app">Share App</string>
+
+<!-- Chooser items -->
+	<!--
+		Title for the choice of actions offered after using the send menu item.
+	-->
+	<string name="chooser_send_action">Kirim melalui:</string>
+	<!--
+		Title for the choice of actions offered after using the web search menu item.
+	-->
+	<string name="chooser_web_search_action">Cari web melalui:</string>
+
+<!-- Preferences -->
+	<!--
+		Title of the preferences window.
+	-->
+	<string name="preferences_activity_name">Android\'s Fortune Pilihan</string>
+	<!--
+		Resources preferences subtitle.
+	-->
+	<string name="resources">Referensi</string>
+	<!--
+		Short label for checkbox to enable spread random distribution, taking cookie file size into account.
+	-->
+	<string name="title_cp_equal">Kesempatan yang sama antara file cookie</string>
+	<!--
+		Description for checkbox to enable spread random distribution, taking cookie file size into account.
+	-->
+	<string name="summary_cp_equal">Apakah kesempatan dimana cookie ditampilkan dari file cookie tertentu adalah sama diantara file cookie, terlepas dari ukuran file cookie.</string>
+	<!--
+		Short label for button leading to dialog to select the right folder with cookies.
+	-->
+	<string name="title_ep_folder">Folder yang berisi file cookie</string>
+	<!--
+		Description for button leading to dialog to select the right folder with cookies.
+	-->
+	<string name="summary_ep_folder">Masuk ke folder di mana Anda menyimpan file cookie Anda.</string>
+	<!--
+		Title for dialog to select the right folder with cookies.
+	-->
+	<string name="dialog_title_ep_folder">Masuk ke folder yang berisi file cookie</string>
+	<!--
+		Default cookie folder. DO NOT translate!
+	-->
+	<!-- <string name="default_ep_folder">/sdcard/fortune</string> -->
+	<!--
+		Short label for button leading to dialog to select individual cookie files.
+	-->
+	<string name="title_ps_files">File cookie</string>
+	<!--
+		Description for button leading to dialog to select individual cookie files.
+	-->
+	<string name="summary_ps_files">Pilih file cookie yang akan digunakan dari folder di atas (tidak termasuk file .num).</string>
+	<!--
+		Warning replacing regular description for button to warn that some cookie files have not been prepared properly for displaying in Android's Fortune.
+	-->
+	<string name="summary_ps_files_warning">PERINGATAN: Beberapa file yang dipilih tidak memiliki asosiasi file .num! Klik di sini untuk mengubah pilihan.</string>
+	<!--
+		In application display (where main cookie text is displayed) preferences subtitle.
+	-->
+	<string name="in_app_display">Tampilan</string>
+	<!--
+		Short label for button leading to dialog to change the font style of the main cookie text.
+	-->
+	<string name="title_lp_font">Gaya huruf</string>
+	<!--
+		Description for button leading to dialog to change the font style of the main cookie text.
+	-->
+	<string name="summary_lp_font">Monospace dapat bermanfaat bagi cookie ascii-art.</string>
+	<!--
+		Title for dialog to change the font style of the main cookie text.
+	-->
+	<string name="dialog_title_lp_font">Ubah gaya huruf</string>
+	<!--
+		Short label for button leading to dialog to change the font size of the main cookie text.
+	-->
+	<string name="title_ep_fontsize">Ukuran font</string>
+	<!--
+		Description for button leading to dialog to change the font size of the main cookie text.
+	-->
+	<string name="summary_ep_fontsize">Ukuran font dalam point-point.</string>
+	<!--
+		Title for dialog to change the font size of the main cookie text.
+	-->
+	<string name="dialog_title_ep_fontsize">Ubah ukuran huruf</string>
+	<!--
+		Short label for checkbox to enable the wrapping of the main cookie text.
+	-->
+	<string name="title_cp_wrap">Wrap teks</string>
+	<!--
+		Description for checkbox to enable the wrapping of the main cookie text.
+	-->
+	<string name="summary_cp_wrap">Pas-kan/Sesuaikan cookie teks pada layar. Nonaktifkan untuk melihat teks cookie yang diformat secara benar dengan linebreaks dan ascii-art.</string>
+	<!--
+		Widget display (on the home screen) preferences subtitle.
+	-->
+	<string name="widget_display">Widget</string>
+	<!--
+		Short label for button leading to dialog to change the font style of the widget cookie text.
+	-->
+	<string name="title_lp_widget_font">Gaya huruf</string>
+	<!--
+		Description for button leading to dialog to change the font style of the widget cookie text.
+	-->
+	<string name="summary_lp_widget_font"/>
+	<!--
+		Title for dialog to change the font style of the widget cookie text.
+	-->
+	<string name="dialog_title_lp_widget_font">Ubah gaya font widget</string>
+	<!--
+		Short label for button leading to dialog to change the widget refresh time period.
+	-->
+	<string name="title_ep_widget_period">Periode pembaruan widget</string>
+	<!--
+		Description for button leading to dialog to change the widget refresh time period.
+	-->
+	<string name="summary_ep_widget_period">Periode waktu dalam menit di antara refresh widget.</string>
+	<!--
+		Title for dialog to change the widget refresh time period.
+	-->
+	<string name="dialog_title_ep_widget_period">Ubah periode pembaruan widget</string>
+	<!--
+		Notifications (in the status bar) preferences subtitle.
+	-->
+	<string name="notifications">Pemberitahuan</string>
+	<!--
+		Short label for checkbox to enable displaying a notification at device bootup.
+	-->
+	<string name="title_cp_notif_boot">Pemberitahuan pada saat startup</string>
+	<!--
+		Description for checkbox to enable displaying a notification at device bootup.
+	-->
+	<string name="summary_cp_notif_boot">Sarankan cookie pada sistem startup.</string>
+	<!--
+		Short label for checkbox to enable displaying notification every so many minutes.
+	-->
+	<string name="title_cp_notif_time">Pemberitahuan periodik</string>
+	<!--
+		Description for checkbox to enable displaying notification every so many minutes.
+	-->
+	<string name="summary_cp_notif_time">Sarankan cookie pada interval waktu.</string>
+	<!--
+		Short label for button leading to dialog to change the periodic notification appearance time period.
+	-->
+	<string name="title_ep_time">Periode waktu</string>
+	<!--
+		Description for button leading to dialog to change the periodic notification appearance time period.
+	-->
+	<string name="summary_ep_time">Periode waktu dalam menit di antara pemberitahuan.</string>
+	<!--
+		Title for dialog to change the periodic notification appearance time period.
+	-->
+	<string name="dialog_title_ep_time">Ubah periode waktu</string>
+
+<!-- Other in-app messages -->
+	<!--
+		Title for dialog to warn and ask to prepare files.
+	-->
+	<string name="dialog_title_num">Buat file-file .num?</string>
+	<!--
+		Message for dialog to warn and ask to prepare files.
+	-->
+	<string name="dialog_message_num_warning">Beberapa file yang dipilih tidak memiliki asosiasi file .num. Apakah saya harus mencoba dan membentuk file .num?</string>
+	<!--
+		Warning message instead of cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed). DO NOT translate link.
+	-->
+	<string name="no_cookie_files">Tidak ada file-file cookie yang dikonfigurasi. Silakan buka preferensi dan pilih beberapa file-file cookie. \n\nLihat: Http://code.google.com/p/androidsfortune/wiki/Help \n\n(Ini bukan fortune cookie!)</string>
+	<!--
+		Link to information on installing custom cookies. DO NOT translate!
+	-->
+	<string name="more_cookies_uri">http://code.google.com/p/androidsfortune/wiki/Help</string>
+	<!--
+		Title for notifications in the status bar.
+	-->
+	<string name="status_bar_notification_title">Fortune Cookie</string>
+	<!--
+		Message for dialog while installing a provided cookie file example.
+	-->
+	<string name="dialog_install">Harap tunggu ketika menginstal file cookie sampel...</string>
+	<!--
+	 	Message for dialog that confirms that the cookie text has been copied to the clipboard.
+	-->
+	<string name="toast_copied_to_clipboard">The cookie text has been copied to the clipboard. You can now paste it elsewhere.</string>
+	<!--
+	 	Template text to send a recommendation mail to friends to appraise this app. Formed when user selects 'Share app' menu item.
+	-->
+	<string name="template_share_app">Try this fortune cookie Android app I found.\n\nSearch in the Android Market for \'Android\'s Fortune\' or open http://market.android.com/search?q=pname:net.lp.androidsfortune in your phone\'s browser.</string>
+	<!--
+	 	Subject for emails etc. that use the template text.
+	-->
+	<string name="template_share_app_subject">Try this fortune cookie Android app I found: Android\'s Fortune</string>
+
+<!-- Widget -->
+	<!--
+		Name of the widget (on the home screen).
+	-->
+	<string name="widget_name">Fortune cookie</string>
+	<!--
+		Warning message instead of widget cookie text, when cookie is loading.
+	-->
+	<string name="widget_loading">Loading a cookie...</string>
+	<!--
+		Error message instead of widget cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed).
+	-->
+	<string name="widget_error">Tidak ada file cookie yang dikonfigurasi, atau Android\'s Fortune tutup karena memori bebas terlalu sedikit atau instal ulang. Tekan untuk membuka Android\'s Fortune!</string>
+	<!--
+		Title of the dialog after clicking the widget for choosing what to do.
+	-->
+	<string name="widget_dialog_activity_name">Pilih operasi</string>
+	<!--
+		Button label for widget cookie refresh action.
+	-->
+	<string name="label_b_refresh">Perbarui</string>
+	<!--
+		Button label for showing the cookie in the main app action.
+	-->
+	<string name="label_b_show_cookie">Tampilkan cookie</string>
+	<!--
+		Button label for cancel action.
+	-->
+	<string name="label_b_cancel">Batalkan</string>
+
+<!--jfortune errors-->
+ <!--IllegalArgumentExceptions-->
+ 	<!--
+		Error message for when a filename was not specified.
+	-->
+	<string name="error_no_file_name">Sebuah nama file tidak ditentukan.</string>
+ 	<!--
+		Error message for when an argument was passed twice
+	-->
+	<string name="error_arg_twice">Sebuah argumen terlewati dua kali.</string>
+ 	<!--
+		Error message for when the num file already exists (suddenly).
+	-->
+	<string name="error_num_file_exists">File. Num yang akan dibuat tiba-tiba sudah ada.</string>
+ 	<!--
+		Error message for when an invalid cookie file is selected.
+	-->
+	<string name="error_no_valid_cookie_file">File yang dipilih adalah bukan file cookie yang valid.</string>
+
+ <!--IOExceptions-->
+  	<!--
+		Error message for when the cookie file does not exist or is not properly prepared.
+	-->
+	<string name="error_file_not_exists_or_no_num">File cookie tidak ada atau tidak memiliki file num. yang terkait padanya:</string>
+ 	<!--
+		Error message for when write permissions are necessary.
+	-->
+	<string name="error_no_write_perms">Anda tidak memiliki izin untuk menulis</string>
+
+<!--AndroidsFortune errors-->
+ 	<!--
+		Error message for when reading the cookie file has failed.
+	-->
+	<string name="toast_read_cookie_failed">Membaca cookie gagal:</string>
+ 	<!--
+		Error message for displaying a suggestion what might be wrong with not being able to read the cookie file.
+	-->
+	<string name="toast_read_cookie_failed_suggestion">\nApakah Anda yakin memiliki kartu SD yang terpasang?</string>
+ 	<!--
+		Error message for when the cookie file can not be read due to an exceptional internal error.
+	-->
+	<string name="toast_read_cookie_failed_internal">Sebuah kesalahan internal terjadi saat membaca cookie (laporkan bug):</string>
+ 	<!--
+		Error message for when the generation of the .num file has failed.
+	-->
+	<string name="toast_generation_num_failed">Pembentukan file .num gagal:</string>
+ 	<!--
+		Error message for when the specified folder is not a directory.
+	-->
+	<string name="toast_not_a_dir">Folder tertentu (yang di atas pada preferensi) adalah bukan direktori yang benar:</string>
+ 	<!--
+		Error message for when a selected cookie file that was valid can now no longer be found.
+	-->
+	<string name="toast_selected_file_lost">Sebuah file yang sebelumnya dipilih tidak lagi ditemukan:</string>
+ 	<!--
+		Error message for when an invalid value was entered. The value is reset.
+	-->
+	<string name="toast_value_invalid">Nilai yang dimasukkan tidak valid. Atur ke:</string>
+ 	<!--
+		Error message to warn about a too short widget update period.
+	-->
+	<string name="toast_widget_period_short">Sebuah periode yang kurang dari 60 menit kemungkinan dapat mempengaruhi kinerja dan masa pakai baterai secara negatif.</string>
+
+<!--Versioncheck-->
+ 	<!--
+		Title for the versioncheck preferences.
+	-->
+	<string name="versioncheck_preferences_activity_name">Android\'s Fortune Preferensi Pembaruan Pemeriksaan</string>
+ 	<!--
+		Short label for the button leading to the versioncheck preferences.
+	-->
+	<string name="title_ps_versioncheck">Pembaruan pemerikasaan</string>
+ 	<!--
+		Description for the button leading to the versioncheck preferences.
+	-->
+	<string name="summary_ps_versioncheck">Pemeriksaan otomatis untuk pembaruan.</string>
+ 	<!--
+		Ticker message to show in the status bar when the version update notification is shown.
+	-->
+	<string name="vc_notify_ticker">Pembaruan aplikasi</string>
+ 	<!--
+		Title for the version update notification.
+	-->
+	<string name="vc_notify_title">Aplikasi diperbarui</string>
+ 	<!--
+		Message for the version update notification.
+	-->
+	<string name="vc_notify_message">Download sebuah versi baru</string>
+ 	<!--
+		Versioncheck preferences subtitle.
+	-->
+	<string name="vc_category">Pembaruan pemeriksaan</string>
+ 	<!--
+		Short label for checkbox to enable versionchecking.
+	-->
+	<string name="vc_enabled_title">Aktifkan</string>
+ 	<!--
+		Description for checkbox to enable versionchecking.
+	-->
+	<string name="vc_enabled_summary">Apakah pemeriksaan untuk pembaruan aplikasi diaktifkan atau tidak.</string>
+ 	<!--
+		Title for dialog to ask to update the app.
+	-->
+	<string name="vc_confirm_title">Konfirmasi pembaruan Android\'s Fortune</string>
+ 	<!--
+		Message for dialog to ask to update the app.
+	-->
+	<string name="vc_confirm_text">Apakah Anda ingin memperbarui aplikasi ini ke versi terbaru?</string>
+ 	<!--
+		Message for checkbox to opt out of notifications.
+	-->
+	<string name="vc_confirm_stop">Jangan memberitahu saya lagi tentang pembaruan ini</string>
+ 	<!--
+		Link to versioncheck file. DO NOT translate!
+	-->
+	<string name="version_file_url">http://bazaar.launchpad.net/%7Epjv/androidsfortune/trunk/download/head:/androidsfortune.xml-20081003215357-77py3411h119elj2-40/AndroidsFortune.xml?file_id=androidsfortune.xml-20081003215357-77py3411h119elj2-40</string>
+ 	<!--
+		Short label for button leading to dialog to change the version checking url.
+	-->
+	<string name="vc_check_uri_title">Periksa URI</string>
+ 	<!--
+		Description for button leading to dialog to change the version checking url.
+	-->
+	<string name="vc_check_uri_summary">URI yang akan diperiksa untuk pembaruan aplikasi.</string>
+
+ 	<!--
+		Last but not least, a dummy translation string to catch Launchpad translators list in the translation files. Pure for technical reasons. DO NOT translate! But add your name if you translated and is not yet added (it should be added automatically when you translate on Launchpad). In the translation files the names in the list need to be edited manually after import to add ";"-separation for automatic parsing by OI About.
+	-->
+	<string name="about_translators">Launchpad Contributions:
+  princessay https://launchpad.net/~adyaaydy
+  wu ve https://launchpad.net/~polaries-ling</string>
+</resources>

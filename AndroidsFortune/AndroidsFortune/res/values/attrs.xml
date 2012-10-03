@@ -1,0 +1,32 @@
+<!--
+**
+** 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+** 
+** 	 This file is part of Android's Fortune.
+**
+**   Android's Fortune is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   Android's Fortune is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+**
+**	 Some elements based on attrs.xml Android example.
+*/
+-->
+<resources>
+<!-- Default ScrollView style. -->
+<attr name="scrollViewStyle" format="reference"/>
+<declare-styleable name="ScrollView">
+<!--
+ Defines whether the scrollview should stretch its content to fill the viewport. 
+-->
+<attr name="fillViewport" format="boolean"/>
+</declare-styleable>
+</resources>

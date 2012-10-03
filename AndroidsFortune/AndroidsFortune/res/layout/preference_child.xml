@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+**
+** 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+** 
+** 	 This file is part of Android's Fortune.
+**
+**   Android's Fortune is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   Android's Fortune is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+**
+**	 Based on the Android example. Original license, see below.
+*/
+-->
+	<!--
+		Copyright (C) 2006 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+	<!--
+		Layout for a visually child-like Preference in a PreferenceActivity.
+	-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight"
+	android:gravity="center_vertical">
+
+	<RelativeLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="17sp"
+		android:layout_weight="1">
+
+		<TextView android:id="@+android:id/title"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView android:id="@+android:id/summary"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="?android:attr/textColorSecondary" />
+
+	</RelativeLayout>
+
+	<!-- Preference should place its actual preference widget here. -->
+	<LinearLayout android:id="@+android:id/widget_frame"
+		android:layout_width="wrap_content" android:layout_height="fill_parent" />
+
+</LinearLayout>

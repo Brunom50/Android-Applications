@@ -1,0 +1,21 @@
+These are releases in binary and source form and as such they are available under the same license as their originals. The file "work" is a copy from "../res/raw/work", please refer to that one.
+
+/*   
+ * 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+ * 
+ * 	 This directory and the files in it are part of Android's Fortune.
+ *
+ *   Android's Fortune is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   (at your option) any later version.
+ *
+ *   Android's Fortune is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License
+ *   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+ *   
+ */

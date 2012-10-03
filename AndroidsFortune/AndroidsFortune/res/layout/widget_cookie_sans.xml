@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+** 
+** 	 This file is part of Android's Fortune.
+**
+**   Android's Fortune is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   Android's Fortune is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+**
+**	 Based on veecheck-sample.
+*/
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:focusable="true"
+	android:scrollbars="none" style="@style/WidgetBackground"
+	android:fadingEdge="vertical">
+
+	<TextView android:id="@+id/cookie" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:includeFontPadding="true"
+		android:lineSpacingMultiplier="0.9"
+		android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+		android:paddingRight="4dip"
+		android:paddingLeft="4dip" style="@style/Text.WidgetTextSans"
+		android:autoLink="web" />
+	<ImageView android:id="@+id/watermark" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/cookie"
+		android:layout_marginTop="2dip" android:src="@drawable/cookie_matte"
+    	android:minWidth="30dip"
+    	android:minHeight="30dip"/>
+</RelativeLayout>

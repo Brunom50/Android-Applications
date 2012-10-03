@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+** 
+** 	 This file is part of Android's Fortune.
+**
+**   Android's Fortune is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   Android's Fortune is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+**
+**	 Some elements based on veecheck-sample.
+*/
+-->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/resources">
+            
+        <EditTextPreference
+                android:key="ep_folder"
+                android:title="@string/title_ep_folder"
+                android:summary="@string/summary_ep_folder"
+                android:dialogTitle="@string/dialog_title_ep_folder"
+                android:layout="@layout/preference_child"/>
+        
+        <PreferenceScreen
+        		android:key="ps_files"
+                android:layout="@layout/preference_child"
+                android:title="@string/title_ps_files"
+                android:summary="@string/summary_ps_files">
+
+            <intent android:action="android.intent.action.PICK"
+                    android:mimeType="text/plain"
+                    android:name="android.intent.category.DEFAULT"/>
+                    
+        </PreferenceScreen>
+            
+        <CheckBoxPreference
+                android:key="cp_equal"
+                android:title="@string/title_cp_equal"
+                android:summary="@string/summary_cp_equal"
+                android:layout="@layout/preference_child"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
+                
+    <PreferenceCategory
+            android:title="@string/in_app_display">
+                
+        <ListPreference
+                android:key="lp_font"
+                android:title="@string/title_lp_font"
+                android:summary="@string/summary_lp_font"
+                android:entries="@array/entries_lp_font"
+                android:entryValues="@array/entryvalues_lp_font"
+                android:dialogTitle="@string/dialog_title_lp_font"
+                android:layout="@layout/preference_child"
+                android:defaultValue="serif" />
+
+		<EditTextPreference
+                android:key="ep_fontsize"
+                android:title="@string/title_ep_fontsize"
+                android:summary="@string/summary_ep_fontsize"
+                android:dialogTitle="@string/dialog_title_ep_fontsize"
+                android:layout="@layout/preference_child"
+                android:defaultValue="12"/>
+        
+        <CheckBoxPreference
+                android:key="cp_wrap"
+                android:title="@string/title_cp_wrap"
+                android:summary="@string/summary_cp_wrap"
+                android:layout="@layout/preference_child"
+                android:defaultValue="true" />
+
+    </PreferenceCategory>
+                
+    <PreferenceCategory
+            android:title="@string/widget_display">
+                
+        <ListPreference
+                android:key="lp_widget_font"
+                android:title="@string/title_lp_widget_font"
+                android:summary="@string/summary_lp_widget_font"
+                android:entries="@array/entries_lp_font"
+                android:entryValues="@array/entryvalues_lp_font"
+                android:dialogTitle="@string/dialog_title_lp_widget_font"
+                android:layout="@layout/preference_child"
+                android:defaultValue="serif" />
+            
+        <EditTextPreference
+                android:key="ep_widget_period"
+                android:title="@string/title_ep_widget_period"
+                android:summary="@string/summary_ep_widget_period"
+                android:dialogTitle="@string/dialog_title_ep_widget_period"
+                android:defaultValue="60" 
+                android:layout="@layout/preference_child"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/notifications">
+
+        <CheckBoxPreference
+                android:key="cp_notif_boot"
+                android:title="@string/title_cp_notif_boot"
+                android:summary="@string/summary_cp_notif_boot"
+                android:layout="@layout/preference_child"
+                android:defaultValue="true" />
+
+        <CheckBoxPreference
+                android:key="cp_notif_time"
+                android:title="@string/title_cp_notif_time"
+                android:summary="@string/summary_cp_notif_time"
+                android:layout="@layout/preference_child"
+                android:defaultValue="true" />
+            
+        <EditTextPreference
+                android:key="ep_time"
+                android:title="@string/title_ep_time"
+                android:summary="@string/summary_ep_time"
+                android:dialogTitle="@string/dialog_title_ep_time"
+                android:defaultValue="60" 
+                android:layout="@layout/preference_child"
+                android:dependency="cp_notif_time"/>
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/vc_category">
+        <PreferenceScreen
+        		android:key="ps_versioncheck"
+                android:layout="@layout/preference_child"
+                android:title="@string/title_ps_versioncheck"
+                android:summary="@string/summary_ps_versioncheck">
+
+        	<intent android:action="net.lp.androidsfortune.SHOW_VC_PREFERENCES"
+                    android:name="android.intent.category.DEFAULT"/><!-- TODO: make into an explicit intent but what's the tag for a classname/component? -->
+                    
+        </PreferenceScreen>
+	</PreferenceCategory>
+    
+</PreferenceScreen>

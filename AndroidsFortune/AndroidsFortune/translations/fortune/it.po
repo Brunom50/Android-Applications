@@ -1,0 +1,602 @@
+# Italian translation for androidsfortune
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the androidsfortune package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: androidsfortune\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-08-09 19:25+0200\n"
+"PO-Revision-Date: 2010-07-11 16:37+0000\n"
+"Last-Translator: pjv <Unknown>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-08-08 06:40+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#. App name.
+#: ../res/values/strings.xml:28(string)
+msgid "Android\\'s Fortune"
+msgstr "Android\\'s Fortune"
+
+#. App name when used as a prefix.
+#: ../res/values/strings.xml:32(string)
+msgid "Android\\'s Fortune:"
+msgstr "Android\\'s Fortune:"
+
+#. Description about the app
+#: ../res/values/strings.xml:38(string)
+msgid ""
+"The well-known Fortune for Android: print a random, hopefully interesting, "
+"adage."
+msgstr ""
+"Il ben conosciuto Fortune per Android: stampa una massima casuale, si spera "
+"interessante."
+
+#. Copyright message
+#: ../res/values/strings.xml:42(string)
+msgid "Copyright © 2008-2010 pjv, Rishabh Manocha"
+msgstr "Copyright © 2008-2010 pjv, Rishabh Manocha"
+
+#. Label for the website link
+#: ../res/values/strings.xml:46(string)
+msgid "Android\\'s Fortune at Launchpad"
+msgstr "Android\\'s Fortune su Launchpad"
+
+#. Website link
+#: ../res/values/strings.xml:50(string)
+msgid "https://launchpad.net/androidsfortune"
+msgstr "https://launchpad.net/androidsfortune"
+
+#. Feedback link
+#: ../res/values/strings.xml:54(string)
+msgid "http://androidsfortune.uservoice.com/"
+msgstr "http://androidsfortune.uservoice.com/"
+
+#. Message to display if OI About is not installed.
+#: ../res/values/strings.xml:58(string)
+msgid ""
+"To view information about this app you need to install OI About. See http://"
+"www.openintents.org/ or the Market."
+msgstr ""
+"Per visualizzare le informazioni su questa applicazione devi installare OI "
+"About. Visita http://www.openintents.org/ o il Mercato."
+
+#. Link to OI About
+#: ../res/values/strings.xml:62(string)
+msgid "market://search?q=pname:org.openintents.about"
+msgstr "market://search?q=pname:org.openintents.about"
+
+#. Message to display if the Market is not installed
+#: ../res/values/strings.xml:66(string)
+msgid "You do not seem to have the Android Market app installed. Ignoring."
+msgstr ""
+"Sembra che tu non abbia l'applicazione Android Market installata. Ignorato"
+
+#. Description of the app in the Market
+#: ../res/values/strings.xml:70(string)
+msgid ""
+"The well-known Fortune, now for Android: print random, hopefully "
+"interesting, adages, quotes, sayings, aphorisms, jokes, texts, ..."
+msgstr ""
+"Il famoso Fortune, adesso per Android: visualizza casualmente adagi, "
+"aforismi, detti, scherzi (si spera interessanti)"
+
+#. Menu item used to show the preferences
+#: ../res/values/strings.xml:76(string)
+msgid "Preferences"
+msgstr "Preferenze"
+
+#. Menu item used to show the about box
+#: ../res/values/strings.xml:80(string)
+msgid "About Android\\'s Fortune"
+msgstr "Riguardo ad Android\\'s Fortune"
+
+#. Menu item to refresh the cookie text.
+#: ../res/values/strings.xml:84(string)
+msgid "Refresh Cookie"
+msgstr "Ricarica Biscottino"
+
+#. Menu item that points to directions on how to get more cookies (on a webpage).
+#: ../res/values/strings.xml:88(string)
+msgid "Get More Cookies"
+msgstr "Ottieni Più Biscottini"
+
+#. Menu item that allows to send the text as an email, sms, ...
+#: ../res/values/strings.xml:92(string)
+msgid "Send As Text"
+msgstr "Invia Come Testo"
+
+#. Menu item that allows to search the web using the text.
+#: ../res/values/strings.xml:96(string)
+msgid "Search On Web"
+msgstr "Cerca Sul Web"
+
+#. Menu item that points to a way (webpage) for the user to provide feedback about the app.
+#: ../res/values/strings.xml:100(string)
+msgid "Give Feedback"
+msgstr "Dai Feedback"
+
+#. Menu item that allows to copy the cookie as text to the clipboard.
+#: ../res/values/strings.xml:104(string)
+msgid "Copy To Clipboard"
+msgstr ""
+
+#. Menu item that allows to tell friends about this app by sending them a template text.
+#: ../res/values/strings.xml:108(string)
+msgid "Share App"
+msgstr ""
+
+#. Title for the choice of actions offered after using the send menu item.
+#: ../res/values/strings.xml:114(string)
+msgid "Send via:"
+msgstr "Invia tramite:"
+
+#. Title for the choice of actions offered after using the web search menu item.
+#: ../res/values/strings.xml:118(string)
+msgid "Search the web via:"
+msgstr "Cerca il web tramite:"
+
+#. Title of the preferences window.
+#: ../res/values/strings.xml:124(string)
+msgid "Android\\'s Fortune Preferences"
+msgstr "Preferenze Di Android\\'s Fortune"
+
+#. Resources preferences subtitle.
+#: ../res/values/strings.xml:128(string)
+msgid "Resources"
+msgstr "Risorse"
+
+#. Short label for checkbox to enable spread random distribution, taking cookie file size into account.
+#: ../res/values/strings.xml:132(string)
+msgid "Equal chances between cookie files"
+msgstr "Pari opportunità fra cookie"
+
+#. Description for checkbox to enable spread random distribution, taking cookie file size into account.
+#: ../res/values/strings.xml:136(string)
+msgid ""
+"Whether the chance that a cookie is displayed from a particular cookie file "
+"is equal between cookie files, irrespective of the cookie files sizes."
+msgstr ""
+"Se la possibilità che un biscottino è mostrato da un file biscottino "
+"particolare è uguale tra i file biscottino, indipendentemente dalle "
+"dimensioni dei file biscottino."
+
+#. Short label for button leading to dialog to select the right folder with cookies.
+#: ../res/values/strings.xml:140(string)
+msgid "Folder containing cookie files"
+msgstr "Cartella contenente i cookie"
+
+#. Description for button leading to dialog to select the right folder with cookies.
+#: ../res/values/strings.xml:144(string)
+msgid "Enter the folder where you have stored your cookie files."
+msgstr "Inserisci la cartella in cui hai immagazzinato i tuoi file biscottino."
+
+#. Title for dialog to select the right folder with cookies.
+#: ../res/values/strings.xml:148(string)
+msgid "Enter the folder containing the cookie files"
+msgstr "Inserisci la cartella che contiene i file biscottino"
+
+#. Short label for button leading to dialog to select individual cookie files.
+#: ../res/values/strings.xml:156(string)
+msgid "Cookie files"
+msgstr "File biscottino"
+
+#. Description for button leading to dialog to select individual cookie files.
+#: ../res/values/strings.xml:160(string)
+msgid ""
+"Select the cookie files to be used from the folder above (do not include ."
+"num files)."
+msgstr ""
+"Seleziona i file biscottino da usare dalla cartella sopra (non includere i "
+"file .num)."
+
+#. Warning replacing regular description for button to warn that some cookie files have not been prepared properly for displaying in Android's Fortune.
+#: ../res/values/strings.xml:164(string)
+msgid ""
+"WARNING: Some of the selected files do not have an associated .num file! "
+"Click here and change the selection."
+msgstr ""
+"AVVISO: Alcuni dei file selezionati non hanno un file .num associato! Clicca "
+"qui e cambia la selezione."
+
+#. In application display (where main cookie text is displayed) preferences subtitle.
+#: ../res/values/strings.xml:168(string)
+msgid "Display"
+msgstr "Mostra"
+
+#. Short label for button leading to dialog to change the font style of the main cookie text.
+#: ../res/values/strings.xml:172(string) ../res/values/strings.xml:208(string)
+msgid "Font style"
+msgstr "Stile dei caratteri"
+
+#. Description for button leading to dialog to change the font style of the main cookie text.
+#: ../res/values/strings.xml:176(string)
+msgid "Monospace can be useful for ascii-art cookies."
+msgstr "Monospace può essere utile per i biscottini ascii-art."
+
+#. Title for dialog to change the font style of the main cookie text.
+#: ../res/values/strings.xml:180(string)
+msgid "Change the font style"
+msgstr "Cambia lo stile dei caratteri"
+
+#. Short label for button leading to dialog to change the font size of the main cookie text.
+#: ../res/values/strings.xml:184(string)
+msgid "Font size"
+msgstr "Dimensione dei caratteri"
+
+#. Description for button leading to dialog to change the font size of the main cookie text.
+#: ../res/values/strings.xml:188(string)
+msgid "Font size in points."
+msgstr "Dimensione carattere in punti."
+
+#. Title for dialog to change the font size of the main cookie text.
+#: ../res/values/strings.xml:192(string)
+msgid "Change the font size"
+msgstr "Cambia la dimensione dei caratteri"
+
+#. Short label for checkbox to enable the wrapping of the main cookie text.
+#: ../res/values/strings.xml:196(string)
+msgid "Wrap text"
+msgstr "Avvolgi testo"
+
+#. Description for checkbox to enable the wrapping of the main cookie text.
+#: ../res/values/strings.xml:200(string)
+msgid ""
+"Fits the cookie text on the screen. Disable to correctly view cookie texts "
+"formatted with linebreaks and ascii-art."
+msgstr ""
+"Adatta il testo del biscottino sullo schermo. Disattiva per visualizzare "
+"correttamente i testi dei biscottini formattati con interruzioni di testo e "
+"ascii-art."
+
+#. Widget display (on the home screen) preferences subtitle.
+#: ../res/values/strings.xml:204(string)
+msgid "Widget"
+msgstr "Widget"
+
+#. Title for dialog to change the font style of the widget cookie text.
+#: ../res/values/strings.xml:216(string)
+msgid "Change the widget font style"
+msgstr "Cambia lo stile del carattere del Widget"
+
+#. Short label for button leading to dialog to change the widget refresh time period.
+#: ../res/values/strings.xml:220(string)
+msgid "Widget update period"
+msgstr "Periodo di aggiornamento del Widget"
+
+#. Description for button leading to dialog to change the widget refresh time period.
+#: ../res/values/strings.xml:224(string)
+msgid "Time period in minutes in between widget refreshes."
+msgstr "Tempo in minuti tra gli aggiornamenti del Widget"
+
+#. Title for dialog to change the widget refresh time period.
+#: ../res/values/strings.xml:228(string)
+msgid "Change widget update period"
+msgstr "Cambia il periodo di aggiornamento del Widget"
+
+#. Notifications (in the status bar) preferences subtitle.
+#: ../res/values/strings.xml:232(string)
+msgid "Notifications"
+msgstr "Notifiche"
+
+#. Short label for checkbox to enable displaying a notification at device bootup.
+#: ../res/values/strings.xml:236(string)
+msgid "Notification at startup"
+msgstr "Notifiche all'avvio"
+
+#. Description for checkbox to enable displaying a notification at device bootup.
+#: ../res/values/strings.xml:240(string)
+msgid "Suggest a cookie at system startup."
+msgstr "Suggerisci un biscottino all'avvio del sistema."
+
+#. Short label for checkbox to enable displaying notification every so many minutes.
+#: ../res/values/strings.xml:244(string)
+msgid "Periodic notifications"
+msgstr "Notifiche periodiche"
+
+#. Description for checkbox to enable displaying notification every so many minutes.
+#: ../res/values/strings.xml:248(string)
+msgid "Suggest cookies at time intervals."
+msgstr "Suggerisci biscottini in intervalli di tempo."
+
+#. Short label for button leading to dialog to change the periodic notification appearance time period.
+#: ../res/values/strings.xml:252(string)
+msgid "Time period"
+msgstr "Periodo di tempo"
+
+#. Description for button leading to dialog to change the periodic notification appearance time period.
+#: ../res/values/strings.xml:256(string)
+msgid "Time period in minutes in between notifications."
+msgstr "Periodo di tempo in minuti tra le notifiche."
+
+#. Title for dialog to change the periodic notification appearance time period.
+#: ../res/values/strings.xml:260(string)
+msgid "Change time period"
+msgstr "Cambia il periodo di tempo"
+
+#. Title for dialog to warn and ask to prepare files.
+#: ../res/values/strings.xml:266(string)
+msgid "Create .num files?"
+msgstr "Creare file .num?"
+
+#. Message for dialog to warn and ask to prepare files.
+#: ../res/values/strings.xml:270(string)
+msgid ""
+"Some of the selected files do not have an associated .num file. Should I try "
+"and generate the .num files?"
+msgstr ""
+"Alcuni dei file selezionati non hanno un file .num associato. Devo provare a "
+"generare i file .num?"
+
+#. Warning message instead of cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed). DO NOT translate link.
+#: ../res/values/strings.xml:274(string)
+msgid ""
+"No cookie files are configured. Please open the preferences and select some "
+"cookie files.\\n\\nSee: http://code.google.com/p/androidsfortune/wiki/Help "
+"\\n\\n(This is not a fortune cookie!)"
+msgstr ""
+"Nessun file biscottino è configurato. Per piacere apri le preferenze e "
+"seleziona alcuni file biscottino.\\n\\nVisualizza: http://code.google.com/p/"
+"androidsfortune/wiki/Help \\n\\n(Questo non è un biscottino della fortuna!)"
+
+#. Link to information on installing custom cookies. DO NOT translate!
+#: ../res/values/strings.xml:278(string)
+msgid "http://code.google.com/p/androidsfortune/wiki/Help"
+msgstr "http://code.google.com/p/androidsfortune/wiki/Help"
+
+#. Title for notifications in the status bar.
+#: ../res/values/strings.xml:282(string)
+msgid "Fortune Cookie"
+msgstr "Biscotto Della Fortuna"
+
+#. Message for dialog while installing a provided cookie file example.
+#: ../res/values/strings.xml:286(string)
+msgid "Please wait while installing the sample cookie file..."
+msgstr ""
+"Per piacere aspetta mentre si sta installando il file biscottino di "
+"esempio..."
+
+#. Message for dialog that confirms that the cookie text has been copied to the clipboard.
+#: ../res/values/strings.xml:290(string)
+msgid ""
+"The cookie text has been copied to the clipboard. You can now paste it "
+"elsewhere."
+msgstr ""
+
+#. Template text to send a recommendation mail to friends to appraise this app. Formed when user selects 'Share app' menu item.
+#: ../res/values/strings.xml:294(string)
+msgid ""
+"Try this fortune cookie Android app I found.\\n\\nSearch in the Android "
+"Market for \\'Android\\'s Fortune\\' or open http://market.android.com/"
+"search?q=pname:net.lp.androidsfortune in your phone\\'s browser."
+msgstr ""
+
+#. Subject for emails etc. that use the template text.
+#: ../res/values/strings.xml:298(string)
+msgid "Try this fortune cookie Android app I found: Android\\'s Fortune"
+msgstr ""
+
+#. Name of the widget (on the home screen).
+#: ../res/values/strings.xml:304(string)
+msgid "Fortune cookie"
+msgstr "Biscotto della Fortuna"
+
+#. Warning message instead of widget cookie text, when cookie is loading.
+#: ../res/values/strings.xml:308(string)
+msgid "Loading a cookie..."
+msgstr "Caricamento di un biscotto..."
+
+#. Error message instead of widget cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed).
+#: ../res/values/strings.xml:312(string)
+msgid ""
+"No cookie files configured, or Android\\'s Fortune closed due to too little "
+"free memory or reinstall. Tap to open Android\\'s Fortune!"
+msgstr ""
+"Nessuno file di biscotti configurato, o Fortune per Android si è chiuso per "
+"via di troppa poca memoria libera o reinstallare. Battere leggermente per "
+"aprire Fortune per Android"
+
+#. Title of the dialog after clicking the widget for choosing what to do.
+#: ../res/values/strings.xml:316(string)
+msgid "Choose operation:"
+msgstr "Scegliere l'operazione:"
+
+#. Button label for widget cookie refresh action.
+#: ../res/values/strings.xml:320(string)
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#. Button label for showing the cookie in the main app action.
+#: ../res/values/strings.xml:324(string)
+msgid "Show cookie"
+msgstr "Visualizza il biscotto"
+
+#. Button label for cancel action.
+#: ../res/values/strings.xml:328(string)
+msgid "Cancel"
+msgstr "Annulla"
+
+#. Error message for when a filename was not specified.
+#: ../res/values/strings.xml:335(string)
+msgid "A file name was not specified."
+msgstr "Non è stato specificato il nome del file."
+
+#. Error message for when an argument was passed twice
+#: ../res/values/strings.xml:339(string)
+msgid "An argument was passed twice."
+msgstr "Un argomento è stato passato due volte."
+
+#. Error message for when the num file already exists (suddenly).
+#: ../res/values/strings.xml:343(string)
+msgid "The .num file that would be created suddenly already exists."
+msgstr "Il file .num che dovrebbe essere creato esiste già."
+
+#. Error message for when an invalid cookie file is selected.
+#: ../res/values/strings.xml:347(string)
+msgid "The selected file is not a valid cookie file."
+msgstr "Il file selezionato non è un cookie valido."
+
+#. Error message for when the cookie file does not exist or is not properly prepared.
+#: ../res/values/strings.xml:353(string)
+msgid ""
+"Either the cookie file does not exist or it does not have a .num file "
+"associated to it:"
+msgstr ""
+"Il file del biscotto non esiste o non ha un file .num associato ad esso:"
+
+#. Error message for when write permissions are necessary.
+#: ../res/values/strings.xml:357(string)
+msgid "You do not have write permissions."
+msgstr "Non hai i permessi di scrittura."
+
+#. Error message for when reading the cookie file has failed.
+#: ../res/values/strings.xml:363(string)
+msgid "Reading the cookie failed:"
+msgstr "Lettura del biscotto fallita:"
+
+#. Error message for displaying a suggestion what might be wrong with not being able to read the cookie file.
+#: ../res/values/strings.xml:367(string)
+msgid "\\nAre you sure you have the SD card mounted?"
+msgstr "\\nSei sicuro che hai la scheda SD montata?"
+
+#. Error message for when the cookie file can not be read due to an exceptional internal error.
+#: ../res/values/strings.xml:371(string)
+msgid ""
+"An internal error occured while reading the cookie (please report the bug):"
+msgstr ""
+"Un errore interno è apparso durante la lettura del biscottino (per favore "
+"riporta il bug):"
+
+#. Error message for when the generation of the .num file has failed.
+#: ../res/values/strings.xml:375(string)
+msgid "Generation of .num file failed:"
+msgstr "Generazione del file .num fallita:"
+
+#. Error message for when the specified folder is not a directory.
+#: ../res/values/strings.xml:379(string)
+msgid ""
+"The specified folder (above in the preferences) is not a valid directory:"
+msgstr ""
+"La cartella specificata (sopra nelle preferenze) non è una directory valida)"
+
+#. Error message for when a selected cookie file that was valid can now no longer be found.
+#: ../res/values/strings.xml:383(string)
+msgid "A file that was previously selected is no longer found:"
+msgstr "Il file precedentemente selezionato non è stato trovato:"
+
+#. Error message for when an invalid value was entered. The value is reset.
+#: ../res/values/strings.xml:387(string)
+msgid "The entered value is invalid. Set to:"
+msgstr "Il valore immesso noon è valido. Impostato a:"
+
+#. Error message to warn about a too short widget update period.
+#: ../res/values/strings.xml:391(string)
+msgid ""
+"A period shorter than 60 minutes might negatively affect performance and "
+"battery life."
+msgstr ""
+"Un periodo inferiore a 60 minuti potrebbe avere effetti negativi sule "
+"prestazioni e sulla durata della batteria"
+
+#. Title for the versioncheck preferences.
+#: ../res/values/strings.xml:397(string)
+msgid "Android\\'s Fortune Update Checking Preferences"
+msgstr "Preferenze Del Controllo Dell'Aggiornamento Di Android\\'s Fortune"
+
+#. Short label for the button leading to the versioncheck preferences.
+#: ../res/values/strings.xml:401(string)
+msgid "Updates checking"
+msgstr "Controllo aggiornamenti"
+
+#. Description for the button leading to the versioncheck preferences.
+#: ../res/values/strings.xml:405(string)
+msgid "Automated self-checking for updates."
+msgstr "Auto-controllo automatico per gli aggiornamenti."
+
+#. Ticker message to show in the status bar when the version update notification is shown.
+#: ../res/values/strings.xml:409(string)
+msgid "Application Update"
+msgstr "Aggiornamento Applicazione"
+
+#. Title for the version update notification.
+#: ../res/values/strings.xml:413(string)
+msgid "Application Updated"
+msgstr "Applicazione Aggiornata"
+
+#. Message for the version update notification.
+#: ../res/values/strings.xml:417(string)
+msgid "Download a new version."
+msgstr "Scarica una nuova versione."
+
+#. Versioncheck preferences subtitle.
+#: ../res/values/strings.xml:421(string)
+msgid "Updates Checking"
+msgstr "Controllo Aggiornamenti"
+
+#. Short label for checkbox to enable versionchecking.
+#: ../res/values/strings.xml:425(string)
+msgid "Enabled"
+msgstr "Abilitato"
+
+#. Description for checkbox to enable versionchecking.
+#: ../res/values/strings.xml:429(string)
+msgid "Whether checking for app updates is enabled or not."
+msgstr ""
+"Se il controllo per gli aggiornamenti dell'applicazione è abilitato o no."
+
+#. Title for dialog to ask to update the app.
+#: ../res/values/strings.xml:433(string)
+msgid "Confirm Android\\'s Fortune Update"
+msgstr "Conferma L'Aggiornamento Di Android\\'s Fortune"
+
+#. Message for dialog to ask to update the app.
+#: ../res/values/strings.xml:437(string)
+msgid "Would you like to update this application to the newest version?"
+msgstr "Vuoi aggiornare questa applicazione alla versione più recente?"
+
+#. Message for checkbox to opt out of notifications.
+#: ../res/values/strings.xml:441(string)
+msgid "Don\\'t notify me of this update again"
+msgstr "Non notificarmi ancora questo aggiornamento"
+
+#. Link to versioncheck file. DO NOT translate!
+#: ../res/values/strings.xml:445(string)
+msgid ""
+"http://bazaar.launchpad.net/%7Epjv/androidsfortune/trunk/download/head:/"
+"androidsfortune.xml-20081003215357-77py3411h119elj2-40/AndroidsFortune.xml?"
+"file_id=androidsfortune.xml-20081003215357-77py3411h119elj2-40"
+msgstr ""
+"http://bazaar.launchpad.net/%7Epjv/androidsfortune/trunk/download/head:/"
+"androidsfortune.xml-20081003215357-77py3411h119elj2-40/AndroidsFortune.xml?"
+"file_id=androidsfortune.xml-20081003215357-77py3411h119elj2-40"
+
+#. Short label for button leading to dialog to change the version checking url.
+#: ../res/values/strings.xml:449(string)
+msgid "Check URI"
+msgstr "Controlla l'URl"
+
+#. Description for button leading to dialog to change the version checking url.
+#: ../res/values/strings.xml:453(string)
+msgid "The URI which will be checked for app updates."
+msgstr "L'URI che sarà controllato per gli aggiornamenti dell'applicazione."
+
+#. Last but not least, a dummy translation string to catch Launchpad translators list in the translation files. Pure for technical reasons. DO NOT translate! But add your name if you translated and is not yet added (it should be added automatically when you translate on Launchpad). In the translation files the names in the list need to be edited manually after import to add ";"-separation for automatic parsing by OI About.
+#: ../res/values/strings.xml:458(string) ../res/values/strings.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Ardaking https://launchpad.net/~ardaking\n"
+"  Cecco https://launchpad.net/~cecco\n"
+"  Guybrush88 https://launchpad.net/~erpizzo\n"
+"  Pietrao https://launchpad.net/~isottipietro\n"
+"  pjv https://launchpad.net/~pjv"
+
+#~ msgid "An instance already exists."
+#~ msgstr "Un'istanza è già aperta."
+
+#~ msgid "/sdcard/fortune"
+#~ msgstr "/sdcard/fortune"

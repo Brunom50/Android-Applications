@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** 	 Copyright (C) 2008-2010 pjv (and others, see About dialog)
+** 
+** 	 This file is part of Android's Fortune.
+**
+**   Android's Fortune is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   Android's Fortune is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with Android's Fortune.  If not, see <http://www.gnu.org/licenses/>.
+**
+**	 Some elements based on veecheck-sample.
+*/
+-->
+<resources>
+
+    <style name="WidgetBackground">
+        <item name="android:background">@drawable/widget_bg</item>
+    </style>
+    <style name="WidgetBackgroundMessage">
+        <item name="android:background">@drawable/widget_bg_message</item>
+    </style>
+    
+    <style name="Text">
+    </style>
+    
+    <style name="Text.Loading">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    	<item name="android:textStyle">bold|italic</item>
+    </style>
+    
+    <style name="Text.WidgetTextSerif">
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@android:color/black</item>
+    	<item name="android:textStyle">bold</item>
+	</style>
+    
+    <style name="Text.WidgetTextSans">
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@android:color/black</item>
+    	<item name="android:textStyle">bold</item>
+	</style>
+    
+    <style name="Text.WidgetTextMonospace">
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@android:color/black</item>
+    	<item name="android:textStyle">bold</item>
+	</style>
+    	
+</resources>

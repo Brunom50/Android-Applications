@@ -8,5 +8,6 @@ A collection of cleanly compiling Android apps (non-malware) for SDK 14
 - Applications may be renamed to make naming unique/consistant/etc.
 - Source is unversioned from any version control system
 - Removed any unit testing or test code
+- Added missing dependency libraries when needed
 - Minor fixes to make code compile if broken
 - All other source is unchanged
