@@ -6,6 +6,9 @@ gen/
 tmp/
 .jatlas-settings/
 
+# version control
+.svn/
+
 #Local configuration file
 local.properties
 
