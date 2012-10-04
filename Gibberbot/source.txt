@@ -1,0 +1,2 @@
+https://github.com/guardianproject/Gibberbot
+https://github.com/JakeWharton/ActionBarSherlock/
