@@ -1,0 +1,17 @@
+				This file lists the authors for Orweb,
+        a free software project to provide anonymity web browsing on Android smartphones.
+
+       For more information about Orweb, see http://guardianproject.info/apps/orweb
+
+             If you got this file as a part of a larger bundle,
+        there are probably other authors that you should be aware of.
+
+Main Authors:
+-------------
+Nathan Freitas <nathan@freitas.net> developed the primary
+Android application and managed the porting of Tor to Android.
+
+
+Contributors:
+-------------
+Connell Gauld developed the original Shadow browser on which this project is based.
