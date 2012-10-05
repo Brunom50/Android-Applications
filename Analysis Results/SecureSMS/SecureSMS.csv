@@ -1,0 +1,9 @@
+Name,# Callers,# Callees,# RCG
+Reflection,200,193,457
+Dangerous Reflection,189,184,202
+JNI,1108,864,1699
+Read File,48,13,479
+Access Sensors,6,6,6
+Crypto,306,241,875
+Security,746,644,1253
+Union All Sources,1048,904,1626

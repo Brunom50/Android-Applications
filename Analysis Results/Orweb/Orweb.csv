@@ -1,0 +1,8 @@
+Name,# Callers,# Callees,# RCG
+Reflection,14,6,547
+Dangerous Reflection,14,6,547
+JNI,0,0,0
+Read File,5,3,410
+Crypto,7,4,15
+Security,4,3,12
+Union All Sources,10,10,421
