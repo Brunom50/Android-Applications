@@ -1,0 +1,17 @@
+K9Mail
+-------------------------------
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.READ_CONTACTS
+android.permission.READ_SYNC_SETTINGS
+android.permission.WRITE_CONTACTS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.INTERNET
+android.permission.VIBRATE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+org.thialfihar.android.apg.permission.READ_KEY_DETAILS
+com.fsck.k9.permission.READ_ATTACHMENT
+com.fsck.k9.permission.REMOTE_CONTROL
+com.fsck.k9.permission.READ_MESSAGES
+com.fsck.k9.permission.DELETE_MESSAGES
+
