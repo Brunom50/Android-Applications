@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of Barnacle Wifi Tether
+  Copyright (C) 2010 by Szymon Jakubczak
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="app_name">OLSR Mesh Tether</string>
+    <string name="clientview">Barnacle Clients</string>
+    <string name="notify_running">Sharing your connection</string>
+    <string name="notify_client">Client connected</string>
+    <string name="notify_error">Error occured</string>
+    <string name="announce">Associate</string>
+    <string name="noprefs">Please, set your preferences</string>
+    <string name="noclients">No clients connected</string>
+    <string name="starting">Starting…</string>
+    <string name="dataready">Data network is ready</string>
+    <string name="disablewifi">Disabling Wifi Manager…</string>
+    <string name="conflictwifi">Wifi Manager is interfering with Barnacle!</string>
+    <string name="waitwifi">Waiting until Wifi is disabled</string>
+    <string name="running">Running…</string>
+    <string name="restarting">Restarting…</string>
+    <string name="beaconing">beaconing ad-hoc network</string>
+    <string name="filterok">Connected to NAT</string>
+    <string name="filtererr">Could not connect to NAT, will retry later</string>
+    <string name="filterupdated">Updated NAT filter</string>
+    <string name="connected">Connected %s</string>
+    <string name="renewed">Renewed %s</string>
+    <string name="stopped">Stopped</string>
+    <string name="wanerr">Could not find WAN interface</string>
+    <string name="wanok">Mobile data interface found: </string>
+    <string name="lanok">Wireless interface found: </string>
+    <string name="starterr">Could not start the process!</string>
+    <string name="unpackerr">Could not unpack binaries</string>
+    <string name="unpackerr1">Could not unpack %s"</string>
+    <string name="chmoderr">Could not make the binary executable</string>
+    <string name="execerr">Could not execute %s</string>
+    <string name="dirtystop">Warning: did not finish cleanly</string>
+    <string name="unexpected">Stopped unexpectedly!</string>
+    <string name="exception">Exception occured!</string>
+    <string name="invalidip">Invalid IP address</string>
+    <string name="invalidmac">Invalid MAC address</string>
+    <string name="current">Current: </string>
+    <string name="restartneeded">Restart for changes to take effect</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="if_wan">if_wan</string>
+    <string name="if_lan">if_lan</string>
+    <string name="lan_netmask">lan_netmask</string>
+    <string name="lan_gw">lan_gw</string>
+    <string name="lan_essid">lan_essid</string>
+    <string name="lan_bssid">lan_bssid</string>
+    <string name="lan_channel">lan_channel</string>
+    <string name="lan_wext">lan_wext</string>
+    <string name="lan_script">lan_script</string>
+
+    <string-array name="channel_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <!-- <item>14</item> -->
+    </string-array>
+    <string-array name="channel_names">
+        <item>1 – 2412 MHz</item>
+        <item>2 – 2417 MHz</item>
+        <item>3 – 2422 MHz</item>
+        <item>4 – 2427 MHz</item>
+        <item>5 – 2432 MHz</item>
+        <item>6 – 2437 MHz</item>
+        <item>7 – 2442 MHz</item>
+        <item>8 – 2447 MHz</item>
+        <item>9 – 2452 MHz</item>
+        <item>10 – 2457 MHz</item>
+        <item>11 – 2462 MHz</item>
+        <item>12 – 2467 MHz</item>
+        <item>13 – 2472 MHz</item>
+        <!-- <item>14 - 2484 MHz</item> -->
+    </string-array>
+
+    <string-array name="script_values">
+        <item></item>
+        <item>script_hero</item>
+        <item>script_samsung</item>
+        <item>script_aria</item>
+    </string-array>
+    <string-array name="script_names">
+        <item>none</item>
+        <item>Hero/Eris</item>
+        <item>Samsung</item>
+        <item>Aria/Liberty (see blog)</item>
+    </string-array>
+
+    <string name="websiteUrl">http://szym.net/barnacle/</string>
+    <string name="fixUrl">http://szym.net/barnacle/fix/</string>
+    <string name="rootUrl">http://szym.net/barnacle/faq/#root</string>
+    <string name="wikiUrl">http://github.com/szym/barnacle/wiki</string>
+    <string name="paypalUrl">https://www.paypal.com/</string>
+
+</resources>
