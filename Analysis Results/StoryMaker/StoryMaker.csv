@@ -1,0 +1,11 @@
+Name,# Callers,# Callees,# RCG
+Reflection,8,3,509
+Dangerous Reflection,8,3,509
+JNI,0,0,0
+Access Camera,1,1,4
+Java Security,2,1,386
+Read File,6,2,391
+Access Contacts,3,2,8
+Access Audio,1,1,4
+Java Cryptology,5,4,392
+Union All Sources,10,11,409

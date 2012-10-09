@@ -1,0 +1,13 @@
+ActionBarSherlock
+-------------------------------
+
+android-ffmpeg-library
+-------------------------------
+
+StoryMaker
+-------------------------------
+android.permission.INTERNET
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.WRITE_MEDIA_STORAGE
+android.permission.CAMERA
+
