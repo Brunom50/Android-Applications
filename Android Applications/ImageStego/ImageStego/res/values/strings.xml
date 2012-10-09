@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="add_message_prompt">Type your secret message here\u2026</string>
+    <string name="encryption_change">Change\u2026</string>
+    <string name="encryption_activate">Encrypt Message?</string>
+    <string name="submit_clear">Clear</string>
+    <string name="submit_save">Save!</string>
+    <string name="stego_cover_image_choice_title">Add an Image</string>
+    <string name="stego_cover_image_choice_summary">Choose your image source\u2026</string>
+    <string name="stego_cover_image_choice_gallery">From Gallery</string>
+    <string name="stego_cover_image_choice_camera">From Camera</string>
+    <string name="dirlist_title">Choose an .asc file\u2026</string>
+    <string name="chars_left"> characters left</string>
+    <string name="app_name">ImageStego</string>
+    
+
+</resources>
