@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteCipher</string>
+    <string name="no_notes">No Notes Yet</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="menu_delete">Delete Item</string>
+    <string name="menu_rekey">Change Passphrase</string>
+    <string name="menu_share">Share...</string>
+    <string name="menu_view">Export...</string>
+    <string name="menu_save">Save Note</string>
+    <string name="menu_lock">Lock Notes</string>
+    <string name="menu_bigger">Bigger</string>
+    <string name="menu_smaller">Smaller</string>
+    
+    <string name="title">Summary</string>
+    <string name="body">Note Text</string>
+    <string name="confirm">Save Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="confirm_delete">Do you want to delete the original, unencrypted file?</string>
+    <string name="on_import">Imported new file</string>
+    <string name="err_size">Imported file size is too large</string>
+    <string name="err_export">Error exporting image</string>
+    <string name="on_start">Tap anywhere to create a new note</string>
+    <string name="err_pass">Unable to unlock your notes. Are you sure you entered the right passphrase?</string>
+    <string name="button_ok">Okay</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="rekey_message">Enter a *new* passphrase. It must contain at least one uppercase, one lowercase and one number, and be longer than six characters.</string>
+    <string name="do_rekey">Encrypting your existing notes with the new passphrase (patience...)</string>
+    <string name="enter_pass">Enter your passphrase:</string>
+    <string name="new_pass">Welcome! Enter a strong passphrase to secure your notes. It must contain at least one uppercase, one lowercase and one number, and be longer than six characters.</string>
+    <string name="pass_err_length">Your passphrase was not long enough</string>
+    <string name="pass_err_upper">Your passphrase did not contain any uppercase letters</string>
+    <string name="pass_err_lower">Your passphrase did not contain any lowercase letters</string>
+    <string name="pass_err_num">Your passphrase did not contain any numbers</string>
+    
+</resources>
