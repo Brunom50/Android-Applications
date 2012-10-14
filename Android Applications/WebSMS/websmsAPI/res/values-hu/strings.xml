@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+       <!--
+               Copyright (C) 2009-2011 Felix Bechstein
+       -->
+       <!--
+               This file is part of WebSMS API. This program is free software; you can
+               redistribute it and/or modify it under the terms of the GNU General
+               Public License as published by the Free Software Foundation; either
+               version 3 of the License, or (at your option) any later version.
+       -->
+       <!--
+               This program is distributed in the hope that it will be useful, but
+               WITHOUT ANY WARRANTY; without even the implied warranty of
+               MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+               General Public License for more details. You should have received a
+               copy of the GNU General Public License along with this program; If
+               not, see <http://www.gnu.org/licenses/>.
+       -->
+      <!--
+               This file is generated automatically by ub0rlib/php.
+               Visit http://ub0r.de/translate/websms-api/hu/strings.xml to edit the file.
+       -->
+<resources>
+  <string name="info_text" formatted="false">Ez egy WebSMS kiegészítő.\nKizárólag a WebSMS-el együtt haszálható!</string>
+  <string name="stat_notify_sms_pending" formatted="false">WebSMS: küldés</string>
+  <string name="stat_notify_sending" formatted="false">Küldés:</string>
+  <string name="error" formatted="false">HIBA</string>
+  <string name="error_connection" formatted="false" username="Tamás Béres &lt;berestamas2@gmail.com&gt;" orig="Connection terminated/timed out. If your connection is working, it\'s most likely a downtime of the target service. Check the app\'s website issues and twitter for status.">Kapcsolat időtúllépési hiba. Ha az internetkapcsolatod működik, akkor valószínűleg a cél szerverrel van a hiba. A program honlapján és twitter accountján általában be van jelentve ha valami gond van.</string>
+  <string name="error_http" formatted="false">HIBA: HTTP</string>
+  <string name="error_mail" formatted="false">Hibás email cím, vagy jelszó!</string>
+  <string name="error_pw" formatted="false">Hibás email cím, vagy jelszó!</string>
+  <string name="error_sender" formatted="false">Hibás címzett! Nemzetközi számformátumot használj pl.: +4917012345678.</string>
+  <string name="error_sender_unregistered" formatted="false">A címzettnek regisztráltnak, és visszaigazoltnak kell lennie a szolgáltatódnál.</string>
+  <string name="error_server" formatted="false">HIBA: Szerver válasz:</string>
+  <string name="error_service" formatted="false">A szolgáltatás nem elérhető! Kérem próbálkozzon később újra.</string>
+  <string name="error_wrongcaptcha" formatted="false">Hibás Captcha. Kérlek próbálkozz újra.</string>
+  <string name="error_input" formatted="false">Hiba a felhasználó által bevitt adatokban!</string>
+  <string name="error_http_header_missing" formatted="false">Fejléc: Tartalom-hossz hiányzik!</string>
+  <string name="error_sendlater_quater" formatted="false">Csak 15 percnyi használatot engedélyez a kiegészítőd!</string>
+  <string name="ignore_withsender_" formatted="false" username="Tamás Béres &lt;berestamas2@gmail.com&gt;" orig="Hide &quot;with sender&quot; SubConnector">Elrejtés "feladóval" alcsatoló</string>
+  <string name="ignore_withsender_hint" formatted="false" username="Tamás Béres &lt;berestamas2@gmail.com&gt;" orig="Hide &quot;with sender&quot; SubConnector from selection.">"Feladóval" alcsatoló elrejtése a listában</string>
+  <string name="ignore_nosender_" formatted="false" username="Tamás Béres &lt;berestamas2@gmail.com&gt;" orig="Hide &quot;without sender&quot; SubConnector">Elrejtés "feladó nélkül"</string>
+  <string name="ignore_nosender_hint" formatted="false" username="Tamás Béres &lt;berestamas2@gmail.com&gt;" orig="Hide &quot;without sender&quot; SubConnector from selection.">Feladó nélkül gomb elrejtése</string>
+  <string name="ignore_free_" formatted="false" username="Tamás Béres &lt;berestamas2@gmail.com&gt;" orig="Hide &quot;free&quot; SubConnector">Elrejtés "ingyenes" alcsatoló</string>
+  <string name="ignore_free_hint" formatted="false" username="Tamás Béres &lt;berestamas2@gmail.com&gt;" orig="Hide &quot;free&quot; SubConnector from selection.">"Ingyenes" alcsatoló elrejtése a listából</string>
+  <string name="username_" formatted="false">Felhasználónév</string>
+  <string name="password_" formatted="false">Jelszó</string>
+  <string name="create_account_" formatted="false">Fiók létrehozása</string>
+  <string name="use_derfault_sender_" formatted="false">Alapértelmezett küldő használata</string>
+  <string name="use_derfault_sender_hint" formatted="false">A WebSMS által megadott alapértelmezett küldő használata.</string>
+  <string name="custom_sender_" formatted="false">Egyedi küldő</string>
+  <string name="sender_hint" formatted="false">Nemzetközi telefonszám pl.: +4917912345678</string>
+  <string name="send_logs_" formatted="false">Logok küldése</string>
+  <string name="send_logs_hint" formatted="false">Küldd be a program napló filejait a fejlesztőnek.\nCsak akkor küld be a fileokat, ha erre felkérést kaptál.</string>
+  <string name="sendlog_run_" formatted="false">SendLog futtatása</string>
+  <string name="sendlog_run" formatted="false">SendLog a programmal kapcsolatos log fileokat gyájti össze, majd elküldi azokat a fejlesztőnek.\nAz elküldés előtt meg lesz alkalmad a beküldendő adatok átolvasására, és szerkesztésére.</string>
+  <string name="sendlog_install_" formatted="false">SendLog telepítése</string>
+  <string name="sendlog_install" formatted="false">Telepítsd az ingyenes SendLog alkalmazást, a napló fájlok összegyűjtéséhez, és a fejlesztőnek való elküldéséhez.</string>
+</resources>

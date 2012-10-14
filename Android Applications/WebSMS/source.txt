@@ -1,0 +1,3 @@
+https://github.com/felixb/websms
+http://github.com/felixb/websms-api/
+http://github.com/JakeWharton/ActionBarSherlock/

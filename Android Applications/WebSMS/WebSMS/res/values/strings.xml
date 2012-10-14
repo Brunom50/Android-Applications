@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		Copyright (C) 2009-2012 Felix Bechstein
+	-->
+	<!--
+		This file is part of WebSMS. This program is free software; you can
+		redistribute it and/or modify it under the terms of the GNU General
+		Public License as published by the Free Software Foundation; either
+		version 3 of the License, or (at your option) any later version.
+	-->
+	<!--
+		This program is distributed in the hope that it will be useful, but
+		WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+		General Public License for more details. You should have received a
+		copy of the GNU General Public License along with this program; If
+		not, see <http://www.gnu.org/licenses/>.
+	-->
+<resources>
+	<string name="about_">About</string>
+	<string name="about">WebSMS enables you to send free and cheap SMS via webservices. There are many providers supported. Find the link to fetch them from market in WebSMS\'s preferences.</string>
+	<string name="about_hint">About this app</string>
+	<string name="faq_hint">Some tips and tricks, how to set up this app.</string>
+	<string name="feedback_">Feedback</string>
+	<string name="feedback_hint">Report bugs, request features ...</string>
+	<string name="google_plus_hint">Follow me on Google+.\nGet update notifications etc.</string>
+	<string name="twitter_hint">Follow me on twitter.\nGet update notifications etc.</string>
+	<string name="author_">Author:</string>
+	<string name="author_connectors_">Author of Connectors:</string>
+	<string name="change_connector_">Change provider</string>
+	<string name="change_connector_nl">Change\nprovider</string>
+	<string name="click_for_update">(update: click)</string>
+	<string name="defprefix_">Default int. prefix</string>
+	<string name="defprefix_hint">e.g. +49</string>
+	<string name="more_apps_">More Apps..</string>
+	<string name="more_connectors_">More Connectors..</string>
+	<string name="more_connectors_hint">Look for more Connectors in Market. Restart WebSMS after installing!</string>
+	<string name="more_connectors__">Even more Connectors..</string>
+	<string name="more_connectors__hint">You are missing a connector for some service? View the FAQ to get it.</string>
+	<string name="standard_connector_">Standard Connector</string>
+	<string name="set_stdandard_connector_">Set standard Connector</string>
+	<string name="set_stdandard_connector_hint">Set current connector as standard Connector. WebSMS will switch back automatically.</string>
+	<string name="clear_stdandard_connector_">Clear standard Connector</string>
+	<string name="free_">Balances:</string>
+	<string name="license">GPLv3 - see http://www.gnu.org/licenses/gpl-3.0.txt</string>
+	<string name="license_">License:</string>
+	<string name="log_wrong_defprefix">Please enter a valid countrycode as default prefix. E.g. "+49".</string>
+	<string name="log_wrong_sender">Wrong sender! Set it in international form like +4917012345678.</string>
+	<string name="log_noselectedconnector">No Connector selected. Please choose one with "Change Provider".</string>
+	<string name="log_noreadyconnector">No Connector installed or ready. Please check preferences.</string>
+	<string name="log_error_saving_message">Error updating sent message in Database!</string>
+	<string name="log_error_char_nonvalid">Connector does not provide valid characters</string>
+	<string name="log_error_char_notsendable">This message contains not sendable characters</string>
+	<string name="log_error_sms">Could not send SMS: ErrorCode=</string>
+	<string name="log_error_connector_not_found">Connector not found, please open and close WebSMS\'s preferences to force reloading connectors.</string>
+	<string name="try_send_invalid_characters_">Try send invalid</string>
+	<string name="try_send_invalid_characters_hint">Try to send messages with invalid.</string>
+	<string name="notify_failed">Failed to send SMS: </string>
+	<string name="notify_failed_">failed sending SMS</string>
+	<string name="sender_">Your mobile number</string>
+	<string name="send_">Send</string>
+	<string name="save_draft_">Save draft</string>
+	<string name="save_chars_">Save chars</string>
+	<string name="settings">Preferences</string>
+	<string name="settings_common">Preferences - Common</string>
+	<string name="common_">Common</string>
+	<string name="appearance_">Appearance</string>
+	<string name="behavior_">Behavior</string>
+	<string name="appearance_and_behavior_">Appearance &amp; behavior</string>
+	<string name="autosend_">Autosend</string>
+	<string name="show_titlebar_">Show title bar</string>
+	<string name="show_titlebar_hint">Show title bar in main view. Without title bar, there is no way to see background activity.</string>
+	<string name="settings_connectors">Preferences - Connectors</string>
+	<string name="connectors_">Connectors</string>
+	<string name="alternative_layout_">Alternative layout</string>
+	<string name="alternative_layout_hint">Move send bar to the top. Needs restart.</string>
+	<string name="textsize_">Text size</string>
+	<string name="textsize_hint">Text size in pixels; leave empty for default</string>
+	<string name="show_balance_toast_">Show balance toast</string>
+	<string name="show_balance_toast_hint">Show toast notification on balance update.</string>
+	<string name="hide_change_connector_button">Hide \"Chg. provider\" button</string>
+	<string name="hide_change_connector_button_hint">Hide \"Change provider\" button on main screen.</string>
+	<string name="hide_send_button">Hide \"Send\" button</string>
+	<string name="hide_send_button_hint">Hide \"Send\" button in main screen.</string>
+	<string name="hide_cancel_button">Hide \"Cancel\" button</string>
+	<string name="hide_cancel_button_hint">Hide \"Cancel\" button on main screen.</string>
+	<string name="hide_extras_button_">Hide \"Extras\" button</string>
+	<string name="hide_extras_button_hint">Hide \"Extras\" button on main screen.</string>
+	<string name="hide_select_recipients_button_">Hide \"Select\" button</string>
+	<string name="hide_select_recipients_button_hint">Hide \"Select recipients\" button on main screen.</string>
+	<string name="hide_clear_recipients_button_">Hide \"Clear\" button</string>
+	<string name="hide_clear_recipients_button_hint">Hide \"Clear recipients\" button on main screen.</string>
+	<string name="hide_send_in_menu">Hide \"Send\" menu item</string>
+	<string name="hide_send_in_menu_hint">Hide \"Send\" in the main menu. Requires restart.</string>
+	<string name="hide_emo_button">Hide \"Emoticons\" button</string>
+	<string name="hide_emo_button_hint">Hide \"Emoticons\" button on main screen.</string>
+	<string name="hide_update">Hide \"Click for update\"</string>
+	<string name="hide_update_hint">Hide \"Click for update\" on main screen.</string>
+	<string name="hide_bg_connector_">Hide connector name</string>
+	<string name="hide_bg_connector_hint">Hide active connector\'s name in background.</string>
+	<string name="hide_paste_">Hide "paste" button</string>
+	<string name="hide_paste_hint">Hide "paste" button on text field.</string>
+	<string name="drop_sent_">Don\'t save sent SMS</string>
+	<string name="drop_sent_hint">Don\'t save sent messages in global database.</string>
+	<string name="enable_autosend_">Enable autosend</string>
+	<string name="enable_autosend_hint">Enable SMSdroid\'s autosend feature.</string>
+	<string name="use_selected_connector_">Use selected Connector</string>
+	<string name="use_selected_connector_hint">Use currently selected Connector for autosend. Disable to show a chooser.</string>
+	<string name="default_recipient_">Default recipient</string>
+	<string name="default_recipient_hint">Default recipient filled into address bar on app start.</string>
+	<string name="signature_">Signature</string>
+	<string name="signature_hint">Text attached on every message. No extra spacing is done. Start signature with \" \" if needed.</string>
+	<string name="autoupdate_">Autoupdate</string>
+	<string name="autoupdate_hint">Update account balances on start.</string>
+	<string name="autoexit_">Autoexit</string>
+	<string name="autoexit_hint">Exit WebSMS when sending sms.</string>
+	<string name="mobile_only_">Show mobiles only</string>
+	<string name="mobile_only_hint">Show mobile numbers only.</string>
+	<string name="vibrate_on_fail">Vibrate if sending fails</string>
+	<string name="vibrate_on_send">Vibrate after sending</string>
+	<string name="sound_on_fail">Play sound if sending fails</string>
+	<string name="to_hint">Name or Number</string>
+	<string name="text_hint">Text</string>
+	<string name="extras_">Extras</string>
+	<string name="flashsms">Flash SMS</string>
+	<string name="custom_sender">Custom sender</string>
+	<string name="send_later">Send later</string>
+	<string name="emo_">Emoticons</string>
+	<string name="connectors_switch">Switched connector:</string>
+	<string name="captcha_">Captcha</string>
+	<string name="captcha_solve_it">Please enter the text below:</string>
+	<string name="status_disabled">Status: disabled\n(Updated when returning to main screen)</string>
+	<string name="status_enabled">Status: enabled\n(Updated when returning to main screen)</string>
+	<string name="status_ready">Status: ready\n(Updated when returning to main screen)</string>
+	<string name="connector_vanished">Connector vanished!</string>
+	<string name="connector_sms_name">SMS</string>
+	<string name="enable_sms">Enable SMS</string>
+	<string name="enable_sms_hint">The SMS Connector will send normal SMS (e.g. via GSM).</string>
+	<string name="paste_">[ Paste from clipboard ]</string>
+	<string name="restore_">Restore last message</string>
+	<string name="update_">Update</string>
+	<string name="theme_">Theme</string>
+	<string-array name="themes">
+		<item>Black</item>
+		<item>Light</item>
+	</string-array>
+	<string name="connector_message_length_reached">Reached maximum length of %1$d characters for connector %2$s. %3$s</string>
+	<string name="connector_message_length_reached_signature">(Of which %1$d characters were your signature).</string>
+	<string name="debug_">Debug</string>
+	<string name="send_logs_">Send logs</string>
+	<string name="send_logs_hint">Send your device\'s logs to the developer.\nDo this only if you were asked to do so.</string>
+	<string name="sendlog_run_">Run SendLog</string>
+	<string name="sendlog_run">SendLog will collect the device log and send it to the developer.\nYou will have an opportunity to review and modify the data being sent.</string>
+	<string name="sendlog_install_">Install SendLog</string>
+	<string name="sendlog_install">Install the free SendLog application to collect the device log and send it to the developer.</string>
+	<string name="website_">Website:</string>
+	<string name="source_">Sourcescode:</string>
+	<string name="changelog_" translatable="false">Changelog</string>
+	<string name="custom_language_">Custom language</string>
+	<string name="custom_language_hint">Set a custom language.</string>
+	<string name="max_resend_count_">Max resend attempts</string>
+	<string name="max_resend_count_hint">Maximum number of attempts to resend a failed message.</string>
+	<string name="notify_failed_now_resending">WebSMS: sending failed, resending</string>
+	<string name="resending_failed_msg_">WebSMS: Resending message</string>
+	<string name="cancelling_resend">WebSMS: Cancelling resend ...</string>
+	<string name="attempt">Attempt</string>
+	<string name="to">To</string>
+</resources>
