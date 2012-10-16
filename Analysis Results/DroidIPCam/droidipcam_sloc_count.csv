@@ -1,4 +1,4 @@
-files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.56  T=1.0 s (27.0 files/s, 3830.0 lines/s)"
+files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.56  T=0.5 s (54.0 files/s, 7660.0 lines/s)"
 9,Java,238,253,1564
 7,C++,224,94,920
 4,C/C++ Header,41,2,160

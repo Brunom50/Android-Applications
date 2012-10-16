@@ -1,9 +1,5 @@
-Name,# Callers,# Callees,# RCG
-Reflection,193,193,193
-Dangerous Reflection,184,184,184
-JNI,871,864,893
-Read File,14,13,15
-Access Sensors,6,6,6
-Crypto,241,241,241
-Security,705,644,717
-Union All Sources,956,904,969
+Name,# Callers,# Callees,#RCG Nodes, #RCG Edges
+Reflection,0,0,0,0
+Sensitive Reflection,0,0,0,0
+JNI,0,0,0,0
+Union All Sources,0,0,0,0

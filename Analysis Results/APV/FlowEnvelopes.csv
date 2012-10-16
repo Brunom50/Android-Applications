@@ -1,0 +1,25 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Java Cryptology,Sneaky Intent,Call Chain Leak,0,0
+Java Cryptology,Sneaky Intent,Exception Leak,0,0
+Java Cryptology,Write Logs,Call Chain Leak,7,6
+Java Cryptology,Write Logs,Exception Leak,7,6
+Access Sensors,Sneaky Intent,Call Chain Leak,0,0
+Access Sensors,Sneaky Intent,Exception Leak,0,0
+Access Sensors,Write Logs,Call Chain Leak,3,2
+Access Sensors,Write Logs,Exception Leak,3,2
+Access Contacts,Sneaky Intent,Call Chain Leak,0,0
+Access Contacts,Sneaky Intent,Exception Leak,0,0
+Access Contacts,Write Logs,Call Chain Leak,16,23
+Access Contacts,Write Logs,Exception Leak,16,23
+Access Camera,Sneaky Intent,Call Chain Leak,0,0
+Access Camera,Sneaky Intent,Exception Leak,0,0
+Access Camera,Write Logs,Call Chain Leak,0,0
+Access Camera,Write Logs,Exception Leak,0,0
+Read File,Sneaky Intent,Call Chain Leak,0,0
+Read File,Sneaky Intent,Exception Leak,0,0
+Read File,Write Logs,Call Chain Leak,7,6
+Read File,Write Logs,Exception Leak,7,6
+Java Security,Sneaky Intent,Call Chain Leak,0,0
+Java Security,Sneaky Intent,Exception Leak,0,0
+Java Security,Write Logs,Call Chain Leak,28,36
+Java Security,Write Logs,Exception Leak,28,36

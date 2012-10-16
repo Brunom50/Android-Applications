@@ -1,9 +1,6 @@
-Name,# Callers,# Callees,# RCG
-Reflection,193,193,193
-Dangerous Reflection,184,184,184
-JNI,868,864,875
-Java Cryptology,241,241,241
-Read File,19,18,20
-Java Security,705,644,717
-Access Sensors,6,6,6
-Union All Sources,961,909,974
+Name,# Callers,# Callees,#RCG Nodes, #RCG Edges
+Reflection,0,0,0,0
+Sensitive Reflection,0,0,0,0
+JNI,0,0,0,0
+Access Contacts,1,1,3,2
+Union All Sources,1,1,3,2

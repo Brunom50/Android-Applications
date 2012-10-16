@@ -1,6 +1,6 @@
-files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.56  T=1.0 s (212.0 files/s, 53380.0 lines/s)"
+files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.56  T=1.0 s (210.0 files/s, 48326.0 lines/s)"
 132,XML,1612,13439,8517
-46,Java,6823,12798,5279
+44,Java,6819,8024,5003
 28,HTML,571,385,3592
 4,Bourne Again Shell,24,32,258
 1,CSS,8,7,14

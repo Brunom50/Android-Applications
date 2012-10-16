@@ -1,0 +1,73 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Access Contacts,SMS,Call Chain Leak,0,0
+Access Contacts,SMS,Exception Leak,0,0
+Access Contacts,Write File,Call Chain Leak,417,606
+Access Contacts,Write File,Exception Leak,417,606
+Access Contacts,Sneaky Intent,Call Chain Leak,0,0
+Access Contacts,Sneaky Intent,Exception Leak,0,0
+Access Contacts,Write Logs,Call Chain Leak,529,1110
+Access Contacts,Write Logs,Exception Leak,529,1110
+Access Contacts,Internet Intent,Call Chain Leak,430,630
+Access Contacts,Internet Intent,Exception Leak,430,630
+Access Contacts,Internet,Call Chain Leak,0,0
+Access Contacts,Internet,Exception Leak,0,0
+Java Security,SMS,Call Chain Leak,0,0
+Java Security,SMS,Exception Leak,0,0
+Java Security,Write File,Call Chain Leak,0,0
+Java Security,Write File,Exception Leak,0,0
+Java Security,Sneaky Intent,Call Chain Leak,0,0
+Java Security,Sneaky Intent,Exception Leak,0,0
+Java Security,Write Logs,Call Chain Leak,6,5
+Java Security,Write Logs,Exception Leak,6,5
+Java Security,Internet Intent,Call Chain Leak,0,0
+Java Security,Internet Intent,Exception Leak,0,0
+Java Security,Internet,Call Chain Leak,0,0
+Java Security,Internet,Exception Leak,0,0
+Access Camera,SMS,Call Chain Leak,0,0
+Access Camera,SMS,Exception Leak,0,0
+Access Camera,Write File,Call Chain Leak,459,751
+Access Camera,Write File,Exception Leak,459,751
+Access Camera,Sneaky Intent,Call Chain Leak,0,0
+Access Camera,Sneaky Intent,Exception Leak,0,0
+Access Camera,Write Logs,Call Chain Leak,568,1178
+Access Camera,Write Logs,Exception Leak,568,1178
+Access Camera,Internet Intent,Call Chain Leak,474,779
+Access Camera,Internet Intent,Exception Leak,474,779
+Access Camera,Internet,Call Chain Leak,0,0
+Access Camera,Internet,Exception Leak,0,0
+Read Phone State,SMS,Call Chain Leak,0,0
+Read Phone State,SMS,Exception Leak,0,0
+Read Phone State,Write File,Call Chain Leak,138,231
+Read Phone State,Write File,Exception Leak,138,231
+Read Phone State,Sneaky Intent,Call Chain Leak,0,0
+Read Phone State,Sneaky Intent,Exception Leak,0,0
+Read Phone State,Write Logs,Call Chain Leak,222,446
+Read Phone State,Write Logs,Exception Leak,222,446
+Read Phone State,Internet Intent,Call Chain Leak,142,238
+Read Phone State,Internet Intent,Exception Leak,142,238
+Read Phone State,Internet,Call Chain Leak,0,0
+Read Phone State,Internet,Exception Leak,0,0
+Access Network State,SMS,Call Chain Leak,0,0
+Access Network State,SMS,Exception Leak,0,0
+Access Network State,Write File,Call Chain Leak,0,0
+Access Network State,Write File,Exception Leak,0,0
+Access Network State,Sneaky Intent,Call Chain Leak,0,0
+Access Network State,Sneaky Intent,Exception Leak,0,0
+Access Network State,Write Logs,Call Chain Leak,25,35
+Access Network State,Write Logs,Exception Leak,25,35
+Access Network State,Internet Intent,Call Chain Leak,0,0
+Access Network State,Internet Intent,Exception Leak,0,0
+Access Network State,Internet,Call Chain Leak,8,7
+Access Network State,Internet,Exception Leak,8,7
+Read File,SMS,Call Chain Leak,0,0
+Read File,SMS,Exception Leak,0,0
+Read File,Write File,Call Chain Leak,413,601
+Read File,Write File,Exception Leak,413,601
+Read File,Sneaky Intent,Call Chain Leak,0,0
+Read File,Sneaky Intent,Exception Leak,0,0
+Read File,Write Logs,Call Chain Leak,527,1107
+Read File,Write Logs,Exception Leak,527,1107
+Read File,Internet Intent,Call Chain Leak,428,629
+Read File,Internet Intent,Exception Leak,428,629
+Read File,Internet,Call Chain Leak,0,0
+Read File,Internet,Exception Leak,0,0

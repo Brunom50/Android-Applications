@@ -1,0 +1,13 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Access Camera,Sneaky Intent,Call Chain Leak,0,0
+Access Camera,Sneaky Intent,Exception Leak,0,0
+Access Camera,Internet,Call Chain Leak,0,0
+Access Camera,Internet,Exception Leak,0,0
+Access Camera,Write Logs,Call Chain Leak,40,66
+Access Camera,Write Logs,Exception Leak,40,66
+Access Sensors,Sneaky Intent,Call Chain Leak,0,0
+Access Sensors,Sneaky Intent,Exception Leak,0,0
+Access Sensors,Internet,Call Chain Leak,0,0
+Access Sensors,Internet,Exception Leak,0,0
+Access Sensors,Write Logs,Call Chain Leak,6,7
+Access Sensors,Write Logs,Exception Leak,6,7

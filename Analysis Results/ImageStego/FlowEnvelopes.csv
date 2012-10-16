@@ -1,0 +1,3 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Access Contacts,Write Logs,Call Chain Leak,4,3
+Access Contacts,Write Logs,Exception Leak,4,3

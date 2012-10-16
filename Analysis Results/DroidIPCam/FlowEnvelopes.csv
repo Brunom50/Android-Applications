@@ -1,0 +1,49 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Access Audio,Write File,Call Chain Leak,0,0
+Access Audio,Write File,Exception Leak,0,0
+Access Audio,Write Logs,Call Chain Leak,13,16
+Access Audio,Write Logs,Exception Leak,13,16
+Access Audio,Internet,Call Chain Leak,0,0
+Access Audio,Internet,Exception Leak,0,0
+Java Security,Write File,Call Chain Leak,14,23
+Java Security,Write File,Exception Leak,14,23
+Java Security,Write Logs,Call Chain Leak,0,0
+Java Security,Write Logs,Exception Leak,0,0
+Java Security,Internet,Call Chain Leak,4,3
+Java Security,Internet,Exception Leak,4,3
+Access Network State,Write File,Call Chain Leak,0,0
+Access Network State,Write File,Exception Leak,0,0
+Access Network State,Write Logs,Call Chain Leak,6,5
+Access Network State,Write Logs,Exception Leak,6,5
+Access Network State,Internet,Call Chain Leak,7,6
+Access Network State,Internet,Exception Leak,7,6
+Access Location,Write File,Call Chain Leak,0,0
+Access Location,Write File,Exception Leak,0,0
+Access Location,Write Logs,Call Chain Leak,6,5
+Access Location,Write Logs,Exception Leak,6,5
+Access Location,Internet,Call Chain Leak,7,6
+Access Location,Internet,Exception Leak,7,6
+Read File,Write File,Call Chain Leak,26,39
+Read File,Write File,Exception Leak,26,39
+Read File,Write Logs,Call Chain Leak,13,16
+Read File,Write Logs,Exception Leak,13,16
+Read File,Internet,Call Chain Leak,4,3
+Read File,Internet,Exception Leak,4,3
+Access Wifi State,Write File,Call Chain Leak,0,0
+Access Wifi State,Write File,Exception Leak,0,0
+Access Wifi State,Write Logs,Call Chain Leak,7,6
+Access Wifi State,Write Logs,Exception Leak,7,6
+Access Wifi State,Internet,Call Chain Leak,8,7
+Access Wifi State,Internet,Exception Leak,8,7
+Access Camera,Write File,Call Chain Leak,10,9
+Access Camera,Write File,Exception Leak,10,9
+Access Camera,Write Logs,Call Chain Leak,23,29
+Access Camera,Write Logs,Exception Leak,23,29
+Access Camera,Internet,Call Chain Leak,9,8
+Access Camera,Internet,Exception Leak,9,8
+Java Cryptology,Write File,Call Chain Leak,23,37
+Java Cryptology,Write File,Exception Leak,23,37
+Java Cryptology,Write Logs,Call Chain Leak,0,0
+Java Cryptology,Write Logs,Exception Leak,0,0
+Java Cryptology,Internet,Call Chain Leak,4,3
+Java Cryptology,Internet,Exception Leak,4,3

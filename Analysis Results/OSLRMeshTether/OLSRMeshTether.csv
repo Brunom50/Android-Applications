@@ -1,0 +1,10 @@
+Name,# Callers,# Callees,#RCG Nodes, #RCG Edges
+Reflection,2,1,7,7
+Sensitive Reflection,2,1,7,7
+JNI,0,0,0,0
+Java Security,1,1,4,3
+Access Wifi State,3,3,7,4
+Java Cryptology,2,3,8,7
+Read File,2,3,11,11
+Access Network State,1,1,2,1
+Union All Sources,7,11,24,21

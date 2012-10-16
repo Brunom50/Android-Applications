@@ -1,0 +1,85 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Java Security,Sneaky Intent,Call Chain Leak,0,0
+Java Security,Sneaky Intent,Exception Leak,0,0
+Java Security,Internet Intent,Call Chain Leak,416,853
+Java Security,Internet Intent,Exception Leak,416,853
+Java Security,Write File,Call Chain Leak,574,1218
+Java Security,Write File,Exception Leak,574,1218
+Java Security,Write Logs,Call Chain Leak,711,1606
+Java Security,Write Logs,Exception Leak,711,1606
+Java Security,Internet,Call Chain Leak,286,657
+Java Security,Internet,Exception Leak,286,657
+Java Security,SMS,Call Chain Leak,283,652
+Java Security,SMS,Exception Leak,283,652
+Read Phone State,Sneaky Intent,Call Chain Leak,0,0
+Read Phone State,Sneaky Intent,Exception Leak,0,0
+Read Phone State,Internet Intent,Call Chain Leak,57,73
+Read Phone State,Internet Intent,Exception Leak,57,73
+Read Phone State,Write File,Call Chain Leak,300,616
+Read Phone State,Write File,Exception Leak,300,616
+Read Phone State,Write Logs,Call Chain Leak,401,884
+Read Phone State,Write Logs,Exception Leak,401,884
+Read Phone State,Internet,Call Chain Leak,18,21
+Read Phone State,Internet,Exception Leak,18,21
+Read Phone State,SMS,Call Chain Leak,12,13
+Read Phone State,SMS,Exception Leak,12,13
+Access Contacts,Sneaky Intent,Call Chain Leak,0,0
+Access Contacts,Sneaky Intent,Exception Leak,0,0
+Access Contacts,Internet Intent,Call Chain Leak,152,214
+Access Contacts,Internet Intent,Exception Leak,152,214
+Access Contacts,Write File,Call Chain Leak,377,749
+Access Contacts,Write File,Exception Leak,377,749
+Access Contacts,Write Logs,Call Chain Leak,481,1046
+Access Contacts,Write Logs,Exception Leak,481,1046
+Access Contacts,Internet,Call Chain Leak,68,95
+Access Contacts,Internet,Exception Leak,68,95
+Access Contacts,SMS,Call Chain Leak,68,93
+Access Contacts,SMS,Exception Leak,68,93
+Access Camera,Sneaky Intent,Call Chain Leak,0,0
+Access Camera,Sneaky Intent,Exception Leak,0,0
+Access Camera,Internet Intent,Call Chain Leak,0,0
+Access Camera,Internet Intent,Exception Leak,0,0
+Access Camera,Write File,Call Chain Leak,81,284
+Access Camera,Write File,Exception Leak,81,284
+Access Camera,Write Logs,Call Chain Leak,67,239
+Access Camera,Write Logs,Exception Leak,67,239
+Access Camera,Internet,Call Chain Leak,0,0
+Access Camera,Internet,Exception Leak,0,0
+Access Camera,SMS,Call Chain Leak,0,0
+Access Camera,SMS,Exception Leak,0,0
+Access Network State,Sneaky Intent,Call Chain Leak,0,0
+Access Network State,Sneaky Intent,Exception Leak,0,0
+Access Network State,Internet Intent,Call Chain Leak,32,44
+Access Network State,Internet Intent,Exception Leak,32,44
+Access Network State,Write File,Call Chain Leak,251,547
+Access Network State,Write File,Exception Leak,251,547
+Access Network State,Write Logs,Call Chain Leak,333,770
+Access Network State,Write Logs,Exception Leak,333,770
+Access Network State,Internet,Call Chain Leak,22,29
+Access Network State,Internet,Exception Leak,22,29
+Access Network State,SMS,Call Chain Leak,17,22
+Access Network State,SMS,Exception Leak,17,22
+Read File,Sneaky Intent,Call Chain Leak,0,0
+Read File,Sneaky Intent,Exception Leak,0,0
+Read File,Internet Intent,Call Chain Leak,348,680
+Read File,Internet Intent,Exception Leak,348,680
+Read File,Write File,Call Chain Leak,550,1194
+Read File,Write File,Exception Leak,550,1194
+Read File,Write Logs,Call Chain Leak,636,1382
+Read File,Write Logs,Exception Leak,636,1382
+Read File,Internet,Call Chain Leak,219,488
+Read File,Internet,Exception Leak,219,488
+Read File,SMS,Call Chain Leak,218,485
+Read File,SMS,Exception Leak,218,485
+Java Cryptology,Sneaky Intent,Call Chain Leak,0,0
+Java Cryptology,Sneaky Intent,Exception Leak,0,0
+Java Cryptology,Internet Intent,Call Chain Leak,503,1047
+Java Cryptology,Internet Intent,Exception Leak,503,1047
+Java Cryptology,Write File,Call Chain Leak,656,1394
+Java Cryptology,Write File,Exception Leak,656,1394
+Java Cryptology,Write Logs,Call Chain Leak,760,1728
+Java Cryptology,Write Logs,Exception Leak,760,1728
+Java Cryptology,Internet,Call Chain Leak,353,804
+Java Cryptology,Internet,Exception Leak,353,804
+Java Cryptology,SMS,Call Chain Leak,350,799
+Java Cryptology,SMS,Exception Leak,350,799

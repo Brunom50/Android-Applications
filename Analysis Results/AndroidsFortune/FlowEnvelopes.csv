@@ -1,0 +1,41 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Read File,Composer Intent,Call Chain Leak,26,34
+Read File,Composer Intent,Exception Leak,26,34
+Read File,Sneaky Intent,Call Chain Leak,0,0
+Read File,Sneaky Intent,Exception Leak,0,0
+Read File,Write File,Call Chain Leak,15,14
+Read File,Write File,Exception Leak,15,14
+Read File,Write Logs,Call Chain Leak,49,65
+Read File,Write Logs,Exception Leak,49,65
+Read File,Internet Intent,Call Chain Leak,26,34
+Read File,Internet Intent,Exception Leak,26,34
+Java Security,Composer Intent,Call Chain Leak,0,0
+Java Security,Composer Intent,Exception Leak,0,0
+Java Security,Sneaky Intent,Call Chain Leak,0,0
+Java Security,Sneaky Intent,Exception Leak,0,0
+Java Security,Write File,Call Chain Leak,10,9
+Java Security,Write File,Exception Leak,10,9
+Java Security,Write Logs,Call Chain Leak,10,12
+Java Security,Write Logs,Exception Leak,10,12
+Java Security,Internet Intent,Call Chain Leak,0,0
+Java Security,Internet Intent,Exception Leak,0,0
+Access Camera,Composer Intent,Call Chain Leak,4,3
+Access Camera,Composer Intent,Exception Leak,4,3
+Access Camera,Sneaky Intent,Call Chain Leak,0,0
+Access Camera,Sneaky Intent,Exception Leak,0,0
+Access Camera,Write File,Call Chain Leak,0,0
+Access Camera,Write File,Exception Leak,0,0
+Access Camera,Write Logs,Call Chain Leak,0,0
+Access Camera,Write Logs,Exception Leak,0,0
+Access Camera,Internet Intent,Call Chain Leak,4,3
+Access Camera,Internet Intent,Exception Leak,4,3
+Java Cryptology,Composer Intent,Call Chain Leak,0,0
+Java Cryptology,Composer Intent,Exception Leak,0,0
+Java Cryptology,Sneaky Intent,Call Chain Leak,0,0
+Java Cryptology,Sneaky Intent,Exception Leak,0,0
+Java Cryptology,Write File,Call Chain Leak,11,10
+Java Cryptology,Write File,Exception Leak,11,10
+Java Cryptology,Write Logs,Call Chain Leak,11,13
+Java Cryptology,Write Logs,Exception Leak,11,13
+Java Cryptology,Internet Intent,Call Chain Leak,0,0
+Java Cryptology,Internet Intent,Exception Leak,0,0

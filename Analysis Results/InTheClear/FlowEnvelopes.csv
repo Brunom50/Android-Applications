@@ -1,0 +1,49 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Access Contacts,SMS,Call Chain Leak,0,0
+Access Contacts,SMS,Exception Leak,0,0
+Access Contacts,Write File,Call Chain Leak,20,29
+Access Contacts,Write File,Exception Leak,20,29
+Access Contacts,Write Logs,Call Chain Leak,18,33
+Access Contacts,Write Logs,Exception Leak,18,33
+Access Contacts,Sneaky Intent,Call Chain Leak,0,0
+Access Contacts,Sneaky Intent,Exception Leak,0,0
+Access Accounts,SMS,Call Chain Leak,0,0
+Access Accounts,SMS,Exception Leak,0,0
+Access Accounts,Write File,Call Chain Leak,21,30
+Access Accounts,Write File,Exception Leak,21,30
+Access Accounts,Write Logs,Call Chain Leak,18,33
+Access Accounts,Write Logs,Exception Leak,18,33
+Access Accounts,Sneaky Intent,Call Chain Leak,0,0
+Access Accounts,Sneaky Intent,Exception Leak,0,0
+Read File,SMS,Call Chain Leak,0,0
+Read File,SMS,Exception Leak,0,0
+Read File,Write File,Call Chain Leak,23,32
+Read File,Write File,Exception Leak,23,32
+Read File,Write Logs,Call Chain Leak,21,36
+Read File,Write Logs,Exception Leak,21,36
+Read File,Sneaky Intent,Call Chain Leak,0,0
+Read File,Sneaky Intent,Exception Leak,0,0
+Access Location,SMS,Call Chain Leak,13,15
+Access Location,SMS,Exception Leak,13,15
+Access Location,Write File,Call Chain Leak,0,0
+Access Location,Write File,Exception Leak,0,0
+Access Location,Write Logs,Call Chain Leak,14,15
+Access Location,Write Logs,Exception Leak,14,15
+Access Location,Sneaky Intent,Call Chain Leak,0,0
+Access Location,Sneaky Intent,Exception Leak,0,0
+Read Phone State,SMS,Call Chain Leak,11,12
+Read Phone State,SMS,Exception Leak,11,12
+Read Phone State,Write File,Call Chain Leak,0,0
+Read Phone State,Write File,Exception Leak,0,0
+Read Phone State,Write Logs,Call Chain Leak,12,12
+Read Phone State,Write Logs,Exception Leak,12,12
+Read Phone State,Sneaky Intent,Call Chain Leak,0,0
+Read Phone State,Sneaky Intent,Exception Leak,0,0
+Java Security,SMS,Call Chain Leak,0,0
+Java Security,SMS,Exception Leak,0,0
+Java Security,Write File,Call Chain Leak,0,0
+Java Security,Write File,Exception Leak,0,0
+Java Security,Write Logs,Call Chain Leak,12,11
+Java Security,Write Logs,Exception Leak,12,11
+Java Security,Sneaky Intent,Call Chain Leak,0,0
+Java Security,Sneaky Intent,Exception Leak,0,0

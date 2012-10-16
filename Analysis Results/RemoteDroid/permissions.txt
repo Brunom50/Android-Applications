@@ -1,0 +1,6 @@
+RemoteDroid
+-------------------------------
+android.permission.INTERNET
+android.permission.STATUS_BAR
+android.permission.WAKE_LOCK
+

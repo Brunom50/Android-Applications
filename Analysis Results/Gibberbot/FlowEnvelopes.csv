@@ -1,0 +1,49 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Access Contacts,Internet Intent,Call Chain Leak,874,1407
+Access Contacts,Internet Intent,Exception Leak,874,1407
+Access Contacts,Write Logs,Call Chain Leak,1164,2430
+Access Contacts,Write Logs,Exception Leak,1164,2430
+Access Contacts,Write File,Call Chain Leak,770,1247
+Access Contacts,Write File,Exception Leak,770,1247
+Access Contacts,Sneaky Intent,Call Chain Leak,0,0
+Access Contacts,Sneaky Intent,Exception Leak,0,0
+Access Camera,Internet Intent,Call Chain Leak,778,1341
+Access Camera,Internet Intent,Exception Leak,778,1341
+Access Camera,Write Logs,Call Chain Leak,1061,2251
+Access Camera,Write Logs,Exception Leak,1061,2251
+Access Camera,Write File,Call Chain Leak,722,1225
+Access Camera,Write File,Exception Leak,722,1225
+Access Camera,Sneaky Intent,Call Chain Leak,0,0
+Access Camera,Sneaky Intent,Exception Leak,0,0
+Read File,Internet Intent,Call Chain Leak,727,1166
+Read File,Internet Intent,Exception Leak,727,1166
+Read File,Write Logs,Call Chain Leak,991,2116
+Read File,Write Logs,Exception Leak,991,2116
+Read File,Write File,Call Chain Leak,653,1028
+Read File,Write File,Exception Leak,653,1028
+Read File,Sneaky Intent,Call Chain Leak,0,0
+Read File,Sneaky Intent,Exception Leak,0,0
+Access Wifi State,Internet Intent,Call Chain Leak,657,1056
+Access Wifi State,Internet Intent,Exception Leak,657,1056
+Access Wifi State,Write Logs,Call Chain Leak,927,1990
+Access Wifi State,Write Logs,Exception Leak,927,1990
+Access Wifi State,Write File,Call Chain Leak,600,949
+Access Wifi State,Write File,Exception Leak,600,949
+Access Wifi State,Sneaky Intent,Call Chain Leak,0,0
+Access Wifi State,Sneaky Intent,Exception Leak,0,0
+Java Security,Internet Intent,Call Chain Leak,855,1443
+Java Security,Internet Intent,Exception Leak,855,1443
+Java Security,Write Logs,Call Chain Leak,1122,2409
+Java Security,Write Logs,Exception Leak,1122,2409
+Java Security,Write File,Call Chain Leak,774,1288
+Java Security,Write File,Exception Leak,774,1288
+Java Security,Sneaky Intent,Call Chain Leak,0,0
+Java Security,Sneaky Intent,Exception Leak,0,0
+Java Cryptology,Internet Intent,Call Chain Leak,758,1222
+Java Cryptology,Internet Intent,Exception Leak,758,1222
+Java Cryptology,Write Logs,Call Chain Leak,1022,2175
+Java Cryptology,Write Logs,Exception Leak,1022,2175
+Java Cryptology,Write File,Call Chain Leak,682,1084
+Java Cryptology,Write File,Exception Leak,682,1084
+Java Cryptology,Sneaky Intent,Call Chain Leak,0,0
+Java Cryptology,Sneaky Intent,Exception Leak,0,0

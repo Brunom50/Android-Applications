@@ -1,0 +1,41 @@
+Source,Sink,Detection Mechanism,# Nodes,# Edges
+Java Security,Write File,Call Chain Leak,8,7
+Java Security,Write File,Exception Leak,8,7
+Java Security,Internet Intent,Call Chain Leak,12,13
+Java Security,Internet Intent,Exception Leak,12,13
+Java Security,Write Logs,Call Chain Leak,23,34
+Java Security,Write Logs,Exception Leak,23,34
+Java Security,Sneaky Intent,Call Chain Leak,0,0
+Java Security,Sneaky Intent,Exception Leak,0,0
+Access Wifi State,Write File,Call Chain Leak,8,7
+Access Wifi State,Write File,Exception Leak,8,7
+Access Wifi State,Internet Intent,Call Chain Leak,13,14
+Access Wifi State,Internet Intent,Exception Leak,13,14
+Access Wifi State,Write Logs,Call Chain Leak,25,37
+Access Wifi State,Write Logs,Exception Leak,25,37
+Access Wifi State,Sneaky Intent,Call Chain Leak,0,0
+Access Wifi State,Sneaky Intent,Exception Leak,0,0
+Java Cryptology,Write File,Call Chain Leak,11,10
+Java Cryptology,Write File,Exception Leak,11,10
+Java Cryptology,Internet Intent,Call Chain Leak,16,18
+Java Cryptology,Internet Intent,Exception Leak,16,18
+Java Cryptology,Write Logs,Call Chain Leak,26,39
+Java Cryptology,Write Logs,Exception Leak,26,39
+Java Cryptology,Sneaky Intent,Call Chain Leak,0,0
+Java Cryptology,Sneaky Intent,Exception Leak,0,0
+Read File,Write File,Call Chain Leak,14,14
+Read File,Write File,Exception Leak,14,14
+Read File,Internet Intent,Call Chain Leak,18,20
+Read File,Internet Intent,Exception Leak,18,20
+Read File,Write Logs,Call Chain Leak,29,41
+Read File,Write Logs,Exception Leak,29,41
+Read File,Sneaky Intent,Call Chain Leak,0,0
+Read File,Sneaky Intent,Exception Leak,0,0
+Access Network State,Write File,Call Chain Leak,0,0
+Access Network State,Write File,Exception Leak,0,0
+Access Network State,Internet Intent,Call Chain Leak,0,0
+Access Network State,Internet Intent,Exception Leak,0,0
+Access Network State,Write Logs,Call Chain Leak,0,0
+Access Network State,Write Logs,Exception Leak,0,0
+Access Network State,Sneaky Intent,Call Chain Leak,0,0
+Access Network State,Sneaky Intent,Exception Leak,0,0
