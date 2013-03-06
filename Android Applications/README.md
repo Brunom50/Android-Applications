@@ -1,6 +1,6 @@
 Android-Applications
 ====================
-A collection of cleanly compiling Android apps (non-malware) for SDK 14
+A collection of cleanly compiling Android apps (non-malware) for SDK 15
 
 - Each folder in collection contains a unique project that consists of one or more Eclipse project files (if there are dependencies).
 - Each top level project folder contains a source.txt file with information on where the open source Android application was obtained
