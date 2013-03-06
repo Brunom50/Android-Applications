@@ -2,10 +2,10 @@
 
 #Entire directories to ignore
 bin/
-gen/
 tmp/
+# not deleting /gen is causes to many compile problems when its missing
+
 .jatlas-settings/
-.settings/
 
 # version control
 .svn/
