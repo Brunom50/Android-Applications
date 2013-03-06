@@ -1,0 +1,1 @@
+Simple Open Source PDF Viewer based on MuPDF library.

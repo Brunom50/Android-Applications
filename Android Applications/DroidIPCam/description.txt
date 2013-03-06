@@ -1,0 +1,7 @@
+The most simple app to maki your android to a wifi based IP camera.
+No setup, plug and play, see and hear of phone's video and voice in PC at same network or internet ( your route must support).
+Support IE, Firefox and Chrome, no software installed.
+
+-------------------------
+It is total open source project (
+https://github.com/Teaonly/android-eye) , you can rebuilt it without Google AD :)

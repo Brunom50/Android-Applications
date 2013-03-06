@@ -1,0 +1,1 @@
+An Android application that provides a basic countdown timer that plays an alarm when it reaches zero - for use with things like cooking, laundry and other tasks.

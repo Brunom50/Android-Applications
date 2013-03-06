@@ -1,0 +1,3 @@
+The well-known Fortune for Android: print a random, hopefully interesting, adage.
+
+This is the homepage (and main project summary page) for Android's Fortune.

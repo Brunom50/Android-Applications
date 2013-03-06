@@ -1,1 +1,4 @@
 https://github.com/guardianproject/ImageStego
+
+now renamed to:
+https://github.com/guardianproject/PixelKnot
