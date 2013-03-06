@@ -6,7 +6,8 @@
 	<classpathentry kind="lib" path="libs/libGoogleAnalytics.jar"/>
 	<classpathentry kind="lib" path="libs/FlurryAgent.jar"/>
 	<classpathentry kind="lib" path="libs/veecheck-2.0.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/OI About"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OI About"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OI Distribution Library"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

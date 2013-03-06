@@ -12,16 +12,16 @@ public final class R {
         /**  Add your name here if you helped out 
  <item>pjv https://launchpad.net/~pjv</item>  
          */
-        public static final int about_artists=0x7f070003;
-        public static final int about_authors=0x7f070000;
+        public static int about_artists=0x7f070003;
+        public static int about_authors=0x7f070000;
         /**  Add your name here if you helped out 
  <item></item> 
          */
-        public static final int about_documenters=0x7f070001;
+        public static int about_documenters=0x7f070001;
         /**  Add your name here if you helped out, but only in the arrays.xml for the localization that you helped to translate into! 
  <item></item>  
          */
-        public static final int about_translators=0x7f070002;
+        public static int about_translators=0x7f070002;
         /**  ***************************
 	     International languages
 	     *************************** 
@@ -159,63 +159,63 @@ public final class R {
 	     *************************** 
  Language names. 
          */
-        public static final int language_names=0x7f070004;
+        public static int language_names=0x7f070004;
         /**  Chinese (Traditional) 
          */
-        public static final int languages=0x7f070005;
+        public static int languages=0x7f070005;
     }
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_menu_info_details=0x7f020000;
+        public static int ic_menu_info_details=0x7f020000;
     }
     public static final class id {
-        public static final int background=0x7f080024;
-        public static final int button1=0x7f080021;
-        public static final int button2=0x7f080023;
-        public static final int container1=0x7f08001c;
-        public static final int container2=0x7f080020;
-        public static final int et_artists=0x7f080013;
-        public static final int et_authors=0x7f08000d;
-        public static final int et_documenters=0x7f08000f;
-        public static final int et_international_translators=0x7f080015;
-        public static final int et_license=0x7f080018;
-        public static final int et_recent_changes=0x7f08001a;
-        public static final int et_translators=0x7f080011;
-        public static final int i_email=0x7f080008;
-        public static final int i_logo=0x7f080002;
-        public static final int imageview=0x7f08001d;
-        public static final int l_artists=0x7f080012;
-        public static final int l_authors=0x7f08000c;
-        public static final int l_documenters=0x7f08000e;
-        public static final int l_international_translators=0x7f080014;
-        public static final int l_translators=0x7f080010;
-        public static final int ll_credits=0x7f08000b;
-        public static final int ll_email=0x7f080007;
-        public static final int ll_info=0x7f080001;
-        public static final int space=0x7f080022;
-        public static final int sv_credits=0x7f08000a;
-        public static final int sv_info=0x7f080000;
-        public static final int sv_license=0x7f080017;
-        public static final int sv_recent_changes=0x7f080019;
-        public static final int t_comments=0x7f080004;
-        public static final int t_copyright=0x7f080006;
-        public static final int t_email=0x7f080009;
-        public static final int t_program_name_and_version=0x7f080003;
-        public static final int t_website=0x7f080005;
-        public static final int text=0x7f08001f;
-        public static final int text1=0x7f08001b;
-        public static final int text2=0x7f08001e;
-        public static final int tv_no_information=0x7f080016;
+        public static int background=0x7f080024;
+        public static int button1=0x7f080021;
+        public static int button2=0x7f080023;
+        public static int container1=0x7f08001c;
+        public static int container2=0x7f080020;
+        public static int et_artists=0x7f080013;
+        public static int et_authors=0x7f08000d;
+        public static int et_documenters=0x7f08000f;
+        public static int et_international_translators=0x7f080015;
+        public static int et_license=0x7f080018;
+        public static int et_recent_changes=0x7f08001a;
+        public static int et_translators=0x7f080011;
+        public static int i_email=0x7f080008;
+        public static int i_logo=0x7f080002;
+        public static int imageview=0x7f08001d;
+        public static int l_artists=0x7f080012;
+        public static int l_authors=0x7f08000c;
+        public static int l_documenters=0x7f08000e;
+        public static int l_international_translators=0x7f080014;
+        public static int l_translators=0x7f080010;
+        public static int ll_credits=0x7f08000b;
+        public static int ll_email=0x7f080007;
+        public static int ll_info=0x7f080001;
+        public static int space=0x7f080022;
+        public static int sv_credits=0x7f08000a;
+        public static int sv_info=0x7f080000;
+        public static int sv_license=0x7f080017;
+        public static int sv_recent_changes=0x7f080019;
+        public static int t_comments=0x7f080004;
+        public static int t_copyright=0x7f080006;
+        public static int t_email=0x7f080009;
+        public static int t_program_name_and_version=0x7f080003;
+        public static int t_website=0x7f080005;
+        public static int text=0x7f08001f;
+        public static int text1=0x7f08001b;
+        public static int text2=0x7f08001e;
+        public static int tv_no_information=0x7f080016;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int oi_distribution_eula=0x7f030001;
-        public static final int oi_distribution_infoactivity=0x7f030002;
+        public static int main=0x7f030000;
+        public static int oi_distribution_eula=0x7f030001;
+        public static int oi_distribution_infoactivity=0x7f030002;
     }
     public static final class raw {
-        public static final int license_short=0x7f050000;
-        public static final int recent_changes=0x7f050001;
+        public static int license_short=0x7f050000;
+        public static int recent_changes=0x7f050001;
     }
     public static final class string {
         /**  About some application, where "%s" is the name of another application. 
@@ -253,7 +253,7 @@ public final class R {
  About some application, where "%s" is the name of another application. 
  About some application, where "%s" is the name of another application. 
          */
-        public static final int about_activity_name_extended=0x7f06003a;
+        public static int about_activity_name_extended=0x7f06003a;
         /**  Explanation what this application does. It is a menu extension for other applications. 
  Explanation what this application does. It is a menu extension for other applications. 
  Explanation what this application does. It is a menu extension for other applications. 
@@ -289,13 +289,13 @@ public final class R {
  Explanation what this application does. It is a menu extension for other applications. 
  Explanation what this application does. It is a menu extension for other applications. 
          */
-        public static final int about_comments=0x7f060032;
+        public static int about_comments=0x7f060032;
         /**  ***************************
 	     About information
 	     *************************** 
          */
-        public static final int about_copyright=0x7f060000;
-        public static final int about_email=0x7f060002;
+        public static int about_copyright=0x7f060000;
+        public static int about_email=0x7f060002;
         /**  ***************************
 	     About information
 	     *************************** 
@@ -569,8 +569,8 @@ public final class R {
 	     *************************** 
  Automatically filled in by Launchpad: 
          */
-        public static final int about_translators=0x7f06000e;
-        public static final int about_website_url=0x7f060001;
+        public static int about_translators=0x7f06000e;
+        public static int about_website_url=0x7f060001;
         /**  ***************************
 	     Applicatio-specific strings
 	     *************************** 
@@ -742,7 +742,7 @@ public final class R {
  Application name. Can be localized, like "OI About", or "OI Info". 
 	   This is an extension that shows an about dialog or info dialog.  
          */
-        public static final int app_name=0x7f060038;
+        public static int app_name=0x7f060038;
         /**  ***************************
 	     Distribution
 	     *************************** 
@@ -880,7 +880,7 @@ public final class R {
 	     *************************** 
  Name of an application. Please make sure that translations are consistent. 
          */
-        public static final int info_app_filemanager=0x7f060033;
+        public static int info_app_filemanager=0x7f060033;
         /**  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
@@ -916,7 +916,7 @@ public final class R {
  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
          */
-        public static final int info_app_notepad=0x7f060035;
+        public static int info_app_notepad=0x7f060035;
         /**  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
@@ -952,7 +952,7 @@ public final class R {
  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
          */
-        public static final int info_app_safe=0x7f060036;
+        public static int info_app_safe=0x7f060036;
         /**  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
@@ -988,7 +988,7 @@ public final class R {
  Name of an application. Please make sure that translations are consistent. 
  Name of an application. Please make sure that translations are consistent. 
          */
-        public static final int info_app_shopping=0x7f060034;
+        public static int info_app_shopping=0x7f060034;
         /**  %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
  %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
  %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
@@ -1024,18 +1024,18 @@ public final class R {
  %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
  %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
          */
-        public static final int info_instructions=0x7f060037;
-        public static final int l_artists=0x7f06003e;
-        public static final int l_authors=0x7f06003b;
-        public static final int l_credits=0x7f060040;
-        public static final int l_documenters=0x7f06003c;
-        public static final int l_info=0x7f060042;
-        public static final int l_international_translators=0x7f06003f;
-        public static final int l_license=0x7f060041;
-        public static final int l_recent_changes=0x7f060043;
-        public static final int l_translators=0x7f06003d;
-        public static final int menu_about=0x7f060039;
-        public static final int no_information_available=0x7f060044;
+        public static int info_instructions=0x7f060037;
+        public static int l_artists=0x7f06003e;
+        public static int l_authors=0x7f06003b;
+        public static int l_credits=0x7f060040;
+        public static int l_documenters=0x7f06003c;
+        public static int l_info=0x7f060042;
+        public static int l_international_translators=0x7f06003f;
+        public static int l_license=0x7f060041;
+        public static int l_recent_changes=0x7f060043;
+        public static int l_translators=0x7f06003d;
+        public static int menu_about=0x7f060039;
+        public static int no_information_available=0x7f060044;
         /**  About 
  Menu command to open the "about" or "info" dialog. 
  About 
@@ -1105,7 +1105,7 @@ public final class R {
  About 
  Menu command to open the "about" or "info" dialog. 
          */
-        public static final int oi_distribution_about=0x7f06001d;
+        public static int oi_distribution_about=0x7f06001d;
         /**  Name of the application "OI About". Translations of the application name should be consistent. 
  Name of the application "OI About". Translations of the application name should be consistent. 
  Name of the application "OI About". Translations of the application name should be consistent. 
@@ -1141,7 +1141,7 @@ public final class R {
  Name of the application "OI About". Translations of the application name should be consistent. 
  Name of the application "OI About". Translations of the application name should be consistent. 
          */
-        public static final int oi_distribution_aboutapp=0x7f060020;
+        public static int oi_distribution_aboutapp=0x7f060020;
         /**  Button text: Get the application "OI About". Translations of the application name should be consistent. 
  Button text: Get the application "OI About". Translations of the application name should be consistent. 
  Button text: Get the application "OI About". Translations of the application name should be consistent. 
@@ -1177,7 +1177,7 @@ public final class R {
  Button text: Get the application "OI About". Translations of the application name should be consistent. 
  Button text: Get the application "OI About". Translations of the application name should be consistent. 
          */
-        public static final int oi_distribution_aboutapp_get=0x7f06001f;
+        public static int oi_distribution_aboutapp_get=0x7f06001f;
         /**  %s is the version number (e.g. "1.2.1") 
  %s is the version number (e.g. "1.2.1") 
  %s is the version number (e.g. "1.2.1") 
@@ -1213,13 +1213,13 @@ public final class R {
  %s is the version number (e.g. "1.2.1") 
  %s is the version number (e.g. "1.2.1") 
          */
-        public static final int oi_distribution_aboutapp_not_available=0x7f06001e;
+        public static int oi_distribution_aboutapp_not_available=0x7f06001e;
         /**  203 = OI Update 
  About 
          */
-        public static final int oi_distribution_aboutapp_package=0x7f060005;
-        public static final int oi_distribution_aboutapp_website=0x7f060006;
-        public static final int oi_distribution_app_name=0x7f06000d;
+        public static int oi_distribution_aboutapp_package=0x7f060005;
+        public static int oi_distribution_aboutapp_website=0x7f060006;
+        public static int oi_distribution_app_name=0x7f06000d;
         /**  Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
  Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
  Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
@@ -1255,7 +1255,7 @@ public final class R {
  Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
  Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
          */
-        public static final int oi_distribution_barcodescanner=0x7f060021;
+        public static int oi_distribution_barcodescanner=0x7f060021;
         /**  Dialog message. 
  Dialog message. 
  Dialog message. 
@@ -1291,12 +1291,12 @@ public final class R {
  Dialog message. 
  Dialog message. 
          */
-        public static final int oi_distribution_barcodescanner_not_available=0x7f060022;
+        public static int oi_distribution_barcodescanner_not_available=0x7f060022;
         /**  202 = OI About 
  Barcode plugin 
          */
-        public static final int oi_distribution_barcodescanner_package=0x7f060007;
-        public static final int oi_distribution_barcodescanner_website=0x7f060008;
+        public static int oi_distribution_barcodescanner_package=0x7f060007;
+        public static int oi_distribution_barcodescanner_website=0x7f060008;
         /**  Dialog button: download the suggested application from Android Market. 
  Dialog button: download the suggested application from Android Market. 
  Dialog button: download the suggested application from Android Market. 
@@ -1332,7 +1332,7 @@ public final class R {
  Dialog button: download the suggested application from Android Market. 
  Dialog button: download the suggested application from Android Market. 
          */
-        public static final int oi_distribution_download_market=0x7f06002a;
+        public static int oi_distribution_download_market=0x7f06002a;
         /**  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
@@ -1368,7 +1368,7 @@ public final class R {
  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
          */
-        public static final int oi_distribution_download_market_message=0x7f060028;
+        public static int oi_distribution_download_market_message=0x7f060028;
         /**  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
@@ -1404,7 +1404,7 @@ public final class R {
  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
          */
-        public static final int oi_distribution_download_message=0x7f060029;
+        public static int oi_distribution_download_message=0x7f060029;
         /**  Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
@@ -1440,7 +1440,7 @@ public final class R {
  Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
  Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
          */
-        public static final int oi_distribution_download_title=0x7f06002c;
+        public static int oi_distribution_download_title=0x7f06002c;
         /**  Dialog button: download the suggested application from the developer web site. 
  Dialog button: download the suggested application from the developer web site. 
  Dialog button: download the suggested application from the developer web site. 
@@ -1476,7 +1476,7 @@ public final class R {
  Dialog button: download the suggested application from the developer web site. 
  Dialog button: download the suggested application from the developer web site. 
          */
-        public static final int oi_distribution_download_web=0x7f06002b;
+        public static int oi_distribution_download_web=0x7f06002b;
         /**  Button: Accept terms of EULA. 
  Button: Accept terms of EULA. 
  Button: Accept terms of EULA. 
@@ -1512,7 +1512,7 @@ public final class R {
  Button: Accept terms of EULA. 
  Button: Accept terms of EULA. 
          */
-        public static final int oi_distribution_eula_accept=0x7f060011;
+        public static int oi_distribution_eula_accept=0x7f060011;
         /**  EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
 		Translation can be as long as required. 
  EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
@@ -1582,7 +1582,7 @@ public final class R {
  EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
 		Translation can be as long as required. 
          */
-        public static final int oi_distribution_eula_message=0x7f060010;
+        public static int oi_distribution_eula_message=0x7f060010;
         /**  Button: Refuse terms of EULA. 
  Button: Refuse terms of EULA. 
  Button: Refuse terms of EULA. 
@@ -1618,7 +1618,7 @@ public final class R {
  Button: Refuse terms of EULA. 
  Button: Refuse terms of EULA. 
          */
-        public static final int oi_distribution_eula_refuse=0x7f060012;
+        public static int oi_distribution_eula_refuse=0x7f060012;
         /**  ***************************
 	     Distribution
 	     *************************** 
@@ -1824,7 +1824,7 @@ public final class R {
  EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
 		Translation should be short, since this is a title. 
          */
-        public static final int oi_distribution_eula_title=0x7f06000f;
+        public static int oi_distribution_eula_title=0x7f06000f;
         /**  Name of the application "OI File Manager". Translations of the application name should be consistent.  
  Name of the application "OI File Manager". Translations of the application name should be consistent.  
  Name of the application "OI File Manager". Translations of the application name should be consistent.  
@@ -1860,7 +1860,7 @@ public final class R {
  Name of the application "OI File Manager". Translations of the application name should be consistent.  
  Name of the application "OI File Manager". Translations of the application name should be consistent.  
          */
-        public static final int oi_distribution_filemanager=0x7f060023;
+        public static int oi_distribution_filemanager=0x7f060023;
         /**  Dialog message. 
  Dialog message. 
  Dialog message. 
@@ -1896,11 +1896,11 @@ public final class R {
  Dialog message. 
  Dialog message. 
          */
-        public static final int oi_distribution_filemanager_not_available=0x7f060024;
+        public static int oi_distribution_filemanager_not_available=0x7f060024;
         /**  File Manager 
          */
-        public static final int oi_distribution_filemanager_package=0x7f060009;
-        public static final int oi_distribution_filemanager_website=0x7f06000a;
+        public static int oi_distribution_filemanager_package=0x7f060009;
+        public static int oi_distribution_filemanager_website=0x7f06000a;
         /**  %s is an application name (e.g. "OI About can be used with the following applications:") 
  %s is an application name (e.g. "OI About can be used with the following applications:") 
  %s is an application name (e.g. "OI About can be used with the following applications:") 
@@ -1936,7 +1936,7 @@ public final class R {
  %s is an application name (e.g. "OI About can be used with the following applications:") 
  %s is an application name (e.g. "OI About can be used with the following applications:") 
          */
-        public static final int oi_distribution_info_activity_text=0x7f06002d;
+        public static int oi_distribution_info_activity_text=0x7f06002d;
         /**  Title of a dialog. 
  Title of a dialog. 
  Title of a dialog. 
@@ -1972,7 +1972,7 @@ public final class R {
  Title of a dialog. 
  Title of a dialog. 
          */
-        public static final int oi_distribution_info_instructions=0x7f060030;
+        public static int oi_distribution_info_instructions=0x7f060030;
         /**  %s is an application name (e.g. "Launch OI Notepad") 
  %s is an application name (e.g. "Launch OI Notepad") 
  %s is an application name (e.g. "Launch OI Notepad") 
@@ -2008,7 +2008,7 @@ public final class R {
  %s is an application name (e.g. "Launch OI Notepad") 
  %s is an application name (e.g. "Launch OI Notepad") 
          */
-        public static final int oi_distribution_info_launch=0x7f06002e;
+        public static int oi_distribution_info_launch=0x7f06002e;
         /**  %1$s is the current application name. %2$s is another application name, and %3$s is the other application's version name
     (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
  %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
@@ -2078,7 +2078,7 @@ public final class R {
  %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
     (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
          */
-        public static final int oi_distribution_info_not_available=0x7f06002f;
+        public static int oi_distribution_info_not_available=0x7f06002f;
         /**  Error message 
  Error message 
  Error message 
@@ -2114,7 +2114,7 @@ public final class R {
  Error message 
  Error message 
          */
-        public static final int oi_distribution_launch_error=0x7f060031;
+        public static int oi_distribution_launch_error=0x7f060031;
         /**  Update 
  Menu command to look for updates. 
  Update 
@@ -2184,7 +2184,7 @@ public final class R {
  Update 
  Menu command to look for updates. 
          */
-        public static final int oi_distribution_menu_update=0x7f060017;
+        public static int oi_distribution_menu_update=0x7f060017;
         /**  New version 
  Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
 	Keep unmodified, unless your language requires that the version number is displayed first. 
@@ -2288,7 +2288,7 @@ public final class R {
  Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
 	Keep unmodified, unless your language requires that the version number is displayed first. 
          */
-        public static final int oi_distribution_name_and_version=0x7f060013;
+        public static int oi_distribution_name_and_version=0x7f060013;
         /**  Button: Continue to main application. 
  Button: Continue to main application. 
  Button: Continue to main application. 
@@ -2324,7 +2324,7 @@ public final class R {
  Button: Continue to main application. 
  Button: Continue to main application. 
          */
-        public static final int oi_distribution_newversion_continue=0x7f060016;
+        public static int oi_distribution_newversion_continue=0x7f060016;
         /**  Welcome message. %s is an application name. 
  Welcome message. %s is an application name. 
  Welcome message. %s is an application name. 
@@ -2360,8 +2360,8 @@ public final class R {
  Welcome message. %s is an application name. 
  Welcome message. %s is an application name. 
          */
-        public static final int oi_distribution_newversion_message=0x7f060014;
-        public static final int oi_distribution_newversion_recent_changes=0x7f060015;
+        public static int oi_distribution_newversion_message=0x7f060014;
+        public static int oi_distribution_newversion_recent_changes=0x7f060015;
         /**  Safe 
  Name of the application "OI Safe". Translations of the application name should be consistent.  
  Safe 
@@ -2431,7 +2431,7 @@ public final class R {
  Safe 
  Name of the application "OI Safe". Translations of the application name should be consistent.  
          */
-        public static final int oi_distribution_safe=0x7f060025;
+        public static int oi_distribution_safe=0x7f060025;
         /**  Dialog message. 
  Dialog message. 
  Dialog message. 
@@ -2467,12 +2467,12 @@ public final class R {
  Dialog message. 
  Dialog message. 
          */
-        public static final int oi_distribution_safe_not_available=0x7f060026;
-        public static final int oi_distribution_safe_not_available_decrypt=0x7f060027;
+        public static int oi_distribution_safe_not_available=0x7f060026;
+        public static int oi_distribution_safe_not_available_decrypt=0x7f060027;
         /**  Safe 
          */
-        public static final int oi_distribution_safe_package=0x7f06000b;
-        public static final int oi_distribution_safe_website=0x7f06000c;
+        public static int oi_distribution_safe_package=0x7f06000b;
+        public static int oi_distribution_safe_website=0x7f06000c;
         /**  Name of the application "OI Update". Translations of the application name should be consistent. 
  Name of the application "OI Update". Translations of the application name should be consistent. 
  Name of the application "OI Update". Translations of the application name should be consistent. 
@@ -2508,20 +2508,20 @@ public final class R {
  Name of the application "OI Update". Translations of the application name should be consistent. 
  Name of the application "OI Update". Translations of the application name should be consistent. 
          */
-        public static final int oi_distribution_update_app=0x7f06001c;
-        public static final int oi_distribution_update_box_text=0x7f060018;
-        public static final int oi_distribution_update_check_now=0x7f060019;
+        public static int oi_distribution_update_app=0x7f06001c;
+        public static int oi_distribution_update_box_text=0x7f060018;
+        public static int oi_distribution_update_check_now=0x7f060019;
         /**  ***************************
 	     Distribution
 	     *************************** 
  Update 
          */
-        public static final int oi_distribution_update_checker_package=0x7f060003;
-        public static final int oi_distribution_update_checker_website=0x7f060004;
-        public static final int oi_distribution_update_error=0x7f06001b;
-        public static final int oi_distribution_update_get_updater=0x7f06001a;
+        public static int oi_distribution_update_checker_package=0x7f060003;
+        public static int oi_distribution_update_checker_website=0x7f060004;
+        public static int oi_distribution_update_error=0x7f06001b;
+        public static int oi_distribution_update_get_updater=0x7f06001a;
     }
     public static final class xml {
-        public static final int about=0x7f040000;
+        public static int about=0x7f040000;
     }
 }

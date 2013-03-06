@@ -9,12 +9,162 @@ package net.lp.androidsfortune;
 
 public final class R {
     public static final class array {
-        public static final int about_artists=0x7f060005;
-        public static final int about_authors=0x7f060002;
-        public static final int about_documenters=0x7f060003;
-        public static final int about_translators=0x7f060004;
-        public static final int entries_lp_font=0x7f060000;
-        public static final int entryvalues_lp_font=0x7f060001;
+        /**  Add your name here if you helped out 
+ <item>pjv https://launchpad.net/~pjv</item>  
+         */
+        public static final int about_artists=0x7f070003;
+        public static final int about_authors=0x7f070000;
+        /**  Add your name here if you helped out 
+ <item></item> 
+         */
+        public static final int about_documenters=0x7f070001;
+        /**  Add your name here if you helped out, but only in the arrays.xml for the localization that you helped to translate into! 
+ <item></item>  
+         */
+        public static final int about_translators=0x7f070002;
+        public static final int entries_lp_font=0x7f070006;
+        public static final int entryvalues_lp_font=0x7f070007;
+        /**  ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+ ***************************
+	     International languages
+	     *************************** 
+ Language names. 
+         */
+        public static final int language_names=0x7f070004;
+        /**  Chinese (Traditional) 
+         */
+        public static final int languages=0x7f070005;
     }
     public static final class attr {
         /** 
@@ -42,45 +192,95 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int cookie=0x7f020004;
         public static final int cookie_matte=0x7f020005;
         public static final int ic_dialog_menu_generic=0x7f020006;
-        public static final int ic_menu_refresh=0x7f020007;
-        public static final int ic_menu_star=0x7f020008;
-        public static final int widget_bg=0x7f020009;
-        public static final int widget_bg_message=0x7f02000a;
+        public static final int ic_menu_info_details=0x7f020007;
+        public static final int ic_menu_refresh=0x7f020008;
+        public static final int ic_menu_star=0x7f020009;
+        public static final int widget_bg=0x7f02000a;
+        public static final int widget_bg_message=0x7f02000b;
     }
     public static final class id {
-        public static final int b_cancel=0x7f09000c;
-        public static final int b_refresh=0x7f09000a;
-        public static final int b_show_cookie=0x7f09000b;
-        public static final int cookie=0x7f090007;
-        public static final int ll=0x7f090009;
-        public static final int message=0x7f09000d;
-        public static final int no=0x7f090004;
-        public static final int stop=0x7f090005;
+        public static final int b_cancel=0x7f090016;
+        public static final int b_refresh=0x7f090014;
+        public static final int b_show_cookie=0x7f090015;
+        public static final int background=0x7f09000c;
+        public static final int button1=0x7f090009;
+        public static final int button2=0x7f09000b;
+        public static final int container1=0x7f090004;
+        public static final int container2=0x7f090008;
+        public static final int cookie=0x7f090011;
+        public static final int imageview=0x7f090005;
+        public static final int ll=0x7f090013;
+        public static final int message=0x7f090017;
+        public static final int no=0x7f09000e;
+        public static final int space=0x7f09000a;
+        public static final int stop=0x7f09000f;
         public static final int sv_fscroll=0x7f090000;
         public static final int sv_scroll=0x7f090002;
+        public static final int text=0x7f090007;
+        public static final int text1=0x7f090003;
+        public static final int text2=0x7f090006;
         public static final int tv_quote=0x7f090001;
-        public static final int watermark=0x7f090008;
-        public static final int widget=0x7f090006;
-        public static final int yes=0x7f090003;
+        public static final int watermark=0x7f090012;
+        public static final int widget=0x7f090010;
+        public static final int yes=0x7f09000d;
     }
     public static final class layout {
         public static final int main=0x7f030000;
         public static final int main_ts=0x7f030001;
         public static final int main_wrap=0x7f030002;
-        public static final int preference_child=0x7f030003;
-        public static final int simple_list_item_multiple_choice=0x7f030004;
-        public static final int versioncheck=0x7f030005;
-        public static final int widget_cookie=0x7f030006;
-        public static final int widget_cookie_monospace=0x7f030007;
-        public static final int widget_cookie_sans=0x7f030008;
-        public static final int widget_dialog_activity=0x7f030009;
-        public static final int widget_message=0x7f03000a;
+        public static final int oi_distribution_eula=0x7f030003;
+        public static final int oi_distribution_infoactivity=0x7f030004;
+        public static final int preference_child=0x7f030005;
+        public static final int simple_list_item_multiple_choice=0x7f030006;
+        public static final int versioncheck=0x7f030007;
+        public static final int widget_cookie=0x7f030008;
+        public static final int widget_cookie_monospace=0x7f030009;
+        public static final int widget_cookie_sans=0x7f03000a;
+        public static final int widget_dialog_activity=0x7f03000b;
+        public static final int widget_message=0x7f03000c;
     }
     public static final class raw {
         public static final int license_short=0x7f050000;
-        public static final int work=0x7f050001;
+        public static final int recent_changes=0x7f050001;
+        public static final int work=0x7f050002;
     }
     public static final class string {
+        /**  About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+ About some application, where "%s" is the name of another application. 
+         */
+        public static final int about_activity_name_extended=0x7f06003a;
         /** 
 	 Message to display if OI About is not installed.
 	
@@ -166,8 +366,42 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 	 Message to display if OI About is not installed.
 	
          */
-        public static final int about_backup=0x7f070007;
-        /**  About box information 
+        public static final int about_backup=0x7f060048;
+        /**  Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ Explanation what this application does. It is a menu extension for other applications. 
+ About box information 
 
 	 Description about the app
 	
@@ -280,94 +514,98 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 	 Description about the app
 	
          */
-        public static final int about_comments=0x7f070002;
+        public static final int about_comments=0x7f060032;
+        /**  ***************************
+	     About information
+	     *************************** 
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+
+	 Copyright message
+	
+         */
+        public static final int about_copyright=0x7f060000;
+        public static final int about_email=0x7f060002;
         /** 
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-
-	 Copyright message
-	
-         */
-        public static final int about_copyright=0x7f070003;
-        /** 
 	 Feedback link
 	
 
@@ -452,8 +690,280 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 	 Feedback link
 	
          */
-        public static final int about_feedback=0x7f070006;
-        /** 
+        public static final int about_feedback=0x7f060047;
+        /**  ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+ ***************************
+	     About information
+	     *************************** 
+ Automatically filled in by Launchpad: 
+
 		Last but not least, a dummy translation string to catch Launchpad translators list in the translation files. Pure for technical reasons. DO NOT translate! But add your name if you translated and is not yet added (it should be added automatically when you translate on Launchpad). In the translation files the names in the list need to be edited manually after import to add ";"-separation for automatic parsing by OI About.
 	
 
@@ -538,7 +1048,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Last but not least, a dummy translation string to catch Launchpad translators list in the translation files. Pure for technical reasons. DO NOT translate! But add your name if you translated and is not yet added (it should be added automatically when you translate on Launchpad). In the translation files the names in the list need to be edited manually after import to add ";"-separation for automatic parsing by OI About.
 	
          */
-        public static final int about_translators=0x7f070066;
+        public static final int about_translators=0x7f06000e;
         /**  Add your name here, separated with comma's, if you helped out 
 
 	 Label for the website link
@@ -652,7 +1162,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 	 Label for the website link
 	
          */
-        public static final int about_website_label=0x7f070004;
+        public static final int about_website_label=0x7f060046;
         /** 
 	 Website link
 	
@@ -738,8 +1248,178 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 	 Website link
 	
          */
-        public static final int about_website_url=0x7f070005;
-        /** 
+        public static final int about_website_url=0x7f060001;
+        /**  ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+ ***************************
+	     Applicatio-specific strings
+	     *************************** 
+ Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  
+
 		App name.
 	
 
@@ -824,7 +1504,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		App name.
 	
          */
-        public static final int app_name=0x7f070000;
+        public static final int app_name=0x7f060038;
         /** 
 		App name when used as a prefix.
 	
@@ -910,7 +1590,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		App name when used as a prefix.
 	
          */
-        public static final int app_name_prefix=0x7f070001;
+        public static final int app_name_prefix=0x7f060045;
         /**  Chooser items 
 
 		Title for the choice of actions offered after using the send menu item.
@@ -1024,7 +1704,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for the choice of actions offered after using the send menu item.
 	
          */
-        public static final int chooser_send_action=0x7f070014;
+        public static final int chooser_send_action=0x7f060054;
         /** 
 		Title for the choice of actions offered after using the web search menu item.
 	
@@ -1110,7 +1790,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for the choice of actions offered after using the web search menu item.
 	
          */
-        public static final int chooser_web_search_action=0x7f070015;
+        public static final int chooser_web_search_action=0x7f060055;
         /** 
 		Message for dialog while installing a provided cookie file example.
 	
@@ -1196,7 +1876,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Message for dialog while installing a provided cookie file example.
 	
          */
-        public static final int dialog_install=0x7f07003d;
+        public static final int dialog_install=0x7f06007d;
         /** 
 		Message for dialog to warn and ask to prepare files.
 	
@@ -1282,7 +1962,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Message for dialog to warn and ask to prepare files.
 	
          */
-        public static final int dialog_message_num_warning=0x7f070039;
+        public static final int dialog_message_num_warning=0x7f060079;
         /** 
 		Title for dialog to select the right folder with cookies.
 	
@@ -1368,7 +2048,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for dialog to select the right folder with cookies.
 	
          */
-        public static final int dialog_title_ep_folder=0x7f07001c;
+        public static final int dialog_title_ep_folder=0x7f06005c;
         /** 
 		Title for dialog to change the font size of the main cookie text.
 	
@@ -1454,7 +2134,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for dialog to change the font size of the main cookie text.
 	
          */
-        public static final int dialog_title_ep_fontsize=0x7f070026;
+        public static final int dialog_title_ep_fontsize=0x7f060066;
         /** 
 		Title for dialog to change the periodic notification appearance time period.
 	
@@ -1540,7 +2220,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for dialog to change the periodic notification appearance time period.
 	
          */
-        public static final int dialog_title_ep_time=0x7f070037;
+        public static final int dialog_title_ep_time=0x7f060077;
         /** 
 		Title for dialog to change the widget refresh time period.
 	
@@ -1626,7 +2306,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for dialog to change the widget refresh time period.
 	
          */
-        public static final int dialog_title_ep_widget_period=0x7f07002f;
+        public static final int dialog_title_ep_widget_period=0x7f06006f;
         /** 
 		Title for dialog to change the font style of the main cookie text.
 	
@@ -1712,7 +2392,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for dialog to change the font style of the main cookie text.
 	
          */
-        public static final int dialog_title_lp_font=0x7f070023;
+        public static final int dialog_title_lp_font=0x7f060063;
         /** 
 		Title for dialog to change the font style of the widget cookie text.
 	
@@ -1798,7 +2478,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for dialog to change the font style of the widget cookie text.
 	
          */
-        public static final int dialog_title_lp_widget_font=0x7f07002c;
+        public static final int dialog_title_lp_widget_font=0x7f06006c;
         /**  Other in-app messages 
 
 		Title for dialog to warn and ask to prepare files.
@@ -1912,7 +2592,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Title for dialog to warn and ask to prepare files.
 	
          */
-        public static final int dialog_title_num=0x7f070038;
+        public static final int dialog_title_num=0x7f060078;
         /** 
 		Error message for when an argument was passed twice
 	
@@ -1998,12 +2678,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 		Error message for when an argument was passed twice
 	
          */
-        public static final int error_arg_twice=0x7f070049;
+        public static final int error_arg_twice=0x7f060089;
         /** 
 		Error message for when the SD card (external storage) cannot be accessed, not even read-only.
 	
          */
-        public static final int error_external_storage_not_mounted=0x7f07004d;
+        public static final int error_external_storage_not_mounted=0x7f06008d;
         /** IOExceptions
 
 		Error message for when the cookie file does not exist or is not properly prepared.
@@ -2117,7 +2797,7 @@ IOExceptions
 		Error message for when the cookie file does not exist or is not properly prepared.
 	
          */
-        public static final int error_file_not_exists_or_no_num=0x7f07004c;
+        public static final int error_file_not_exists_or_no_num=0x7f06008c;
         /** jfortune errors
 IllegalArgumentExceptions
 
@@ -2259,7 +2939,7 @@ IllegalArgumentExceptions
 		Error message for when a filename was not specified.
 	
          */
-        public static final int error_no_file_name=0x7f070048;
+        public static final int error_no_file_name=0x7f060088;
         /** 
 		Error message for when an invalid cookie file is selected.
 	
@@ -2345,7 +3025,7 @@ IllegalArgumentExceptions
 		Error message for when an invalid cookie file is selected.
 	
          */
-        public static final int error_no_valid_cookie_file=0x7f07004b;
+        public static final int error_no_valid_cookie_file=0x7f06008b;
         /** 
 		Error message for when write permissions are necessary.
 	
@@ -2431,7 +3111,7 @@ IllegalArgumentExceptions
 		Error message for when write permissions are necessary.
 	
          */
-        public static final int error_no_write_perms=0x7f07004e;
+        public static final int error_no_write_perms=0x7f06008e;
         /** 
 		Error message for when the num file already exists (suddenly).
 	
@@ -2517,7 +3197,7 @@ IllegalArgumentExceptions
 		Error message for when the num file already exists (suddenly).
 	
          */
-        public static final int error_num_file_exists=0x7f07004a;
+        public static final int error_num_file_exists=0x7f06008a;
         /** 
 		In application display (where main cookie text is displayed) preferences subtitle.
 	
@@ -2603,7 +3283,298 @@ IllegalArgumentExceptions
 		In application display (where main cookie text is displayed) preferences subtitle.
 	
          */
-        public static final int in_app_display=0x7f070020;
+        public static final int in_app_display=0x7f060060;
+        /**  ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+ ***************************
+	     Distribution
+	     *************************** 
+ Name of an application. Please make sure that translations are consistent. 
+         */
+        public static final int info_app_filemanager=0x7f060033;
+        /**  Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+         */
+        public static final int info_app_notepad=0x7f060035;
+        /**  Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+         */
+        public static final int info_app_safe=0x7f060036;
+        /**  Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+ Name of an application. Please make sure that translations are consistent. 
+         */
+        public static final int info_app_shopping=0x7f060034;
+        /**  %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+ %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") 
+         */
+        public static final int info_instructions=0x7f060037;
+        public static final int l_artists=0x7f06003e;
+        public static final int l_authors=0x7f06003b;
+        public static final int l_credits=0x7f060040;
+        public static final int l_documenters=0x7f06003c;
+        public static final int l_info=0x7f060042;
+        public static final int l_international_translators=0x7f06003f;
+        public static final int l_license=0x7f060041;
+        public static final int l_recent_changes=0x7f060043;
+        public static final int l_translators=0x7f06003d;
         /** 
 		Button label for cancel action.
 	
@@ -2689,7 +3660,7 @@ IllegalArgumentExceptions
 		Button label for cancel action.
 	
          */
-        public static final int label_b_cancel=0x7f070047;
+        public static final int label_b_cancel=0x7f060087;
         /** 
 		Button label for widget cookie refresh action.
 	
@@ -2775,7 +3746,7 @@ IllegalArgumentExceptions
 		Button label for widget cookie refresh action.
 	
          */
-        public static final int label_b_refresh=0x7f070045;
+        public static final int label_b_refresh=0x7f060085;
         /** 
 		Button label for showing the cookie in the main app action.
 	
@@ -2861,7 +3832,7 @@ IllegalArgumentExceptions
 		Button label for showing the cookie in the main app action.
 	
          */
-        public static final int label_b_show_cookie=0x7f070046;
+        public static final int label_b_show_cookie=0x7f060086;
         /** 
 	 Link to OI About
 	
@@ -2947,7 +3918,7 @@ IllegalArgumentExceptions
 	 Link to OI About
 	
          */
-        public static final int link_about_dialog=0x7f070008;
+        public static final int link_about_dialog=0x7f060049;
         /** 
 	 Message to display if the Market is not installed
 	
@@ -3033,7 +4004,7 @@ IllegalArgumentExceptions
 	 Message to display if the Market is not installed
 	
          */
-        public static final int market_backup=0x7f070009;
+        public static final int market_backup=0x7f06004a;
         /** 
 	 Description of the app in the Market
 	
@@ -3119,7 +4090,7 @@ IllegalArgumentExceptions
 	 Description of the app in the Market
 	
          */
-        public static final int market_description_short=0x7f07000a;
+        public static final int market_description_short=0x7f06004b;
         /** 
 	 Menu item used to show the about box
 	
@@ -3205,7 +4176,7 @@ IllegalArgumentExceptions
 	 Menu item used to show the about box
 	
          */
-        public static final int menu_about=0x7f07000c;
+        public static final int menu_about=0x7f060039;
         /** 
 	 Menu item that allows to copy the cookie as text to the clipboard.
 	
@@ -3291,7 +4262,7 @@ IllegalArgumentExceptions
 	 Menu item that allows to copy the cookie as text to the clipboard.
 	
          */
-        public static final int menu_copy=0x7f070012;
+        public static final int menu_copy=0x7f060052;
         /** 
 	 Menu item that points to a way (webpage) for the user to provide feedback about the app.
 	
@@ -3377,7 +4348,7 @@ IllegalArgumentExceptions
 	 Menu item that points to a way (webpage) for the user to provide feedback about the app.
 	
          */
-        public static final int menu_feedback=0x7f070011;
+        public static final int menu_feedback=0x7f060051;
         /** 
 	 Menu item that points to directions on how to get more cookies (on a webpage).
 	
@@ -3463,7 +4434,7 @@ IllegalArgumentExceptions
 	 Menu item that points to directions on how to get more cookies (on a webpage).
 	
          */
-        public static final int menu_get_more_cookies=0x7f07000e;
+        public static final int menu_get_more_cookies=0x7f06004e;
         /**  Menu items 
 
 	 Menu item used to show the preferences
@@ -3577,7 +4548,7 @@ IllegalArgumentExceptions
 	 Menu item used to show the preferences
 	
          */
-        public static final int menu_preferences=0x7f07000b;
+        public static final int menu_preferences=0x7f06004c;
         /** 
 	 Menu item to refresh the cookie text.
 	
@@ -3663,7 +4634,7 @@ IllegalArgumentExceptions
 	 Menu item to refresh the cookie text.
 	
          */
-        public static final int menu_refresh=0x7f07000d;
+        public static final int menu_refresh=0x7f06004d;
         /** 
 	 Menu item that allows to send the text as an email, sms, ...
 	
@@ -3749,7 +4720,7 @@ IllegalArgumentExceptions
 	 Menu item that allows to send the text as an email, sms, ...
 	
          */
-        public static final int menu_send=0x7f07000f;
+        public static final int menu_send=0x7f06004f;
         /** 
 	 Menu item that allows to tell friends about this app by sending them a template text.
 	
@@ -3835,7 +4806,7 @@ IllegalArgumentExceptions
 	 Menu item that allows to tell friends about this app by sending them a template text.
 	
          */
-        public static final int menu_share_app=0x7f070013;
+        public static final int menu_share_app=0x7f060053;
         /** 
 	 Menu item that allows to search the web using the text.
 	
@@ -3921,7 +4892,7 @@ IllegalArgumentExceptions
 	 Menu item that allows to search the web using the text.
 	
          */
-        public static final int menu_web_search=0x7f070010;
+        public static final int menu_web_search=0x7f060050;
         /** 
 		Link to information on installing custom cookies. DO NOT translate!
 	
@@ -4007,7 +4978,7 @@ IllegalArgumentExceptions
 		Link to information on installing custom cookies. DO NOT translate!
 	
          */
-        public static final int more_cookies_uri=0x7f07003b;
+        public static final int more_cookies_uri=0x7f06007b;
         /** 
 		Warning message instead of cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed). DO NOT translate link.
 	
@@ -4093,7 +5064,8 @@ IllegalArgumentExceptions
 		Warning message instead of cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed). DO NOT translate link.
 	
          */
-        public static final int no_cookie_files=0x7f07003a;
+        public static final int no_cookie_files=0x7f06007a;
+        public static final int no_information_available=0x7f060044;
         /** 
 		Notifications (in the status bar) preferences subtitle.
 	
@@ -4179,7 +5151,1491 @@ IllegalArgumentExceptions
 		Notifications (in the status bar) preferences subtitle.
 	
          */
-        public static final int notifications=0x7f070030;
+        public static final int notifications=0x7f060070;
+        /**  About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+ About 
+ Menu command to open the "about" or "info" dialog. 
+         */
+        public static final int oi_distribution_about=0x7f06001d;
+        /**  Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+ Name of the application "OI About". Translations of the application name should be consistent. 
+         */
+        public static final int oi_distribution_aboutapp=0x7f060020;
+        /**  Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+ Button text: Get the application "OI About". Translations of the application name should be consistent. 
+         */
+        public static final int oi_distribution_aboutapp_get=0x7f06001f;
+        /**  %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+ %s is the version number (e.g. "1.2.1") 
+         */
+        public static final int oi_distribution_aboutapp_not_available=0x7f06001e;
+        /**  203 = OI Update 
+ About 
+         */
+        public static final int oi_distribution_aboutapp_package=0x7f060005;
+        public static final int oi_distribution_aboutapp_website=0x7f060006;
+        public static final int oi_distribution_app_name=0x7f06000d;
+        /**  Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+ Name of the application "Barcode OI Plugin". Translations of the application name should be consistent.  
+         */
+        public static final int oi_distribution_barcodescanner=0x7f060021;
+        /**  Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+         */
+        public static final int oi_distribution_barcodescanner_not_available=0x7f060022;
+        /**  202 = OI About 
+ Barcode plugin 
+         */
+        public static final int oi_distribution_barcodescanner_package=0x7f060007;
+        public static final int oi_distribution_barcodescanner_website=0x7f060008;
+        /**  Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+ Dialog button: download the suggested application from Android Market. 
+         */
+        public static final int oi_distribution_download_market=0x7f06002a;
+        /**  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+         */
+        public static final int oi_distribution_download_market_message=0x7f060028;
+        /**  Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog message: %s is the name of an application (e.g. "OI Notepad"). 
+         */
+        public static final int oi_distribution_download_message=0x7f060029;
+        /**  Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+ Dialog title: %s is the name of an application (e.g. "OI Notepad"). 
+         */
+        public static final int oi_distribution_download_title=0x7f06002c;
+        /**  Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+ Dialog button: download the suggested application from the developer web site. 
+         */
+        public static final int oi_distribution_download_web=0x7f06002b;
+        /**  Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+ Button: Accept terms of EULA. 
+         */
+        public static final int oi_distribution_eula_accept=0x7f060011;
+        /**  EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+ EULA welcome message. %s is an application name, e.g. "... (EULA) for OI Notepad".
+		Translation can be as long as required. 
+         */
+        public static final int oi_distribution_eula_message=0x7f060010;
+        /**  Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+ Button: Refuse terms of EULA. 
+         */
+        public static final int oi_distribution_eula_refuse=0x7f060012;
+        /**  ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+ ***************************
+	     Distribution
+	     *************************** 
+ EULA 
+ EULA (End user license agreement). %s is an application name, e.g. "OI Notepad EULA". 
+		Translation should be short, since this is a title. 
+         */
+        public static final int oi_distribution_eula_title=0x7f06000f;
+        /**  Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+ Name of the application "OI File Manager". Translations of the application name should be consistent.  
+         */
+        public static final int oi_distribution_filemanager=0x7f060023;
+        /**  Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+         */
+        public static final int oi_distribution_filemanager_not_available=0x7f060024;
+        /**  File Manager 
+         */
+        public static final int oi_distribution_filemanager_package=0x7f060009;
+        public static final int oi_distribution_filemanager_website=0x7f06000a;
+        /**  %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+ %s is an application name (e.g. "OI About can be used with the following applications:") 
+         */
+        public static final int oi_distribution_info_activity_text=0x7f06002d;
+        /**  Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+ Title of a dialog. 
+         */
+        public static final int oi_distribution_info_instructions=0x7f060030;
+        /**  %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+ %s is an application name (e.g. "Launch OI Notepad") 
+         */
+        public static final int oi_distribution_info_launch=0x7f06002e;
+        /**  %1$s is the current application name. %2$s is another application name, and %3$s is the other application's version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+ %1$s is the current application name. %2$s is another application name, and %3$s is the other application\'s version name
+    (e.g. "OI About requires OI Notepad 1.2.0 or higher.") 
+         */
+        public static final int oi_distribution_info_not_available=0x7f06002f;
+        /**  Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+ Error message 
+         */
+        public static final int oi_distribution_launch_error=0x7f060031;
+        /**  Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+ Update 
+ Menu command to look for updates. 
+         */
+        public static final int oi_distribution_menu_update=0x7f060017;
+        /**  New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+ New version 
+ Application name and version. %1$s is the application name (e.g. "OI Notepad") and %2$s is the version number (e.g. "1.2.0").
+	Keep unmodified, unless your language requires that the version number is displayed first. 
+         */
+        public static final int oi_distribution_name_and_version=0x7f060013;
+        /**  Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+ Button: Continue to main application. 
+         */
+        public static final int oi_distribution_newversion_continue=0x7f060016;
+        /**  Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+ Welcome message. %s is an application name. 
+         */
+        public static final int oi_distribution_newversion_message=0x7f060014;
+        public static final int oi_distribution_newversion_recent_changes=0x7f060015;
+        /**  Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+ Safe 
+ Name of the application "OI Safe". Translations of the application name should be consistent.  
+         */
+        public static final int oi_distribution_safe=0x7f060025;
+        /**  Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+ Dialog message. 
+         */
+        public static final int oi_distribution_safe_not_available=0x7f060026;
+        public static final int oi_distribution_safe_not_available_decrypt=0x7f060027;
+        /**  Safe 
+         */
+        public static final int oi_distribution_safe_package=0x7f06000b;
+        public static final int oi_distribution_safe_website=0x7f06000c;
+        /**  Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+ Name of the application "OI Update". Translations of the application name should be consistent. 
+         */
+        public static final int oi_distribution_update_app=0x7f06001c;
+        public static final int oi_distribution_update_box_text=0x7f060018;
+        public static final int oi_distribution_update_check_now=0x7f060019;
+        /**  ***************************
+	     Distribution
+	     *************************** 
+ Update 
+         */
+        public static final int oi_distribution_update_checker_package=0x7f060003;
+        public static final int oi_distribution_update_checker_website=0x7f060004;
+        public static final int oi_distribution_update_error=0x7f06001b;
+        public static final int oi_distribution_update_get_updater=0x7f06001a;
         /**  Preferences 
 
 		Title of the preferences window.
@@ -4293,7 +6749,7 @@ IllegalArgumentExceptions
 		Title of the preferences window.
 	
          */
-        public static final int preferences_activity_name=0x7f070016;
+        public static final int preferences_activity_name=0x7f060056;
         /** 
 		Resources preferences subtitle.
 	
@@ -4379,7 +6835,7 @@ IllegalArgumentExceptions
 		Resources preferences subtitle.
 	
          */
-        public static final int resources=0x7f070017;
+        public static final int resources=0x7f060057;
         /** 
 		Title for notifications in the status bar.
 	
@@ -4465,7 +6921,7 @@ IllegalArgumentExceptions
 		Title for notifications in the status bar.
 	
          */
-        public static final int status_bar_notification_title=0x7f07003c;
+        public static final int status_bar_notification_title=0x7f06007c;
         /** 
 		Description for checkbox to enable spread random distribution, taking cookie file size into account.
 	
@@ -4551,7 +7007,7 @@ IllegalArgumentExceptions
 		Description for checkbox to enable spread random distribution, taking cookie file size into account.
 	
          */
-        public static final int summary_cp_equal=0x7f070019;
+        public static final int summary_cp_equal=0x7f060059;
         /** 
 		Description for checkbox to enable displaying a notification at device bootup.
 	
@@ -4637,7 +7093,7 @@ IllegalArgumentExceptions
 		Description for checkbox to enable displaying a notification at device bootup.
 	
          */
-        public static final int summary_cp_notif_boot=0x7f070032;
+        public static final int summary_cp_notif_boot=0x7f060072;
         /** 
 		Description for checkbox to enable displaying notification every so many minutes.
 	
@@ -4723,7 +7179,7 @@ IllegalArgumentExceptions
 		Description for checkbox to enable displaying notification every so many minutes.
 	
          */
-        public static final int summary_cp_notif_time=0x7f070034;
+        public static final int summary_cp_notif_time=0x7f060074;
         /** 
 		Description for checkbox to enable the wrapping of the main cookie text.
 	
@@ -4809,7 +7265,7 @@ IllegalArgumentExceptions
 		Description for checkbox to enable the wrapping of the main cookie text.
 	
          */
-        public static final int summary_cp_wrap=0x7f070028;
+        public static final int summary_cp_wrap=0x7f060068;
         /** 
 		Description for button leading to dialog to select the right folder with cookies.
 	
@@ -4895,7 +7351,7 @@ IllegalArgumentExceptions
 		Description for button leading to dialog to select the right folder with cookies.
 	
          */
-        public static final int summary_ep_folder=0x7f07001b;
+        public static final int summary_ep_folder=0x7f06005b;
         /** 
 		Description for button leading to dialog to change the font size of the main cookie text.
 	
@@ -4981,7 +7437,7 @@ IllegalArgumentExceptions
 		Description for button leading to dialog to change the font size of the main cookie text.
 	
          */
-        public static final int summary_ep_fontsize=0x7f070025;
+        public static final int summary_ep_fontsize=0x7f060065;
         /** 
 		Description for button leading to dialog to change the periodic notification appearance time period.
 	
@@ -5067,7 +7523,7 @@ IllegalArgumentExceptions
 		Description for button leading to dialog to change the periodic notification appearance time period.
 	
          */
-        public static final int summary_ep_time=0x7f070036;
+        public static final int summary_ep_time=0x7f060076;
         /** 
 		Description for button leading to dialog to change the widget refresh time period.
 	
@@ -5153,7 +7609,7 @@ IllegalArgumentExceptions
 		Description for button leading to dialog to change the widget refresh time period.
 	
          */
-        public static final int summary_ep_widget_period=0x7f07002e;
+        public static final int summary_ep_widget_period=0x7f06006e;
         /** 
 		Description for button leading to dialog to change the font style of the main cookie text.
 	
@@ -5239,7 +7695,7 @@ IllegalArgumentExceptions
 		Description for button leading to dialog to change the font style of the main cookie text.
 	
          */
-        public static final int summary_lp_font=0x7f070022;
+        public static final int summary_lp_font=0x7f060062;
         /** 
 		Description for button leading to dialog to change the font style of the widget cookie text.
 	
@@ -5325,7 +7781,7 @@ IllegalArgumentExceptions
 		Description for button leading to dialog to change the font style of the widget cookie text.
 	
          */
-        public static final int summary_lp_widget_font=0x7f07002b;
+        public static final int summary_lp_widget_font=0x7f06006b;
         /** 
 		Description for button leading to dialog to select individual cookie files.
 	
@@ -5411,7 +7867,7 @@ IllegalArgumentExceptions
 		Description for button leading to dialog to select individual cookie files.
 	
          */
-        public static final int summary_ps_files=0x7f07001e;
+        public static final int summary_ps_files=0x7f06005e;
         /** 
 		Warning replacing regular description for button to warn that some cookie files have not been prepared properly for displaying in Android's Fortune.
 	
@@ -5497,7 +7953,7 @@ IllegalArgumentExceptions
 		Warning replacing regular description for button to warn that some cookie files have not been prepared properly for displaying in Android's Fortune.
 	
          */
-        public static final int summary_ps_files_warning=0x7f07001f;
+        public static final int summary_ps_files_warning=0x7f06005f;
         /** 
 		Description for the button leading to the versioncheck preferences.
 	
@@ -5583,7 +8039,7 @@ IllegalArgumentExceptions
 		Description for the button leading to the versioncheck preferences.
 	
          */
-        public static final int summary_ps_versioncheck=0x7f070059;
+        public static final int summary_ps_versioncheck=0x7f060099;
         /** 
 	 	Template text to send a recommendation mail to friends to appraise this app. Formed when user selects 'Share app' menu item.
 	
@@ -5669,7 +8125,7 @@ IllegalArgumentExceptions
 	 	Template text to send a recommendation mail to friends to appraise this app. Formed when user selects 'Share app' menu item.
 	
          */
-        public static final int template_share_app=0x7f07003f;
+        public static final int template_share_app=0x7f06007f;
         /** 
 	 	Subject for emails etc. that use the template text.
 	
@@ -5755,7 +8211,7 @@ IllegalArgumentExceptions
 	 	Subject for emails etc. that use the template text.
 	
          */
-        public static final int template_share_app_subject=0x7f070040;
+        public static final int template_share_app_subject=0x7f060080;
         /** 
 		Short label for checkbox to enable spread random distribution, taking cookie file size into account.
 	
@@ -5841,7 +8297,7 @@ IllegalArgumentExceptions
 		Short label for checkbox to enable spread random distribution, taking cookie file size into account.
 	
          */
-        public static final int title_cp_equal=0x7f070018;
+        public static final int title_cp_equal=0x7f060058;
         /** 
 		Short label for checkbox to enable displaying a notification at device bootup.
 	
@@ -5927,7 +8383,7 @@ IllegalArgumentExceptions
 		Short label for checkbox to enable displaying a notification at device bootup.
 	
          */
-        public static final int title_cp_notif_boot=0x7f070031;
+        public static final int title_cp_notif_boot=0x7f060071;
         /** 
 		Short label for checkbox to enable displaying notification every so many minutes.
 	
@@ -6013,7 +8469,7 @@ IllegalArgumentExceptions
 		Short label for checkbox to enable displaying notification every so many minutes.
 	
          */
-        public static final int title_cp_notif_time=0x7f070033;
+        public static final int title_cp_notif_time=0x7f060073;
         /** 
 		Short label for checkbox to enable the wrapping of the main cookie text.
 	
@@ -6099,7 +8555,7 @@ IllegalArgumentExceptions
 		Short label for checkbox to enable the wrapping of the main cookie text.
 	
          */
-        public static final int title_cp_wrap=0x7f070027;
+        public static final int title_cp_wrap=0x7f060067;
         /** 
 		Short label for button leading to dialog to select the right folder with cookies.
 	
@@ -6185,7 +8641,7 @@ IllegalArgumentExceptions
 		Short label for button leading to dialog to select the right folder with cookies.
 	
          */
-        public static final int title_ep_folder=0x7f07001a;
+        public static final int title_ep_folder=0x7f06005a;
         /** 
 		Short label for button leading to dialog to change the font size of the main cookie text.
 	
@@ -6271,7 +8727,7 @@ IllegalArgumentExceptions
 		Short label for button leading to dialog to change the font size of the main cookie text.
 	
          */
-        public static final int title_ep_fontsize=0x7f070024;
+        public static final int title_ep_fontsize=0x7f060064;
         /** 
 		Short label for button leading to dialog to change the periodic notification appearance time period.
 	
@@ -6357,7 +8813,7 @@ IllegalArgumentExceptions
 		Short label for button leading to dialog to change the periodic notification appearance time period.
 	
          */
-        public static final int title_ep_time=0x7f070035;
+        public static final int title_ep_time=0x7f060075;
         /** 
 		Short label for button leading to dialog to change the widget refresh time period.
 	
@@ -6443,7 +8899,7 @@ IllegalArgumentExceptions
 		Short label for button leading to dialog to change the widget refresh time period.
 	
          */
-        public static final int title_ep_widget_period=0x7f07002d;
+        public static final int title_ep_widget_period=0x7f06006d;
         /** 
 		Short label for button leading to dialog to change the font style of the main cookie text.
 	
@@ -6529,7 +8985,7 @@ IllegalArgumentExceptions
 		Short label for button leading to dialog to change the font style of the main cookie text.
 	
          */
-        public static final int title_lp_font=0x7f070021;
+        public static final int title_lp_font=0x7f060061;
         /** 
 		Short label for button leading to dialog to change the font style of the widget cookie text.
 	
@@ -6615,7 +9071,7 @@ IllegalArgumentExceptions
 		Short label for button leading to dialog to change the font style of the widget cookie text.
 	
          */
-        public static final int title_lp_widget_font=0x7f07002a;
+        public static final int title_lp_widget_font=0x7f06006a;
         /** 
 		Default cookie folder. DO NOT translate!
 	
@@ -6813,7 +9269,7 @@ IllegalArgumentExceptions
 		Short label for button leading to dialog to select individual cookie files.
 	
          */
-        public static final int title_ps_files=0x7f07001d;
+        public static final int title_ps_files=0x7f06005d;
         /** 
 		Short label for the button leading to the versioncheck preferences.
 	
@@ -6899,7 +9355,7 @@ IllegalArgumentExceptions
 		Short label for the button leading to the versioncheck preferences.
 	
          */
-        public static final int title_ps_versioncheck=0x7f070058;
+        public static final int title_ps_versioncheck=0x7f060098;
         /** 
 	 	Message for dialog that confirms that the cookie text has been copied to the clipboard.
 	
@@ -6985,7 +9441,7 @@ IllegalArgumentExceptions
 	 	Message for dialog that confirms that the cookie text has been copied to the clipboard.
 	
          */
-        public static final int toast_copied_to_clipboard=0x7f07003e;
+        public static final int toast_copied_to_clipboard=0x7f06007e;
         /** 
 		Error message for when the generation of the .num file has failed.
 	
@@ -7071,7 +9527,7 @@ IllegalArgumentExceptions
 		Error message for when the generation of the .num file has failed.
 	
          */
-        public static final int toast_generation_num_failed=0x7f070052;
+        public static final int toast_generation_num_failed=0x7f060092;
         /** 
 		Error message for when the specified folder is not a directory.
 	
@@ -7157,7 +9613,7 @@ IllegalArgumentExceptions
 		Error message for when the specified folder is not a directory.
 	
          */
-        public static final int toast_not_a_dir=0x7f070053;
+        public static final int toast_not_a_dir=0x7f060093;
         /** AndroidsFortune errors
 
 		Error message for when reading the cookie file has failed.
@@ -7271,7 +9727,7 @@ AndroidsFortune errors
 		Error message for when reading the cookie file has failed.
 	
          */
-        public static final int toast_read_cookie_failed=0x7f07004f;
+        public static final int toast_read_cookie_failed=0x7f06008f;
         /** 
 		Error message for when the cookie file can not be read due to an exceptional internal error.
 	
@@ -7357,7 +9813,7 @@ AndroidsFortune errors
 		Error message for when the cookie file can not be read due to an exceptional internal error.
 	
          */
-        public static final int toast_read_cookie_failed_internal=0x7f070051;
+        public static final int toast_read_cookie_failed_internal=0x7f060091;
         /** 
 		Error message for displaying a suggestion what might be wrong with not being able to read the cookie file.
 	
@@ -7443,7 +9899,7 @@ AndroidsFortune errors
 		Error message for displaying a suggestion what might be wrong with not being able to read the cookie file.
 	
          */
-        public static final int toast_read_cookie_failed_suggestion=0x7f070050;
+        public static final int toast_read_cookie_failed_suggestion=0x7f060090;
         /** 
 		Error message for when a selected cookie file that was valid can now no longer be found.
 	
@@ -7529,7 +9985,7 @@ AndroidsFortune errors
 		Error message for when a selected cookie file that was valid can now no longer be found.
 	
          */
-        public static final int toast_selected_file_lost=0x7f070054;
+        public static final int toast_selected_file_lost=0x7f060094;
         /** 
 		Error message for when an invalid value was entered. The value is reset.
 	
@@ -7615,7 +10071,7 @@ AndroidsFortune errors
 		Error message for when an invalid value was entered. The value is reset.
 	
          */
-        public static final int toast_value_invalid=0x7f070055;
+        public static final int toast_value_invalid=0x7f060095;
         /** 
 		Error message to warn about a too short widget update period.
 	
@@ -7701,7 +10157,7 @@ AndroidsFortune errors
 		Error message to warn about a too short widget update period.
 	
          */
-        public static final int toast_widget_period_short=0x7f070056;
+        public static final int toast_widget_period_short=0x7f060096;
         /** 
 		Versioncheck preferences subtitle.
 	
@@ -7787,7 +10243,7 @@ AndroidsFortune errors
 		Versioncheck preferences subtitle.
 	
          */
-        public static final int vc_category=0x7f07005d;
+        public static final int vc_category=0x7f06009d;
         /** 
 		Description for button leading to dialog to change the version checking url.
 	
@@ -7873,7 +10329,7 @@ AndroidsFortune errors
 		Description for button leading to dialog to change the version checking url.
 	
          */
-        public static final int vc_check_uri_summary=0x7f070065;
+        public static final int vc_check_uri_summary=0x7f0600a5;
         /** 
 		Short label for button leading to dialog to change the version checking url.
 	
@@ -7959,7 +10415,7 @@ AndroidsFortune errors
 		Short label for button leading to dialog to change the version checking url.
 	
          */
-        public static final int vc_check_uri_title=0x7f070064;
+        public static final int vc_check_uri_title=0x7f0600a4;
         /** 
 		Message for checkbox to opt out of notifications.
 	
@@ -8045,7 +10501,7 @@ AndroidsFortune errors
 		Message for checkbox to opt out of notifications.
 	
          */
-        public static final int vc_confirm_stop=0x7f070062;
+        public static final int vc_confirm_stop=0x7f0600a2;
         /** 
 		Message for dialog to ask to update the app.
 	
@@ -8131,7 +10587,7 @@ AndroidsFortune errors
 		Message for dialog to ask to update the app.
 	
          */
-        public static final int vc_confirm_text=0x7f070061;
+        public static final int vc_confirm_text=0x7f0600a1;
         /** 
 		Title for dialog to ask to update the app.
 	
@@ -8217,7 +10673,7 @@ AndroidsFortune errors
 		Title for dialog to ask to update the app.
 	
          */
-        public static final int vc_confirm_title=0x7f070060;
+        public static final int vc_confirm_title=0x7f0600a0;
         /** 
 		Description for checkbox to enable versionchecking.
 	
@@ -8303,7 +10759,7 @@ AndroidsFortune errors
 		Description for checkbox to enable versionchecking.
 	
          */
-        public static final int vc_enabled_summary=0x7f07005f;
+        public static final int vc_enabled_summary=0x7f06009f;
         /** 
 		Short label for checkbox to enable versionchecking.
 	
@@ -8389,7 +10845,7 @@ AndroidsFortune errors
 		Short label for checkbox to enable versionchecking.
 	
          */
-        public static final int vc_enabled_title=0x7f07005e;
+        public static final int vc_enabled_title=0x7f06009e;
         /** 
 		Message for the version update notification.
 	
@@ -8475,7 +10931,7 @@ AndroidsFortune errors
 		Message for the version update notification.
 	
          */
-        public static final int vc_notify_message=0x7f07005c;
+        public static final int vc_notify_message=0x7f06009c;
         /** 
 		Ticker message to show in the status bar when the version update notification is shown.
 	
@@ -8561,7 +11017,7 @@ AndroidsFortune errors
 		Ticker message to show in the status bar when the version update notification is shown.
 	
          */
-        public static final int vc_notify_ticker=0x7f07005a;
+        public static final int vc_notify_ticker=0x7f06009a;
         /** 
 		Title for the version update notification.
 	
@@ -8647,7 +11103,7 @@ AndroidsFortune errors
 		Title for the version update notification.
 	
          */
-        public static final int vc_notify_title=0x7f07005b;
+        public static final int vc_notify_title=0x7f06009b;
         /** 
 		Link to versioncheck file. DO NOT translate!
 	
@@ -8733,7 +11189,7 @@ AndroidsFortune errors
 		Link to versioncheck file. DO NOT translate!
 	
          */
-        public static final int version_file_url=0x7f070063;
+        public static final int version_file_url=0x7f0600a3;
         /** Versioncheck
 
 		Title for the versioncheck preferences.
@@ -8847,7 +11303,7 @@ Versioncheck
 		Title for the versioncheck preferences.
 	
          */
-        public static final int versioncheck_preferences_activity_name=0x7f070057;
+        public static final int versioncheck_preferences_activity_name=0x7f060097;
         /** 
 		Title of the dialog after clicking the widget for choosing what to do.
 	
@@ -8933,7 +11389,7 @@ Versioncheck
 		Title of the dialog after clicking the widget for choosing what to do.
 	
          */
-        public static final int widget_dialog_activity_name=0x7f070044;
+        public static final int widget_dialog_activity_name=0x7f060084;
         /** 
 		Widget display (on the home screen) preferences subtitle.
 	
@@ -9019,7 +11475,7 @@ Versioncheck
 		Widget display (on the home screen) preferences subtitle.
 	
          */
-        public static final int widget_display=0x7f070029;
+        public static final int widget_display=0x7f060069;
         /** 
 		Error message instead of widget cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed).
 	
@@ -9105,7 +11561,7 @@ Versioncheck
 		Error message instead of widget cookie text, when no cookies have been configured or something has gone wrong (or is still being fixed).
 	
          */
-        public static final int widget_error=0x7f070043;
+        public static final int widget_error=0x7f060083;
         /** 
 		Warning message instead of widget cookie text, when cookie is loading.
 	
@@ -9191,7 +11647,7 @@ Versioncheck
 		Warning message instead of widget cookie text, when cookie is loading.
 	
          */
-        public static final int widget_loading=0x7f070042;
+        public static final int widget_loading=0x7f060082;
         /**  Widget 
 
 		Name of the widget (on the home screen).
@@ -9305,7 +11761,7 @@ Versioncheck
 		Name of the widget (on the home screen).
 	
          */
-        public static final int widget_name=0x7f070041;
+        public static final int widget_name=0x7f060081;
     }
     public static final class style {
         public static final int Text=0x7f080002;
@@ -9317,9 +11773,10 @@ Versioncheck
         public static final int WidgetBackgroundMessage=0x7f080001;
     }
     public static final class xml {
-        public static final int preferences=0x7f040000;
-        public static final int versioncheck_preferences=0x7f040001;
-        public static final int widget=0x7f040002;
+        public static final int about=0x7f040000;
+        public static final int preferences=0x7f040001;
+        public static final int versioncheck_preferences=0x7f040002;
+        public static final int widget=0x7f040003;
     }
     public static final class styleable {
         /** Attributes that can be used with a ScrollView.

@@ -12,16 +12,16 @@ public final class R {
 		public static final int license_short = 0x7f050000;
 	}
 	public static final class id {
-		public static final int container1 = 0x7f08001c;
-		public static final int container2 = 0x7f080020;
-		public static final int text = 0x7f08001f;
-		public static final int text1 = 0x7f08001b;
-		public static final int button2 = 0x7f080023;
-		public static final int imageview = 0x7f08001d;
-		public static final int text2 = 0x7f08001e;
-		public static final int background = 0x7f080024;
-		public static final int space = 0x7f080022;
-		public static final int button1 = 0x7f080021;
+		public static final int container1 = 0x7f090004;
+		public static final int container2 = 0x7f090008;
+		public static final int text = 0x7f090007;
+		public static final int text1 = 0x7f090003;
+		public static final int button2 = 0x7f09000b;
+		public static final int imageview = 0x7f090005;
+		public static final int text2 = 0x7f090006;
+		public static final int background = 0x7f09000c;
+		public static final int space = 0x7f09000a;
+		public static final int button1 = 0x7f090009;
 	}
 	public static final class string {
 		public static final int oi_distribution_update_app = 0x7f06001c;
@@ -76,8 +76,8 @@ public final class R {
 		public static final int oi_distribution_aboutapp = 0x7f060020;
 	}
 	public static final class layout {
-		public static final int oi_distribution_eula = 0x7f030001;
-		public static final int oi_distribution_infoactivity = 0x7f030002;
+		public static final int oi_distribution_eula = 0x7f030003;
+		public static final int oi_distribution_infoactivity = 0x7f030004;
 	}
 	public static final class array {
 		public static final int about_documenters = 0x7f070001;
