@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="Mindset: No data received" android:id="@+id/textViewData"/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="ShimmerEcg: No data received" android:id="@+id/textViewDataShimmerEcg"/>
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="ShimmerGsr: No data received" android:id="@+id/textViewDataShimmerGsr"/>
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="ShimmerEmg: No data received" android:id="@+id/textViewDataShimmerEmg"/>
+
+    <LinearLayout 
+        android:id="@+id/deviceChart" 
+        android:layout_height="300dip" 
+        android:orientation="horizontal" 
+        android:gravity="right" 
+        android:layout_width="fill_parent">
+    </LinearLayout>
+
+
+
+</LinearLayout>

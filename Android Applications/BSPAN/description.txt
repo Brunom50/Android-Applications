@@ -1,0 +1,19 @@
+Official Site: http://www.t2health.org
+
+BSPAN is used to process Bluetooth sensor data on Android. We use it to connect Bluetooth biofeedback sensors to Android.
+
+Biofeedback Android Apps using BSPAN: - BioZen
+
+The Department of Defense developed Biozen to help service members use the therapeutic benefits of biofeedback. BioZen is the first portable, low-cost method for clinicians and patients to use biofeedback in and out of the clinic.
+
+This app takes many of the large medical sensors in a clinic and puts them in the hands of anyone with a smart phone. BioZen makes it easier for anyone to get started with biofeedback.
+
+BioZen shows real-time data from multiple body sensors including electroencephalogram (EEG), electromyography (EMG), galvanic skin response (GSR), electrocardiogram (ECG or EKG), respiratory rate, and skin temperature. It also displays Delta, Theta, Alpha, Beta, and Gamma brain waves and can combine the brain waves to show users their meditative and attentive cognitive states.
+
+Each sensor sends a separate signal to the phone so users can see how their body is responding to their behavior with an easy-to-use visualization module.
+
+Users can create notes to document and categorize their recording session. BioZen automatically generates graphical feedback from the recording sessions to monitor their progress over time.
+
+The mobile app is built on an open source framework Bluetooth Sensor Processing for Android, also known as B-SPAN, developed by T2.
+
+BioZen requires the purchase of compatible biosensor devices (see listing below). A sensor can range in price depending on quality.
