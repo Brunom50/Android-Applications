@@ -1,4 +1,0 @@
-OrbotVPN
--------------------------------
-android.permission.INTERNET
-

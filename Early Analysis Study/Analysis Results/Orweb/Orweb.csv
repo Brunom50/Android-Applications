@@ -1,9 +1,0 @@
-Name,# Callers,# Callees,#RCG Nodes, #RCG Edges
-Reflection,14,7,548,955
-Sensitive Reflection,14,7,548,955
-JNI,0,0,0,0
-Java Cryptology,7,4,15,20
-Access Camera,4,2,488,767
-Read File,6,4,412,580
-Java Security,4,3,12,16
-Union All Sources,15,13,512,801

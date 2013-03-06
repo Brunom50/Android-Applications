@@ -1,7 +1,0 @@
-ActionBarSherlock
--------------------------------
-
-Orweb
--------------------------------
-android.permission.INTERNET
-

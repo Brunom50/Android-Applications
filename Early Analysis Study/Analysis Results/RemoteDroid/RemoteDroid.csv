@@ -1,7 +1,0 @@
-Name,# Callers,# Callees,#RCG Nodes, #RCG Edges
-Reflection,4,1,12,16
-Sensitive Reflection,4,1,12,16
-JNI,0,0,0,0
-Access Camera,2,2,41,54
-Access Sensors,2,2,2,0
-Union All Sources,4,4,42,54

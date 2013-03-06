@@ -1,7 +1,0 @@
-Source,Sink,Detection Mechanism,# Nodes,# Edges
-Read File,Write File,Call Chain Leak,0,0
-Read File,Write File,Exception Leak,0,0
-Read File,Sneaky Intent,Call Chain Leak,0,0
-Read File,Sneaky Intent,Exception Leak,0,0
-Read File,Write Logs,Call Chain Leak,0,0
-Read File,Write Logs,Exception Leak,0,0

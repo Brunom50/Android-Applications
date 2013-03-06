@@ -1,6 +1,0 @@
-CountdownTimer
--------------------------------
-android.permission.VIBRATE
-android.permission.WAKE_LOCK
-android.permission.DISABLE_KEYGUARD
-

@@ -1,9 +1,0 @@
-Name,# Callers,# Callees,#RCG Nodes, #RCG Edges
-Reflection,0,0,0,0
-Sensitive Reflection,0,0,0,0
-JNI,0,0,0,0
-Java Security,1,1,7,6
-Access Contacts,1,1,6,5
-Read File,3,3,18,20
-Java Cryptology,3,4,19,22
-Union All Sources,4,9,24,30

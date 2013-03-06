@@ -1,4 +1,0 @@
-NoteCipher
--------------------------------
-android.permission.WRITE_EXTERNAL_STORAGE
-

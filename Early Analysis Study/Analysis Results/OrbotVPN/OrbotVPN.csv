@@ -1,6 +1,0 @@
-Name,# Callers,# Callees,#RCG Nodes, #RCG Edges
-Reflection,0,0,0,0
-Sensitive Reflection,0,0,0,0
-JNI,0,0,0,0
-Read File,1,1,4,3
-Union All Sources,1,1,4,3
