@@ -1,9 +1,0 @@
-bin
-gen
-.ant-targets-build.xml
-local.properties
-build.properties
-doc
-*.zip
-*.jar
-*.swp
