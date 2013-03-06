@@ -1,0 +1,3 @@
+Android Privacy Guard (APG) is a Free Software and open source application that runs on the Android Operating System. The application provides strong, user-based encryption which is compatible with the Pretty Good Privacy (PGP) and GNU Privacy Guard (GPG) programs. This allows users to encrypt, decrypt, sign, and verify signatures for text, emails, and files.
+
+The program allows you to store the credentials of other users with whom you interact, and to encrypt a file such that only a specified user can open it. In the same manner, if a file is received from another user from whom you already have stored credentials, you can verify the authenticity of that file (and decrypt it if necessary).
