@@ -1,0 +1,32 @@
+ZXing (pronounced "zebra crossing") is an open-source, multi-format 1D/2D barcode image processing library implemented in Java, with ports to other languages. Our focus is on using the built-in camera on mobile phones to scan and decode barcodes on the device, without communicating with a server. However the project can be used to encode and decode barcodes on desktops and servers as well. We currently support these formats:
+
+UPC-A and UPC-E
+EAN-8 and EAN-13
+Code 39
+Code 93
+Code 128
+ITF
+Codabar
+RSS-14 (all variants)
+RSS Expanded (most variants)
+QR Code
+Data Matrix
+Aztec ('beta' quality)
+PDF 417 ('alpha' quality)
+This library is divided into several main components which are actively supported:
+
+core: The core image decoding library, and test code
+javase: J2SE-specific client code
+zxingorg: The source behind zxing.org/w
+android: Android client, called Barcode Scanner
+androidtest: Android test app
+android-integration: Supports integration with our Barcode Scanner app via Intent
+
+There are also additional modules which are contributed and/or intermittently maintained:
+
+cpp: Partial C++ port
+iphone: iPhone client + port to Objective C / C++ (QR code only)
+zxing.appspot.com: The source behind our web-based barcode generator
+csharp: Partial C# port
+jruby: Ruby wrapper
+actionscript: partial port to Actionscript
