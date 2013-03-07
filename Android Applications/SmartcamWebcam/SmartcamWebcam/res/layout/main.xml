@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+  <SurfaceView android:id="@+id/preview_view"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_centerInParent="true"/>
+
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:myapp="http://schemas.android.com/apk/res/com.smartcam.webcam"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"      
+      android:layout_height="wrap_content"
+      android:visibility="visible">  
+        <com.admob.android.ads.AdView
+           android:id="@+id/main_ad_1" 
+           android:layout_width="fill_parent" 
+           android:layout_height="100px"
+           myapp:backgroundColor="#000000"
+           myapp:primaryTextColor="#FFFFFF"
+           myapp:secondaryTextColor="#CCCCCC"/>
+
+        <com.admob.android.ads.AdView
+           android:id="@+id/main_ad_2" 
+           android:layout_width="fill_parent" 
+           android:layout_height="100px"
+           myapp:backgroundColor="#000000"
+           myapp:primaryTextColor="#FFFFFF"
+           myapp:secondaryTextColor="#CCCCCC"/>                        
+  </LinearLayout>
+
+<!-- 
+  <com.admob.android.ads.AdView
+           android:id="@+id/ad"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           myapp:backgroundColor="#00FF00"
+           myapp:primaryTextColor="#FFFFFF"
+           myapp:secondaryTextColor="#CCCCCC"/>
+-->
+<!-- 
+	<TextView  
+		android:id="@+id/nativeTextView"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/connectBtn"
+		android:text="@string/disconnect"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<Button android:id="@+id/disconnectBtn"
+		android:text="@string/disconnect"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />-->
+</FrameLayout>

@@ -1,0 +1,1 @@
+SmartCam turns your Android phone into a handy webcam ready to use with your PC. SmartCam is more than a webcam, it's a wireless webcam over WiFi or Bluetooth. Download the PC application from http://sourceforge.net/projects/smartcam. Both Windows and Linux versions of the PC application are available.
