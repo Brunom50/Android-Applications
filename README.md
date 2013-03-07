@@ -14,3 +14,5 @@ Note: This is a public repo, please don't put private analysis files in this rep
 - Added missing dependency libraries when needed
 - Minor fixes to make code compile if broken
 - All other source is unchanged
+- Added source.txt at root project folder with links to original source
+- Added description.txt at root project folder with snippets of project descriptions
