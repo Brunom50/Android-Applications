@@ -1,0 +1,1 @@
+A simple notepad with all stored encrypted using SQLcipher encryption library.

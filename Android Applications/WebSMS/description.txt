@@ -1,0 +1,1 @@
+WebSMS is an Android application. It sends free to cheap SMS via GMX, o2, Sipgate, Innosend.de, Cherry-SMS.com, sloono.de, arcor, fishtext or My-Cool-SMS.

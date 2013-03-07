@@ -1,0 +1,7 @@
+This program adds the capability to store and review where you and your Android device have been. Basically you press record at the start of your trip and your phone stores the route you take. This route is drawn real-time on the Maps functionality of Android or in the background with an idle device. The route is stored on your phone for review and further use. The applications tracks location by GPS, hence the name. An accurate description of the program type would be a GPS logger.
+
+There is no tie-in with a required website or predetermined limit about how you choose to use your data.
+
+This project consists of two parts. First a system service that collects and stores GPS tracking data. Secondly a Map activity that gives control over the tracking services and displays the tracked routes on a Google map interface. As with all software this application can always use one more feature or needs one more bug fix. Add your own findings to the list or check out the plans at Issues. You can also dive in the code in the Source. If you wish to have direct contact send me an email to rcgroot(at)gmail.com.
+
+This application has been initially been developed by a group of enthusiastic people at Sogeti Nederland (international) drawn together to Android by their passion for Open Source, Java technology and/or mobile technology.

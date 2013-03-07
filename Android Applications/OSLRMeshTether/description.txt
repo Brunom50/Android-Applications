@@ -1,0 +1,3 @@
+OLSR Mesh Tether is a combination of tools to provide OLSR mesh networking over wifi on an Android phone.  It handles setting up the wifi into ad-hoc mode, setting up the IP address, and running the olsrd program.
+
+It is based on the Barnacle Wifi Tether app.
