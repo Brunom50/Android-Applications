@@ -1,0 +1,23 @@
+App Watcher helps you to receive notifications about updates for application from Play Store even the app is not installed currently on your device.
+
+App Updates Watcher helps you to follow updates of applications in Play Store that are not installed currently on your device.
+Sometimes you don't want to keep app installed on the device (because it eats memory or you have currently a better alternative), but you want to know about further changes and new features.
+App Watcher checks daily the list for updates in Play Store and will notify you when there is a new version available.
+
+Features:
+-Search and add app from Play Market to watch list
+-Manual and automatic updates
+-Quick shortcut to see what's new in app
+-Share application
+
+Implementation highlights:
+-SQLite database - store the data
+-ContentProvider - access to the data
+-AccountManager - access to 3rd party account on device
+-Android's backup service
+-SyncAdapter & AccountAuthenticator - create android account for synchronization
+-Fragments
+-LoadManager
+-ActionBar
+-NotificationCompat
+-ShareCompat
