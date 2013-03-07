@@ -1,0 +1,12 @@
+Read the bible and refer to commentaries wherever you are
+
+over 40 English versions of the bible including ESV, KJV and NET
+totally offline after initial downloads
+the bible in over 50 different languages - Swedish, Hungarian, Chinese, Russian and many more
+26 commentaries
+uses the JSword engine from CrossWire
+user interface translated into many different languages
+the code is open source so you can see how it works and improve it
+you can add more bibles to the list via the CrossWire site
+free to you with no ads or nags
+This bible downloads bible documents and uses software from the CrossWire web-site.
