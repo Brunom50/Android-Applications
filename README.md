@@ -16,3 +16,6 @@ Note: This is a public repo, please don't put private analysis files in this rep
 - All other source is unchanged
 - Added source.txt at root project folder with links to original source
 - Added description.txt at root project folder with snippets of project descriptions
+- Added sloc.csv at root project folder with results of Cloc SLOC counter (command below).
+
+`cloc-1.56.exe --ignore-whitespace --quiet --csv --report-file="<OUTPUT FILE>" "<INPUT DIRECTORY>"`
