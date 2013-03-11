@@ -1,1 +1,3 @@
 https://github.com/thialfihar/apg
+
+https://code.google.com/p/android-privacy-guard/
