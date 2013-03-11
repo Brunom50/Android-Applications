@@ -1,0 +1,10 @@
+files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.56  T=0.5 s (242.0 files/s, 96612.0 lines/s)"
+73,C,4540,8742,19563
+6,Bourne Shell,865,1103,6095
+17,C/C++ Header,591,1251,1810
+11,Java,194,328,1457
+2,Assembly,87,177,591
+1,C++,96,17,420
+9,XML,30,24,300
+1,HTML,0,0,15
+1,CSS,0,0,10
