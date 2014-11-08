@@ -2,7 +2,7 @@ Android-Applications
 ====================
 A collection of cleanly compiling Android apps (non-malware) for SDK 15 and JRE 1.6
 
-Note: This is a public repo, please don't put private analysis files in this repo.
+Note to contributors: This is a public repo, please don't put private analysis files in this repo.
 
 - Each folder in collection contains a unique project that consists of one or more Eclipse project files (if there are dependencies).
 - All apps are set to compile for JDK 1.6 Compliance
